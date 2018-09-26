@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@qi2peng2">
+    <meta name="twitter:creator" content="@qi2peng2">
+    <meta name="twitter:title" content="HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering">
+    <meta name="twitter:description" content="HotpotQA is a question answering dataset featuring natural, multi-hop questions, with strong supervision for supporting facts to enable more explainable question answering systems. It is collected by a team of NLP researchers at Carnegie Mellon University, Stanford University, and Université de Montréal.">
+    <meta name="twitter:image" content="https://hotpotqa.github.io/img/question_types.png">
+    <meta property="og:image" content="https://hotpotqa.github.io/img/question_types.png">
 
     <title>HotpotQA Homepage</title>
 
@@ -84,16 +91,19 @@
         <p class="text-center">
           <a href="http://curtis.ml.cmu.edu/datasets/hotpot/hotpot_dev_fullwiki_v1.json"><button type="button" class="btn btn-secondary">Dev set (fullwiki) (45MB)</button></a>
         </p>
-        <p>For more information about our training and dev sets and the baseline model, please visit our <a href="https://github.com/hotpotqa/hotpot">GitHub repository</a> (<a href="https://github.com/hotpotqa/hotpot/blob/master/README.md">README</a>).</p>
+        <p>A more comprehensive summary about data download, preprocessing, baseline model training, and evaluation is included in our <a href="https://github.com/hotpotqa/hotpot">GitHub repository</a>, and linked below.
+        <p class="text-center">
+          <a href="https://github.com/hotpotqa/hotpot/blob/master/README.md"><button type="button" class="btn btn-secondary">Getting started guide</button></a>
+        </p>
         <p>
-        Once you have built your model, you can use the evaluation script we provide below to evaluate model performance by running <code>python evaluate.py &lt;path_to_gold&gt; &lt;path_to_prediction&gt;</code>
+        Once you have built your model, you can use the evaluation script we provide below to evaluate model performance by running <code>python hotpot_evaluate_v1.py &lt;path_to_prediction&gt; &lt;path_to_gold&gt;</code>
         </p>
         <p class="text-center">
           <a href="https://raw.githubusercontent.com/hotpotqa/hotpot/master/hotpot_evaluate_v1.py"><button type="button" class="btn btn-secondary">Evaluation script (4.2KB)</button></a>
         </p>
-        <!--<p class="text-center">
-          <button type="button" class="btn btn-secondary">Sample dev prediction (100KB)</button>
-        </p>-->
+        <p class="text-center">
+          <a href="http://curtis.ml.cmu.edu/datasets/hotpot/sample_dev_pred.json"><button type="button" class="btn btn-secondary">Sample dev prediction (982KB)</button></a>
+        </p>
         <p>Details and instructions about evaluation coming soon!</p>
         <p>
         We also release the processed Wikipedia used in the process of creating HotpotQA (also under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 License</a>), serving both as the corpus for the <em>fullwiki</em> setting in our evaluation, and hopefully as a standalone resource for future researches involving processed text on Wikipedia. Below please find the link to the documentation for this corpus.
