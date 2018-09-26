@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>HotpotQA Homepage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/hotpotqa.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">HotpotQA</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="explorer.html">Explorer</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('img/blog-bg.jpg')">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="site-heading">
+          <h1>Introducing HotpotQA</h1>
+          <span class="subheading"><span class="line">Towards Natural, Explainable,</span> <span class="line">Multi-hop Question Answering</span> <span class="line">in the Wild</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    
+<div class="container">
+<div class="row">
+<div class="col-lg-8 col-md-10 mx-auto">
+<p>Have you ever wondered,</p>
+<blockquote>
+<p>In which city was Facebook launched?</p>
+<p>Are there more languages spoken in India or in China?</p>
+<p>How long do I need to bike to burn the calories in my favorite pizza?</p>
+</blockquote>
+<p>The web has the answer to most of these questions, but they are sometimes not summarized in one place.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup> These are examples of questions where one needs to piece together information from multiple sources and reason about them before answering, or <em>multi-hop</em> questions.</p>
+<p>Recently, we have seen significant advances in question answering (QA) research fueled by large-scale QA datasets [1][2][3]. However, most of these datasets still focus on questions whose answers can usually be found in one or a few adjacent sentences in a single article [1]. More recently, there has also been attempts to construct multi-hop QA data sets with existing knowledge bases or schemas [2], but the resulting question types are inheritly limited by the predefined schema and/or the completeness of the knowledge base. Moreover, most of these existing datasets only provide QA systems with the desired answer and sometimes the articles the answer is from, but give no further clues about how to arrive at it given the articles.</p>
+<p>To this end, we are announcing <strong>HotpotQA</strong>, a new question answering dataset with ~113k question-answer pairs that is designed to remedy these issues.</p>
+<ul>
+<li><strong>HotpotQA questions are designed with multi-hop reasoning in mind.</strong> To collect each question-answer pair, we present the introductory paragraphs of two Wikipedia articles to workers on Amazon Mechanical Turk, and ask them to come up with a question that <em>requires</em> reasoning over the two paragraphs to answer.</li>
+<li><strong>The questions are not limited by predefined knowledge bases or schemas.</strong> By choosing a diverse set of Wikipedia articles to base our data collection on and not actively limiting the types of questions aside from quality control, we were able to collect a very diverse set of natural questions with varying levels of difficulty.</li>
+<li><strong>We also collected the supporting facts which answers are based on to improve explainability of future QA models.</strong> Instead of having to rely on weak clues to infer what the supporting facts are, models trained on HotpotQA can explicitly leverage this information in their training and inference. This would also allow QA systems to explain themselves, rather than just providing an answer without justification.</li>
+</ul>
+<p>Here is an example of a question in HotpotQA, in which we highlight the supporting facts we collected as part of HotpotQA for the example <span class="supfact">in green</span>.</p>
+<p><img src="img/example.png" style="max-width:100%; border: 3px solid #dddddd"></p>
+<p>HotpotQA also features a diverse set of questions, including <strong>comparison questions</strong>, which is being introduced in a large text-based QA dataset for the first time. The second question in the opening examples, "Are there more languages spoken in India or in China?", is a good example of this type. The figure below also illustrates the types of questions and their prevalence in HotpotQA.</p>
+<p><img src="img/question_types.png" style="max-width:100%"></p>
+<p>For more details about HotpotQA or technical approaches we proposed to collect it, please refer to our <a href="#">EMNLP 2018 paper</a>.</p>
+<p><strong>References</strong></p>
+<p>[1] "SQuAD: 100,000+ Questions for Machine Comprehension of Text", Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, Percy Liang. EMNLP 2016.</p>
+<p>[2] "Constructing Datasets for Multi-hop Reading Comprehension Across Documents", Johannes Welbl, Pontus Stenetorp, Sebastian Riedel. TACL 2018.</p>
+<p>[3] "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension", Mandar Joshi, Eunsol Choi, Daniel Weld, Luke Zettlemoyer. ACL 2017.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>The first question, for instance, can be answered from <a href="https://en.wikipedia.org/">Wikipedia</a>, but only through knowing that Zuckerberg and his co-founders launched Facebook from Harvard University (<a href="https://en.wikipedia.org/wiki/Mark_Zuckerberg">Mark Zuckerberg</a> page), and that Harvard University is based in Cambridge, Massachussetts (<a href="https://en.wikipedia.org/wiki/Harvard_University">Harvard University</a> page). (Yes, we checked, and the <a href="https://en.wikipedia.org/wiki/Facebook">Facebook</a> page does not mention this information at the time we wrote this post.)&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+
+    <hr>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <p class="copyright text-muted">Copyright &copy; HotpotQA Team, 2018.</p>
+            <p class="copyright text-muted">Theme adapted from Start Bootstrap's <a href="https://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> template.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+    
+
+  </body>
+
+</html>

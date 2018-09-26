@@ -1,1 +1,235 @@
-Welcome to the HotpotQA homepage! Data will come soon.
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>HotpotQA Homepage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/hotpotqa.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">HotpotQA</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="explorer.html">Explorer</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('img/home-bg.jpg')">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="site-heading">
+          <h1>HotpotQA</h1>
+          <span class="subheading">A Dataset for Diverse, Explainable <span class="line">Multi-hop</span> <span class="line">Question Answering</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    
+<!-- Main Content -->
+<div class="container" id="main">
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="list-group">
+        <div class="list-group-item"><h4>What is HotpotQA?</h4>
+        <p>HotpotQA is a question answering dataset featuring natural, multi-hop questions, with strong supervision for supporting facts to enable more explainable question answering systems. It is collected by a team of NLP researchers at <a href="https://www.cs.cmu.edu/">Carnegie Mellon University</a>, <a href="https://nlp.stanford.edu/">Stanford University</a>, and <a href="https://diro.umontreal.ca/accueil/">Université de Montréal</a>.</p>
+        <p>For more details about HotpotQA, please refer to our EMNLP 2018 paper:</p>
+        <p class="text-center">
+          <a href="#"><button type="button" class="btn btn-info">(Yang, Qi, Zhang, et al. 2018)</button></a>
+        </p>
+        </div>
+        <div class="list-group-item"><h4>Getting started</h4>
+        <p>HotpotQA is distributed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 License</a>. The training and development sets can be downloaded below.</p>
+        <p class="text-center">
+          <button type="button" class="btn btn-success">Training set (200MB)</button>
+        </p>
+        <p class="text-center">
+          <button type="button" class="btn btn-secondary">Dev set (100MB)</button>
+        </p>
+        <p>
+        Once you have built your model, you can use the evaluation script we provide below to evaluate model performance by running <code>python evaluate.py &lt;path_to_gold&gt; &lt;path_to_prediction&gt;</code>
+        </p>
+        <p class="text-center">
+          <button type="button" class="btn btn-secondary">Evaluation script (10KB)</button>
+        </p>
+        <p class="text-center">
+          <button type="button" class="btn btn-secondary">Sample dev prediction (100KB)</button>
+        </p>
+        <p>Details and instructions about evaluation coming soon!</p>
+        <p>
+        We also release the processed Wikipedia used in the process of creating HotpotQA (also under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 License</a>), serving both as the corpus for the <em>fullwiki</em> setting in our evaluation, and hopefully as a standalone resource for future researches involving processed text on Wikipedia. Below please find the link to the documentation for this corpus.
+        </p>
+        <p class="text-center">
+          <a href="wiki-readme.html"><button type="button" class="btn btn-info">Processed Wikipedia README</button></a>
+        </p>
+        </div>
+        <div class="list-group-item"><h4>Stay connected!</h4>
+        <p>Join our <a href="https://groups.google.com/d/forum/hotpotqa">Google group</a> to receive updates or initiate discussions about HotpotQA!</p>
+        <p>If you use HotpotQA in your research, please cite our paper with the following BibTeX entry</p>
+        <pre>
+@inproceedings{yang2018hotpotqa,
+  title={{HotpotQA}: A Dataset for Diverse, Explainable Multi-hop Question Answering},
+  author={Yang, Zhilin and Qi, Peng and Zhang, Saizheng and Bengio, Yoshua and Cohen, William W. and Salakhutdinov, Ruslan and Manning, Christopher D.},
+  booktitle={Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year={2018}
+}</pre>
+    </div>
+  </div>
+</div>
+<div class="col-lg-8">
+  
+  <div class="card card-outline-secondary">
+    <div class="card-header">
+      Leaderboard (Distractor Setting)
+    </div>
+    <div class="card-body">
+      In the <em>distractor</em> setting, a question-answering system reads 10 paragraphs to provide an answer (Ans) to a question. They must also justify these answers with supporting facts (Sup).
+      <table class="table table-responsive">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col" rowspan=2></th>
+            <th scope="col" rowspan=2 class="align-middle text-center">Model</th>
+            <th scope="col" rowspan=2 class="align-middle text-center">Code</th>
+            <th scope="col" colspan=2 class='text-center'>Ans</th>
+            <th scope="col" colspan=2 class='text-center'>Sup</th>
+            <th scope="col" colspan=2 class='text-center'>Joint</th>
+          </tr>
+          <tr>
+            <th scope="col" class='text-center'>EM</th>
+            <th scope="col" class='text-center'>F<sub>1</sub></th>
+            <th scope="col" class='text-center'>EM</th>
+            <th scope="col" class='text-center'>F<sub>1</sub></th>
+            <th scope="col" class='text-center'>EM</th>
+            <th scope="col" class='text-center'>F<sub>1</sub></th>
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td scope="row" class='align-middle text-center'>1<br>
+              <span class="badge badge-secondary">Sep 20, 2018</span></td>
+            <td class='align-middle text-center'>Baseline model<br/>
+              <span class="affiliation">Carnegie Mellon University, Stanford University, & Université de Montréal</span><br/><a href="#" class="paperlink">(Yang, Qi, Zhang, et al. 2018)</a></td>
+            <td class='align-middle text-center'><a href="#"><i class="far fa-file-alt"></i></a></td>
+            <td class='align-middle text-center'><strong>45.460</strong></td>
+            <td class='align-middle text-center'><strong>58.990</strong></td>
+            <td class='align-middle text-center'><strong>22.240</strong></td>
+            <td class='align-middle text-center'><strong>66.620</strong></td>
+            <td class='align-middle text-center'><strong>12.040</strong></td>
+            <td class='align-middle text-center'><strong>41.370</strong></td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  <div class="card card-outline-secondary">
+    <div class="card-header">
+      Leaderboard (Fullwiki Setting)
+    </div>
+    <div class="card-body">
+      In the <em>fullwiki</em> setting, a question-answering system must find the answer to a question in the scope of the entire Wikipedia. Similar to in the distractor setting, systems are evaluated on the accuracy of their answers (Ans) and the quality of the supporting facts they use to justify them (Sup).
+      <table class="table table-responsive">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col" rowspan=2></th>
+            <th scope="col" rowspan=2 class="align-middle text-center">Model</th>
+            <th scope="col" rowspan=2 class="align-middle text-center">Code</th>
+            <th scope="col" colspan=2 class='text-center'>Ans</th>
+            <th scope="col" colspan=2 class='text-center'>Sup</th>
+            <th scope="col" colspan=2 class='text-center'>Joint</th>
+          </tr>
+          <tr>
+            <th scope="col" class='text-center'>EM</th>
+            <th scope="col" class='text-center'>F<sub>1</sub></th>
+            <th scope="col" class='text-center'>EM</th>
+            <th scope="col" class='text-center'>F<sub>1</sub></th>
+            <th scope="col" class='text-center'>EM</th>
+            <th scope="col" class='text-center'>F<sub>1</sub></th>
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td scope="row" class='align-middle text-center'>1<br>
+              <span class="badge badge-secondary">Sep 20, 2018</span></td>
+            <td class='align-middle text-center'>Baseline model<br/>
+              <span class="affiliation">Carnegie Mellon University, Stanford University, & Université de Montréal</span><br/><a href="#" class="paperlink">(Yang, Qi, Zhang, et al. 2018)</a></td>
+            <td class='align-middle text-center'><a href="#"><i class="far fa-file-alt"></i></a></td>
+            <td class='align-middle text-center'><strong>25.230</strong></td>
+            <td class='align-middle text-center'><strong>34.400</strong></td>
+            <td class='align-middle text-center'><strong>5.070</strong></td>
+            <td class='align-middle text-center'><strong>40.690</strong></td>
+            <td class='align-middle text-center'><strong>2.630</strong></td>
+            <td class='align-middle text-center'><strong>17.850</strong></td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+</div>
+</div>
+</div>
+
+    <hr>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <p class="copyright text-muted">Copyright &copy; HotpotQA Team, 2018.</p>
+            <p class="copyright text-muted">Theme adapted from Start Bootstrap's <a href="https://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> template.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+    
+
+  </body>
+
+</html>

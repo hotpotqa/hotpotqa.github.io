@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>HotpotQA Homepage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/hotpotqa.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">HotpotQA</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="explorer.html">Explorer</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('img/explorer-bg.jpg')">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="site-heading">
+          <h1>Explore HotpotQA</h1>
+          <span class="subheading">A Dataset for Diverse, Explainable <span class="line">Multi-hop</span> <span class="line">Question Answering</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    
+<div class="container">
+<div class="row" style="margin-bottom: 10px">
+<div class="col-lg-8 col-md-10 mx-auto">
+<div class="form-check-inline">
+  <input class="form-check-input" type="checkbox" value="" id="show_supfacts" checked>
+  <label class="form-check-label" for="show_supfacts">
+    Show supporting facts
+  </label>
+</div>
+<div class="form-check-inline">
+  <input class="form-check-input" type="checkbox" value="" id="show_answer" checked>
+  <label class="form-check-label" for="show_answer">
+    Show answer
+  </label>
+</div>
+<button type="button" class="btn btn-success" id="another_example">Show another example</button>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-8 col-md-10 mx-auto">
+<div id="data-example">
+<div class="data-paragraph" id="doc_a">
+  <div class="paragraph-title" id="title_a">
+  </div>
+  <div class="paragraph" id="para_a">
+  </div>
+</div>
+<div class="data-paragraph" id="doc_b">
+  <div class="paragraph-title" id="title_b">
+  </div>
+  <div class="paragraph" id="para_b">
+  </div>
+</div>
+<div class="data-question" id="question"></div>
+<div class="data-answer" id="answer"></div>
+</div>
+</div>
+</div>
+</div>
+
+    <hr>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <p class="copyright text-muted">Copyright &copy; HotpotQA Team, 2018.</p>
+            <p class="copyright text-muted">Theme adapted from Start Bootstrap's <a href="https://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> template.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+    
+<script>
+var examples;
+
+function showParagraph(id, example) {
+  var paragraph = example['para_' + id];
+  var output = ""
+  for (var i = 0; i < paragraph.length; i++) {
+    if (example['supporting_facts'][id.charCodeAt(0) - 'a'.charCodeAt(0)].indexOf(i) > -1) {
+      classes = "supfact"
+      if (!$("#show_supfacts")[0].checked)
+        classes += " hide"
+      output += "<span class='" + classes + "'>" + paragraph[i] + "</span>";
+    } else
+      output += paragraph[i];
+  }
+  $("#para_"+id).html(output);
+  $("#title_"+id).html("<em>Paragraph " + id.toUpperCase() + ":</em> " + example['title_'+id]);
+}
+
+function showRandomExample() {
+  var id = Math.floor(Math.random() * examples.length);
+  var example = examples[id];
+  showParagraph('a', example)
+  showParagraph('b', example)
+  $('#question').html("<strong>Q:</strong> " + example['question'])
+  $('#answer').html("<strong>A:</strong> " + example['answer'])
+}
+
+$(function(){
+  $.getJSON('js/camera_ready_nd8_dev_sample100.json', function(data) {
+    examples = data;
+    showRandomExample();
+  })
+  $("#show_answer").click(function(){$("#answer").slideToggle(200)});
+  $("#show_supfacts").click(function(){$("span.supfact").toggleClass("hide")});
+  $("#another_example").click(function(){$("#data-example").fadeOut(100, function(){showRandomExample(); $("#data-example").fadeIn(100);});})
+})
+</script>
+
+
+  </body>
+
+</html>
