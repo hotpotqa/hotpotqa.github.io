@@ -1,0 +1,37 @@
+max_submissions_per_period: 10                               # allows at most 5 submissions per user per period, where period is 24 hours by default
+max_submissions_total: 20
+log_worksheet_uuid: '0x3990102d9617489ea891c5c8631d70aa'    # uuid of the worksheet to create new run bundles in
+submission_tag: hotpotqa-fullwiki-test-submit                     # configure the tag that participants use to submit to the competition
+allow_multiple_models: true
+
+# Configure how to mimic the submitted prediction bundles
+predict:
+  mimic:
+      - {'old': '', 'new': ''}
+
+## Configure how to evaluate the new prediction bundles
+evaluate:
+  # Essentially
+  #     cl run evaluate.py:0x089063eb85b64b239b342405b5ebab57 \
+  #            test.json:0x5538cba32e524fad8b005cd19abb9f95 \
+  #            predictions.json:{predict}/predictions.json --- \
+  #            python evaluate.py test.json predictions.json
+  # where {predict} gets filled in with the uuid of the mimicked bundle above.
+  dependencies:
+  - {child_path: eval.py, parent_uuid: '0x46413f77f0da4334828624ad867f1fb6'}
+  - {child_path: gold.json, parent_uuid: '0xc0d0713203e446a6921f270618a4a49e'}
+  - {child_path: pred.json, parent_path: pred.json, parent_uuid: '{predict}'}
+  command: python eval.py pred.json gold.json
+  tag: aqtoptoh-fullwiki-test-eval
+  metadata:
+    request_docker_image: qipeng/hotpotqa-eval
+    request_network: false
+
+# Define how to extract the scores from the evaluation bundle
+score_specs:
+- {key: '/stdout:f1', name: ans_f1}
+- {key: '/stdout:em', name: ans_em}
+- {key: '/stdout:sp_f1', name: sup_f1}
+- {key: '/stdout:sp_em', name: sup_em}
+- {key: '/stdout:joint_f1', name: joint_f1}
+- {key: '/stdout:joint_em', name: joint_em}
