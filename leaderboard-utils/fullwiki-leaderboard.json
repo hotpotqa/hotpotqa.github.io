@@ -1636,7 +1636,7 @@
             },
             "submission": {
                 "created": 1598499480,
-                "description": "Recursive Dense Retriever (Facebook AI & UCSB & UMass) (single model)",
+                "description": "Recursive Dense Retriever (Facebook AI & UCSB & UMass) (single model) [Xiong, Li et al., ICLR 2021] (https://arxiv.org/abs/2009.12756) (https://github.com/facebookresearch/multihop_dense_retrieval)",
                 "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
@@ -2080,6 +2080,180 @@
         },
         {
             "bundle": {
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x1fb088d0b59449cab3d704a759c226ff/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0x13b2b7159bb50d8586e3646925c20bfafda1dca2",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xb256e2ed1d7f43b5812e2176f85772cc",
+                        "parent_name": "eval_v1.1.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xb256e2ed1d7f43b5812e2176f85772cc",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xb256e2ed1d7f43b5812e2176f85772cc",
+                        "parent_name": "RoBERTa-DenseRetriever-Fast",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0x1fb088d0b59449cab3d704a759c226ff"
+                    }
+                ],
+                "id": "0xb256e2ed1d7f43b5812e2176f85772cc",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "created": 1611518325,
+                    "data_size": 4462,
+                    "description": "{\"submit_id\": \"0x1fb088d0b59449cab3d704a759c226ff\", \"submitter_id\": \"0xf1acd1abcdf14a6fadf4a64b9110d29d\", \"predict_id\": \"0x1fb088d0b59449cab3d704a759c226ff\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1611518450,
+                    "name": "Michael_3954-RoBERTa-DenseRetriever-Fast-results",
+                    "remote": "6283dca6aca5-740ffbe7c91c424ba1acf430bd2a97d2",
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "started": 1611518331,
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.770179,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "uuid": "0xb256e2ed1d7f43b5812e2176f85772cc"
+            },
+            "scores": {
+                "ans_em": 0.5979743416610398,
+                "ans_f1": 0.726572152156397,
+                "joint_em": 0.34544226873733963,
+                "joint_f1": 0.6023789775265738,
+                "sup_em": 0.4795408507765024,
+                "sup_f1": 0.7489548226550392
+            },
+            "submission": {
+                "created": 1611322589,
+                "description": "RoBERTa-DenseRetriever-Fast (Anonymous) (single-model)",
+                "num_period_submissions": 1,
+                "num_total_submissions": 4,
+                "public": true,
+                "user_name": "Michael_3954"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xae33f7862d144f0b9a3a6494534f435f/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0x13b2b7159bb50d8586e3646925c20bfafda1dca2",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x564620c32fd54c94acd7d1658a73e003",
+                        "parent_name": "eval_v1.1.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x564620c32fd54c94acd7d1658a73e003",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x564620c32fd54c94acd7d1658a73e003",
+                        "parent_name": "DPR-recurrent",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0xae33f7862d144f0b9a3a6494534f435f"
+                    }
+                ],
+                "id": "0x564620c32fd54c94acd7d1658a73e003",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "created": 1611518327,
+                    "data_size": 4462,
+                    "description": "{\"submit_id\": \"0xae33f7862d144f0b9a3a6494534f435f\", \"submitter_id\": \"0xffffdba9913c4d968c1c7e733dc84129\", \"predict_id\": \"0xae33f7862d144f0b9a3a6494534f435f\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1611518480,
+                    "name": "oliver_4844-DPR-recurrent-results",
+                    "remote": "e1c3ec12d648-abb78528b76147898a695610d2882bd0",
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "started": 1611518335,
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.806932,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "uuid": "0x564620c32fd54c94acd7d1658a73e003"
+            },
+            "scores": {
+                "ans_em": 0.5979743416610398,
+                "ans_f1": 0.726572152156397,
+                "joint_em": 0.34544226873733963,
+                "joint_f1": 0.6023789775265738,
+                "sup_em": 0.4795408507765024,
+                "sup_f1": 0.7489548226550392
+            },
+            "submission": {
+                "created": 1611479121,
+                "description": "DPR-recurrent (Anonymous) (single-model)",
+                "num_period_submissions": 1,
+                "num_total_submissions": 1,
+                "public": true,
+                "user_name": "oliver_4844"
+            }
+        },
+        {
+            "bundle": {
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x0d770781f7b74535ac4b52e8836b70b1/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
@@ -2159,8 +2333,8 @@
             "submission": {
                 "created": 1611117684,
                 "description": "RoBERTa-DenseRetriever (Anonymous) (single model)",
-                "num_period_submissions": 3,
-                "num_total_submissions": 3,
+                "num_period_submissions": 1,
+                "num_total_submissions": 4,
                 "public": true,
                 "user_name": "Michael_3954"
             }
@@ -2507,8 +2681,8 @@
             "submission": {
                 "created": 1611236227,
                 "description": "GraphRR-Fast (Anonymous) (single-model)",
-                "num_period_submissions": 3,
-                "num_total_submissions": 3,
+                "num_period_submissions": 1,
+                "num_total_submissions": 4,
                 "public": true,
                 "user_name": "Michael_3954"
             }
@@ -6259,12 +6433,12 @@
             "submission": {
                 "created": 1611109608,
                 "description": "",
-                "num_period_submissions": 3,
-                "num_total_submissions": 3,
+                "num_period_submissions": 1,
+                "num_total_submissions": 4,
                 "public": true,
                 "user_name": "Michael_3954"
             }
         }
     ],
-    "updated": 1611296301.5900798
+    "updated": 1611594175.846172
 }
