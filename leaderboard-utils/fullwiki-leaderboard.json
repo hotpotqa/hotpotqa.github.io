@@ -2680,7 +2680,7 @@
             },
             "submission": {
                 "created": 1612016565,
-                "description": "graph-recurrent-retriever+roberta-base w. S/R-pretraining (Shandong University & Alibaba Group) (single model)",
+                "description": "graph-recurrent-retriever+roberta-base w. S/R-pretraining (Anonymous) (single model)",
                 "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
@@ -6527,5 +6527,5 @@
             }
         }
     ],
-    "updated": 1612154898.3303525
+    "updated": 1612165874.8502536
 }
