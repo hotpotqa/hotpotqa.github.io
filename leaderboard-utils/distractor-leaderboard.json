@@ -1204,7 +1204,7 @@
             "submission": {
                 "created": 1611484557,
                 "description": "S2G-large(Anonymous)(single model)[]()",
-                "num_period_submissions": 2,
+                "num_period_submissions": 0,
                 "num_total_submissions": 2,
                 "public": true,
                 "user_name": "chengzhipanpan"
@@ -1892,7 +1892,7 @@
             "submission": {
                 "created": 1611441616,
                 "description": "Text-can-large (usydnlp) (single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
                 "user_name": "usydnlp"
@@ -2066,7 +2066,7 @@
             "submission": {
                 "created": 1611406815,
                 "description": "S2G-base(Anonymous)(single model)[]()",
-                "num_period_submissions": 2,
+                "num_period_submissions": 0,
                 "num_total_submissions": 2,
                 "public": true,
                 "user_name": "chengzhipanpan"
@@ -5506,5 +5506,5 @@
             }
         }
     ],
-    "updated": 1611594164.1747391
+    "updated": 1612154764.854057
 }
