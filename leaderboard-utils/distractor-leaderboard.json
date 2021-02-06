@@ -4587,7 +4587,7 @@
                     "allow_failed_dependencies": false,
                     "created": 1554748613,
                     "data_size": 307947,
-                    "description": "{\"submit_id\": \"0x92446b263da248d5aea22300e36174f4\", \"predict_id\": \"0x24d14b7386fa40cb9d417e683a290629\", \"submitter_id\": \"0xfbd11f2200d4414289ae1eb49bb3c1ea\"}",
+                    "description": "",
                     "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
                     "exclude_patterns": [],
                     "exitcode": 0,
@@ -4628,12 +4628,12 @@
                 "sup_f1": 0.0
             },
             "submission": {
-                "created": 1554211561,
-                "description": "MatrixRC (Anonymous) (single model)",
+                "created": 1554748613,
+                "description": "",
                 "num_period_submissions": 0,
-                "num_total_submissions": 1,
-                "public": true,
-                "user_name": "lucky_sheep"
+                "num_total_submissions": 0,
+                "public": null,
+                "user_name": null
             }
         },
         {
@@ -5506,5 +5506,5 @@
             }
         }
     ],
-    "updated": 1612154764.854057
+    "updated": 1612652061.2013378
 }
