@@ -1993,6 +1993,93 @@
         },
         {
             "bundle": {
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x42468c82c7fd4d9d900326da6955a017/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0x2d055f24a56eba907e66f8f4f7bae51a86bd6f2a",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xe7c6b9d811ef46dab082321b225deb73",
+                        "parent_name": "eval_v1.1.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xe7c6b9d811ef46dab082321b225deb73",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xe7c6b9d811ef46dab082321b225deb73",
+                        "parent_name": "pre_21-02-07",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0x42468c82c7fd4d9d900326da6955a017"
+                    }
+                ],
+                "id": "0xe7c6b9d811ef46dab082321b225deb73",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "created": 1612656968,
+                    "data_size": 4464,
+                    "description": "{\"submit_id\": \"0x42468c82c7fd4d9d900326da6955a017\", \"submitter_id\": \"0x1ef36810019a48c486ae1d17df8b0a69\", \"predict_id\": \"0x42468c82c7fd4d9d900326da6955a017\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1612657128,
+                    "name": "lang-pre_21-02-07-results",
+                    "remote": "0dd0a1b780ea-3bd7a54fd8584390b3b9c4dfda6d78d3",
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "started": 1612656980,
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.777756,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "uuid": "0xe7c6b9d811ef46dab082321b225deb73"
+            },
+            "scores": {
+                "ans_em": 0.6008102633355841,
+                "ans_f1": 0.7297348476640485,
+                "joint_em": 0.35894665766374073,
+                "joint_f1": 0.6166166507358449,
+                "sup_em": 0.49966239027683995,
+                "sup_f1": 0.7685912954177787
+            },
+            "submission": {
+                "created": 1612656732,
+                "description": "AFSgraph(Anonymous)(single model)",
+                "num_period_submissions": 1,
+                "num_total_submissions": 9,
+                "public": true,
+                "user_name": "lang"
+            }
+        },
+        {
+            "bundle": {
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x28bf3dee139d4f8281af19a152ec0ac0/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
@@ -2072,8 +2159,8 @@
             "submission": {
                 "created": 1601878015,
                 "description": "AFSgraph  model(Anonymous)(single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 8,
+                "num_period_submissions": 1,
+                "num_total_submissions": 9,
                 "public": true,
                 "user_name": "lang"
             }
@@ -2594,8 +2681,8 @@
             "submission": {
                 "created": 1595918686,
                 "description": "SAFSR model(Anonymous)(single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 8,
+                "num_period_submissions": 1,
+                "num_total_submissions": 9,
                 "public": true,
                 "user_name": "lang"
             }
@@ -4061,8 +4148,8 @@
             "submission": {
                 "created": 1575524219,
                 "description": "SAFSr-Bert(Anonymous)(single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 8,
+                "num_period_submissions": 1,
+                "num_total_submissions": 9,
                 "public": true,
                 "user_name": "lang"
             }
@@ -4917,8 +5004,8 @@
             "submission": {
                 "created": 1575088150,
                 "description": "SAFSr_model(Anonymous)(single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 8,
+                "num_period_submissions": 1,
+                "num_total_submissions": 9,
                 "public": true,
                 "user_name": "lang"
             }
@@ -6012,8 +6099,8 @@
             "submission": {
                 "created": 1575074858,
                 "description": "SAFSr_model(Anonymous)(single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 8,
+                "num_period_submissions": 1,
+                "num_total_submissions": 9,
                 "public": true,
                 "user_name": "lang"
             }
@@ -6352,8 +6439,8 @@
             "submission": {
                 "created": 1595917018,
                 "description": "",
-                "num_period_submissions": 0,
-                "num_total_submissions": 8,
+                "num_period_submissions": 1,
+                "num_total_submissions": 9,
                 "public": true,
                 "user_name": "lang"
             }
@@ -6437,8 +6524,8 @@
             "submission": {
                 "created": 1595917886,
                 "description": "SAFSr(Anonymous)(single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 8,
+                "num_period_submissions": 1,
+                "num_total_submissions": 9,
                 "public": true,
                 "user_name": "lang"
             }
@@ -6691,13 +6778,13 @@
             },
             "submission": {
                 "created": 1612491116,
-                "description": "AFSGraph(Anonymous)(single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 8,
+                "description": "(Anonymous)(single model)",
+                "num_period_submissions": 1,
+                "num_total_submissions": 9,
                 "public": true,
                 "user_name": "lang"
             }
         }
     ],
-    "updated": 1612651999.9561858
+    "updated": 1612727092.1295235
 }
