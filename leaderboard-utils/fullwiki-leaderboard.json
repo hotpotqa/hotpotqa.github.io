@@ -2072,7 +2072,7 @@
             "submission": {
                 "created": 1612656732,
                 "description": "AFSgraph(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 9,
                 "public": true,
                 "user_name": "lang"
@@ -2159,7 +2159,7 @@
             "submission": {
                 "created": 1601878015,
                 "description": "AFSgraph  model(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 9,
                 "public": true,
                 "user_name": "lang"
@@ -2681,7 +2681,7 @@
             "submission": {
                 "created": 1595918686,
                 "description": "SAFSR model(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 9,
                 "public": true,
                 "user_name": "lang"
@@ -4148,7 +4148,7 @@
             "submission": {
                 "created": 1575524219,
                 "description": "SAFSr-Bert(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 9,
                 "public": true,
                 "user_name": "lang"
@@ -5004,7 +5004,7 @@
             "submission": {
                 "created": 1575088150,
                 "description": "SAFSr_model(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 9,
                 "public": true,
                 "user_name": "lang"
@@ -6099,7 +6099,7 @@
             "submission": {
                 "created": 1575074858,
                 "description": "SAFSr_model(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 9,
                 "public": true,
                 "user_name": "lang"
@@ -6439,7 +6439,7 @@
             "submission": {
                 "created": 1595917018,
                 "description": "",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 9,
                 "public": true,
                 "user_name": "lang"
@@ -6524,7 +6524,7 @@
             "submission": {
                 "created": 1595917886,
                 "description": "SAFSr(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 9,
                 "public": true,
                 "user_name": "lang"
@@ -6779,12 +6779,12 @@
             "submission": {
                 "created": 1612491116,
                 "description": "(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 9,
                 "public": true,
                 "user_name": "lang"
             }
         }
     ],
-    "updated": 1612727092.1295235
+    "updated": 1612848998.766706
 }
