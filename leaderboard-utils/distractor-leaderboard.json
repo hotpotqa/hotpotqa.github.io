@@ -603,6 +603,93 @@
         },
         {
             "bundle": {
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0x02a9b508fcea4138954e4ff928d617ea/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0xa4575fee2d7fd8a7df7b283eabce52f8c5fb3ffa",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x41e8850ee62e457ea78682fe766fd40c",
+                        "parent_name": "eval_v1.1.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x41e8850ee62e457ea78682fe766fd40c",
+                        "parent_name": "test_distractor_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x41e8850ee62e457ea78682fe766fd40c",
+                        "parent_name": "chengzhipanpan-albert_predict-predict",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0x02a9b508fcea4138954e4ff928d617ea"
+                    }
+                ],
+                "id": "0x41e8850ee62e457ea78682fe766fd40c",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "created": 1614011835,
+                    "data_size": 4462,
+                    "description": "{\"submit_id\": \"0x02af2fd53ec94edb9ff668ad6b24ba4d\", \"submitter_id\": \"0x2e879c7be6a645438419810fc538d6ba\", \"predict_id\": \"0x02a9b508fcea4138954e4ff928d617ea\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1614032359,
+                    "name": "chengzhipanpan-albert_predict-results",
+                    "remote": "76d0daff5c51-7326785d14e1451492e69d17952d0568",
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "started": 1614032247,
+                    "tags": [
+                        "aqtoptoh-distractor-test-eval"
+                    ],
+                    "time": 0.727218,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "uuid": "0x41e8850ee62e457ea78682fe766fd40c"
+            },
+            "scores": {
+                "ans_em": 0.6938555030384875,
+                "ans_f1": 0.8217469813756628,
+                "joint_em": 0.4800810263335584,
+                "joint_f1": 0.7436249403360017,
+                "sup_em": 0.6430790006752194,
+                "sup_f1": 0.8872829188967145
+            },
+            "submission": {
+                "created": 1613818784,
+                "description": "S2G+(Anonymous)(single model)[]()",
+                "num_period_submissions": 1,
+                "num_total_submissions": 3,
+                "public": true,
+                "user_name": "chengzhipanpan"
+            }
+        },
+        {
+            "bundle": {
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0x12fc93d405fb4f509e3372b6b03143f2/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
@@ -1204,7 +1291,7 @@
             "submission": {
                 "created": 1613090388,
                 "description": "Text-CAN large (Usyd NLP) (single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 2,
                 "public": true,
                 "user_name": "usydnlp"
@@ -1291,8 +1378,8 @@
             "submission": {
                 "created": 1611484557,
                 "description": "S2G-large(Anonymous)(single model)[]()",
-                "num_period_submissions": 0,
-                "num_total_submissions": 2,
+                "num_period_submissions": 1,
+                "num_total_submissions": 3,
                 "public": true,
                 "user_name": "chengzhipanpan"
             }
@@ -2066,8 +2153,8 @@
             "submission": {
                 "created": 1611406815,
                 "description": "S2G-base(Anonymous)(single model)[]()",
-                "num_period_submissions": 0,
-                "num_total_submissions": 2,
+                "num_period_submissions": 1,
+                "num_total_submissions": 3,
                 "public": true,
                 "user_name": "chengzhipanpan"
             }
@@ -2669,7 +2756,7 @@
             "submission": {
                 "created": 1613139124,
                 "description": "Text-CAN (Usyd NLP) (single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 2,
                 "public": true,
                 "user_name": "usydnlp"
@@ -5595,5 +5682,5 @@
             }
         }
     ],
-    "updated": 1613496407.8663692
+    "updated": 1614053049.7519586
 }
