@@ -81,6 +81,93 @@
     "leaderboard": [
         {
             "bundle": {
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0xc6e58e0e1543484799c72e56046e18cc/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0xf5229a75fd048818f7f8f56557357eed0daebb96",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x8f92613cb8404cc5a06b571db9b07bbe",
+                        "parent_name": "eval_v1.1.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x8f92613cb8404cc5a06b571db9b07bbe",
+                        "parent_name": "test_distractor_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x8f92613cb8404cc5a06b571db9b07bbe",
+                        "parent_name": "chengzhipanpan-albert_predict_v2-predict",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0xc6e58e0e1543484799c72e56046e18cc"
+                    }
+                ],
+                "id": "0x8f92613cb8404cc5a06b571db9b07bbe",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "created": 1614702777,
+                    "data_size": 4461,
+                    "description": "{\"submit_id\": \"0xf2d31ecc546d477f955917910e247954\", \"submitter_id\": \"0x2e879c7be6a645438419810fc538d6ba\", \"predict_id\": \"0xc6e58e0e1543484799c72e56046e18cc\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1614733216,
+                    "name": "chengzhipanpan-albert_predict_v2-results",
+                    "remote": "0dd0a1b780ea-3bd7a54fd8584390b3b9c4dfda6d78d3",
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "started": 1614733167,
+                    "tags": [
+                        "aqtoptoh-distractor-test-eval"
+                    ],
+                    "time": 0.786753,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "uuid": "0x8f92613cb8404cc5a06b571db9b07bbe"
+            },
+            "scores": {
+                "ans_em": 0.7072248480756246,
+                "ans_f1": 0.8353519139596285,
+                "joint_em": 0.4860229574611749,
+                "joint_f1": 0.7545533773911931,
+                "sup_em": 0.6430790006752194,
+                "sup_f1": 0.8872829188967145
+            },
+            "submission": {
+                "created": 1614433848,
+                "description": "S2G+(Anonymous)(single model)[]()",
+                "num_period_submissions": 0,
+                "num_total_submissions": 4,
+                "public": true,
+                "user_name": "chengzhipanpan"
+            }
+        },
+        {
+            "bundle": {
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0xd43fe03d766f44c68cc1943ea20045d8/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
@@ -683,7 +770,7 @@
                 "created": 1613818784,
                 "description": "S2G+(Anonymous)(single model)[]()",
                 "num_period_submissions": 0,
-                "num_total_submissions": 3,
+                "num_total_submissions": 4,
                 "public": true,
                 "user_name": "chengzhipanpan"
             }
@@ -1379,7 +1466,7 @@
                 "created": 1611484557,
                 "description": "S2G-large(Anonymous)(single model)[]()",
                 "num_period_submissions": 0,
-                "num_total_submissions": 3,
+                "num_total_submissions": 4,
                 "public": true,
                 "user_name": "chengzhipanpan"
             }
@@ -2161,47 +2248,47 @@
         },
         {
             "bundle": {
-                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0x67b977859c6a4d18a862b03346eb52e2/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0x9abb76e293ea40c08cd39c93ee4a9f62/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
                 "data_hash": "0x458bea53139b351457164bca4c63a5a2e3416d59",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
-                        "child_uuid": "0xd1623486fc414ab9b062680fe24198e0",
+                        "child_uuid": "0x2c195b20ce464cfda5f80c99dee49a08",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
                         "child_path": "gold.json",
-                        "child_uuid": "0xd1623486fc414ab9b062680fe24198e0",
+                        "child_uuid": "0x2c195b20ce464cfda5f80c99dee49a08",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
                         "child_path": "pred.json",
-                        "child_uuid": "0xd1623486fc414ab9b062680fe24198e0",
+                        "child_uuid": "0x2c195b20ce464cfda5f80c99dee49a08",
                         "parent_name": "chengzhipanpan-predict-predict",
                         "parent_path": "pred.json",
-                        "parent_uuid": "0x67b977859c6a4d18a862b03346eb52e2"
+                        "parent_uuid": "0x9abb76e293ea40c08cd39c93ee4a9f62"
                     }
                 ],
-                "id": "0xd1623486fc414ab9b062680fe24198e0",
+                "id": "0x2c195b20ce464cfda5f80c99dee49a08",
                 "is_anonymous": false,
                 "metadata": {
                     "actions": [],
                     "allow_failed_dependencies": false,
-                    "created": 1611518332,
+                    "created": 1614747703,
                     "data_size": 4459,
-                    "description": "",
+                    "description": "{\"submit_id\": \"0x5ba6364ceb3c4e5e9005e2494a22a546\", \"submitter_id\": \"0x2e879c7be6a645438419810fc538d6ba\", \"predict_id\": \"0x9abb76e293ea40c08cd39c93ee4a9f62\"}",
                     "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
                     "exclude_patterns": [],
                     "exitcode": 0,
-                    "last_updated": 1611546578,
+                    "last_updated": 1614756947,
                     "name": "chengzhipanpan-predict-results",
-                    "remote": "8dc2435ee504-82b58a6ae1f24567939646b442d91775",
+                    "remote": "62b30dfbccfd-0f5d2aa7944642e8a0648a1c35484b8c",
                     "request_cpus": 1,
                     "request_disk": "",
                     "request_docker_image": "qipeng/hotpotqa-eval",
@@ -2212,11 +2299,11 @@
                     "request_queue": "",
                     "request_time": "",
                     "run_status": "Finished",
-                    "started": 1611546428,
+                    "started": 1614756799,
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
-                    "time": 0.825846,
+                    "time": 0.821799,
                     "time_system": 0.0,
                     "time_user": 0.0
                 },
@@ -2227,7 +2314,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
-                "uuid": "0xd1623486fc414ab9b062680fe24198e0"
+                "uuid": "0x2c195b20ce464cfda5f80c99dee49a08"
             },
             "scores": {
                 "ans_em": 0.637272113436867,
@@ -2238,12 +2325,12 @@
                 "sup_f1": 0.8719526103726166
             },
             "submission": {
-                "created": 1611518332,
-                "description": "",
+                "created": 1614735300,
+                "description": "S2G-base(Anonymous)(single model)[]()",
                 "num_period_submissions": 0,
-                "num_total_submissions": 0,
-                "public": null,
-                "user_name": null
+                "num_total_submissions": 4,
+                "public": true,
+                "user_name": "chengzhipanpan"
             }
         },
         {
@@ -5680,85 +5767,7 @@
                 "public": null,
                 "user_name": null
             }
-        },
-        {
-            "bundle": {
-                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0x95ba771792c841aeae5233b4662bf8ff/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
-                "bundle_type": "run",
-                "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
-                "dependencies": [
-                    {
-                        "child_path": "eval.py",
-                        "child_uuid": "0x82095982f7944b03834a4cfd7f11545b",
-                        "parent_name": "eval_v1.1.py",
-                        "parent_path": "",
-                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
-                    },
-                    {
-                        "child_path": "gold.json",
-                        "child_uuid": "0x82095982f7944b03834a4cfd7f11545b",
-                        "parent_name": "test_distractor_gold",
-                        "parent_path": "",
-                        "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
-                    },
-                    {
-                        "child_path": "pred.json",
-                        "child_uuid": "0x82095982f7944b03834a4cfd7f11545b",
-                        "parent_name": "chengzhipanpan-albert_predict_v2-predict",
-                        "parent_path": "pred.json",
-                        "parent_uuid": "0x95ba771792c841aeae5233b4662bf8ff"
-                    }
-                ],
-                "id": "0x82095982f7944b03834a4cfd7f11545b",
-                "is_anonymous": false,
-                "metadata": {
-                    "actions": [],
-                    "allow_failed_dependencies": false,
-                    "created": 1614472360,
-                    "description": "{\"submit_id\": \"0xf2d31ecc546d477f955917910e247954\", \"submitter_id\": \"0x2e879c7be6a645438419810fc538d6ba\", \"predict_id\": \"0x95ba771792c841aeae5233b4662bf8ff\"}",
-                    "exclude_patterns": [],
-                    "failure_message": " Parent bundles failed: 0x95ba771792c841aeae5233b4662bf8ff (Please use the --allow-failed-dependencies flag to depend on results of failed or killed bundles)",
-                    "name": "chengzhipanpan-albert_predict_v2-results",
-                    "request_cpus": 1,
-                    "request_disk": "",
-                    "request_docker_image": "qipeng/hotpotqa-eval",
-                    "request_gpus": 0,
-                    "request_memory": "2g",
-                    "request_network": false,
-                    "request_priority": 0,
-                    "request_queue": "",
-                    "request_time": "",
-                    "tags": [
-                        "aqtoptoh-distractor-test-eval"
-                    ]
-                },
-                "owner": {
-                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
-                    "type": "users"
-                },
-                "permission": 2,
-                "permission_spec": "all",
-                "state": "failed",
-                "uuid": "0x82095982f7944b03834a4cfd7f11545b"
-            },
-            "scores": {
-                "ans_em": null,
-                "ans_f1": null,
-                "joint_em": null,
-                "joint_f1": null,
-                "sup_em": null,
-                "sup_f1": null
-            },
-            "submission": {
-                "created": 1614433848,
-                "description": "S2G+(Anonymous)(single model)[]()",
-                "num_period_submissions": 0,
-                "num_total_submissions": 3,
-                "public": true,
-                "user_name": "chengzhipanpan"
-            }
         }
     ],
-    "updated": 1614702693.9610605
+    "updated": 1615178653.114294
 }
