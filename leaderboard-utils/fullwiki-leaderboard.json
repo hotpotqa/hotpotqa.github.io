@@ -331,7 +331,7 @@
             },
             "submission": {
                 "created": 1612249507,
-                "description": "TPRR(Anonymous) (single model) ",
+                "description": "TPRR(Huawei Poisson Lab & Parallel Distributed Computing Lab) (single model) ",
                 "num_period_submissions": 0,
                 "num_total_submissions": 3,
                 "public": true,
@@ -3468,6 +3468,93 @@
         },
         {
             "bundle": {
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x87a2fd4f14064ca49edfe863b9bd85ba/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0x7b76679e3c1d0ec2b14871e5376ded6d19304a29",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x4e685cdb112e4e788be2342ff31950cd",
+                        "parent_name": "eval_v1.1.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x4e685cdb112e4e788be2342ff31950cd",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x4e685cdb112e4e788be2342ff31950cd",
+                        "parent_name": "fullwiki-gar",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0x87a2fd4f14064ca49edfe863b9bd85ba"
+                    }
+                ],
+                "id": "0x4e685cdb112e4e788be2342ff31950cd",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "created": 1615782286,
+                    "data_size": 4460,
+                    "description": "{\"submit_id\": \"0x87a2fd4f14064ca49edfe863b9bd85ba\", \"submitter_id\": \"0x7568c7c42902453f8f8977f93d75fbe9\", \"predict_id\": \"0x87a2fd4f14064ca49edfe863b9bd85ba\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1615782438,
+                    "name": "chwang85-fullwiki-gar-results",
+                    "remote": "f36072c2fdc4-de4fa3ea4eed46dbafe0dc4998f82850",
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "started": 1615782288,
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.90874,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "uuid": "0x4e685cdb112e4e788be2342ff31950cd"
+            },
+            "scores": {
+                "ans_em": 0.4822417285617826,
+                "ans_f1": 0.613371025128981,
+                "joint_em": 0.30614449696151247,
+                "joint_f1": 0.5295646588027417,
+                "sup_em": 0.4834571235651587,
+                "sup_f1": 0.7389915261421133
+            },
+            "submission": {
+                "created": 1615709562,
+                "description": "GAR (York University) (single model)",
+                "num_period_submissions": 2,
+                "num_total_submissions": 3,
+                "public": true,
+                "user_name": "chwang85"
+            }
+        },
+        {
+            "bundle": {
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xd4cba4e49fb64de0a87bcf09c19ec30d/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
@@ -3549,6 +3636,93 @@
                 "num_total_submissions": 5,
                 "public": true,
                 "user_name": "chenz"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xecebecc2b8a9465faab41880d9182f6c/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0x8a506e97d5fc2f9803da2dd93267bd74891fd199",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xd21885222df047aab103dcbbdbb2484e",
+                        "parent_name": "eval_v1.1.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xd21885222df047aab103dcbbdbb2484e",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xd21885222df047aab103dcbbdbb2484e",
+                        "parent_name": "fullwiki-gar-nosf",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0xecebecc2b8a9465faab41880d9182f6c"
+                    }
+                ],
+                "id": "0xd21885222df047aab103dcbbdbb2484e",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "created": 1615782287,
+                    "data_size": 4467,
+                    "description": "{\"submit_id\": \"0xecebecc2b8a9465faab41880d9182f6c\", \"submitter_id\": \"0x7568c7c42902453f8f8977f93d75fbe9\", \"predict_id\": \"0xecebecc2b8a9465faab41880d9182f6c\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1615782344,
+                    "name": "chwang85-fullwiki-gar-nosf-results",
+                    "remote": "0dd0a1b780ea-3bd7a54fd8584390b3b9c4dfda6d78d3",
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "started": 1615782294,
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.791045,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "uuid": "0xd21885222df047aab103dcbbdbb2484e"
+            },
+            "scores": {
+                "ans_em": 0.47508440243079003,
+                "ans_f1": 0.6062149425994605,
+                "joint_em": 0.04888588791357191,
+                "joint_f1": 0.3336629519109564,
+                "sup_em": 0.07629979743416611,
+                "sup_f1": 0.44790510487335927
+            },
+            "submission": {
+                "created": 1615712417,
+                "description": "GAR-NOSF (York University) (single model)",
+                "num_period_submissions": 2,
+                "num_total_submissions": 3,
+                "public": true,
+                "user_name": "chwang85"
             }
         },
         {
@@ -3660,7 +3834,7 @@
                     {
                         "child_path": "pred.json",
                         "child_uuid": "0xd210e767ee1b4ea3a83279cc81e5af7d",
-                        "parent_name": "fullwiki-predict-gar-bert",
+                        "parent_name": null,
                         "parent_path": "pred.json",
                         "parent_uuid": "0x6c751c1b060b41c09efa2a983f7118f6"
                     }
@@ -3672,7 +3846,7 @@
                     "allow_failed_dependencies": false,
                     "created": 1606613221,
                     "data_size": 4464,
-                    "description": "{\"submit_id\": \"0x6c751c1b060b41c09efa2a983f7118f6\", \"submitter_id\": \"0x7568c7c42902453f8f8977f93d75fbe9\", \"predict_id\": \"0x6c751c1b060b41c09efa2a983f7118f6\"}",
+                    "description": "",
                     "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
                     "exclude_patterns": [],
                     "exitcode": 0,
@@ -3715,12 +3889,12 @@
                 "sup_f1": 0.6361785689739832
             },
             "submission": {
-                "created": 1606422553,
-                "description": "GAR+BERT (York University) (single model)",
+                "created": 1606613221,
+                "description": "",
                 "num_period_submissions": 0,
-                "num_total_submissions": 4,
-                "public": true,
-                "user_name": "chwang85"
+                "num_total_submissions": 0,
+                "public": null,
+                "user_name": null
             }
         },
         {
@@ -3889,8 +4063,8 @@
             "submission": {
                 "created": 1608147602,
                 "description": "GAR+BERT without supporting facts (York University) (single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 4,
+                "num_period_submissions": 2,
+                "num_total_submissions": 3,
                 "public": true,
                 "user_name": "chwang85"
             }
@@ -4178,7 +4352,7 @@
                     {
                         "child_path": "pred.json",
                         "child_uuid": "0x00c41ad97ff54af38d508192cadecb42",
-                        "parent_name": "fullwiki-predict-gar",
+                        "parent_name": null,
                         "parent_path": "pred.json",
                         "parent_uuid": "0x207aaea7f4444363b6c942a954b1e8b4"
                     }
@@ -4190,7 +4364,7 @@
                     "allow_failed_dependencies": false,
                     "created": 1606613223,
                     "data_size": 4466,
-                    "description": "{\"submit_id\": \"0x207aaea7f4444363b6c942a954b1e8b4\", \"submitter_id\": \"0x7568c7c42902453f8f8977f93d75fbe9\", \"predict_id\": \"0x207aaea7f4444363b6c942a954b1e8b4\"}",
+                    "description": "",
                     "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
                     "exclude_patterns": [],
                     "exitcode": 0,
@@ -4233,12 +4407,12 @@
                 "sup_f1": 0.6219646929707756
             },
             "submission": {
-                "created": 1606423058,
-                "description": "GAR (York University) (single model)",
+                "created": 1606613223,
+                "description": "",
                 "num_period_submissions": 0,
-                "num_total_submissions": 4,
-                "public": true,
-                "user_name": "chwang85"
+                "num_total_submissions": 0,
+                "public": null,
+                "user_name": null
             }
         },
         {
@@ -4265,7 +4439,7 @@
                     {
                         "child_path": "pred.json",
                         "child_uuid": "0x1b392434a2f24d8f8b07a503c3b01d99",
-                        "parent_name": "fullwiki-predict-gar-nosf",
+                        "parent_name": null,
                         "parent_path": "pred.json",
                         "parent_uuid": "0x464c7a9269b640e98e432ab5cf0ecdfe"
                     }
@@ -4277,7 +4451,7 @@
                     "allow_failed_dependencies": false,
                     "created": 1608610402,
                     "data_size": 4471,
-                    "description": "{\"submit_id\": \"0x464c7a9269b640e98e432ab5cf0ecdfe\", \"submitter_id\": \"0x7568c7c42902453f8f8977f93d75fbe9\", \"predict_id\": \"0x464c7a9269b640e98e432ab5cf0ecdfe\"}",
+                    "description": "",
                     "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
                     "exclude_patterns": [],
                     "exitcode": 0,
@@ -4320,12 +4494,12 @@
                 "sup_f1": 0.37257569424348413
             },
             "submission": {
-                "created": 1608148151,
-                "description": "GAR without supporting facts (York University) (single model)",
+                "created": 1608610402,
+                "description": "",
                 "num_period_submissions": 0,
-                "num_total_submissions": 4,
-                "public": true,
-                "user_name": "chwang85"
+                "num_total_submissions": 0,
+                "public": null,
+                "user_name": null
             }
         },
         {
@@ -6786,5 +6960,5 @@
             }
         }
     ],
-    "updated": 1613606874.5079882
+    "updated": 1615782454.2499914
 }
