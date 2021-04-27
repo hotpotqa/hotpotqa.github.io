@@ -508,7 +508,7 @@
             "submission": {
                 "created": 1618014765,
                 "description": "KIFGraph (Anonymous) (single model) ",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
                 "user_name": "cclaude"
@@ -5943,5 +5943,5 @@
             }
         }
     ],
-    "updated": 1618243093.0948913
+    "updated": 1618790276.5188074
 }
