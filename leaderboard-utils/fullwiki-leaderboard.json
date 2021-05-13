@@ -159,7 +159,7 @@
             "submission": {
                 "created": 1620662685,
                 "description": "AISO (Anonymous) (single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
                 "user_name": "foobar"
@@ -7474,7 +7474,93 @@
                 "public": null,
                 "user_name": null
             }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x25f77007f4644047906d5ab3a0253c91/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": null,
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x90d176bd552849e19cebd19f46093e7f",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x90d176bd552849e19cebd19f46093e7f",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x90d176bd552849e19cebd19f46093e7f",
+                        "parent_name": "test_fullwiki_pred",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0x25f77007f4644047906d5ab3a0253c91"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x90d176bd552849e19cebd19f46093e7f",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "created": 1620812046,
+                    "description": "{\"submit_id\": \"0x25f77007f4644047906d5ab3a0253c91\", \"submitter_id\": \"0xe998b1d6be874fa69f913b305c4b1333\", \"predict_id\": \"0x25f77007f4644047906d5ab3a0253c91\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle contents from bundle service: Not Found - Path 'pred.json' in bundle 0x25f77007f4644047906d5ab3a0253c91 not found ",
+                    "last_updated": 1620812073,
+                    "name": "Yeon-pred-results",
+                    "remote": "97eaba254bd3-2f26d8333aa448b6b34df275539cf817",
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "started": 1620812051,
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "uuid": "0x90d176bd552849e19cebd19f46093e7f"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1620811979,
+                "description": "Anonymous (Anonymous) (single model)",
+                "num_period_submissions": 0,
+                "num_total_submissions": 1,
+                "public": true,
+                "user_name": "Yeon"
+            }
         }
     ],
-    "updated": 1620692236.3618233
+    "updated": 1620934083.375535
 }

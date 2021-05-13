@@ -160,7 +160,7 @@
             },
             "submission": {
                 "created": 1614433848,
-                "description": "S2G+(Anonymous)(single model)[]()",
+                "description": "S2G+(Shanghai Jiao Tong University)(single model)[]()",
                 "num_period_submissions": 0,
                 "num_total_submissions": 4,
                 "public": true,
@@ -6100,5 +6100,5 @@
             }
         }
     ],
-    "updated": 1620692301.2749581
+    "updated": 1620934114.0904505
 }
