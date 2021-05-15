@@ -1575,6 +1575,94 @@
         },
         {
             "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xb2a2f0dfe5054b0ea6415bb25b5a68ca/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0x2d3217013300f3ac7e4de874e1403d6b844c6f55",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xf8bf921f94de42239f794581622f2fa0",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xf8bf921f94de42239f794581622f2fa0",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xf8bf921f94de42239f794581622f2fa0",
+                        "parent_name": "test_fullwiki_pred",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0xb2a2f0dfe5054b0ea6415bb25b5a68ca"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xf8bf921f94de42239f794581622f2fa0",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "created": 1620956555,
+                    "data_size": 4462,
+                    "description": "{\"submit_id\": \"0xb2a2f0dfe5054b0ea6415bb25b5a68ca\", \"submitter_id\": \"0xe998b1d6be874fa69f913b305c4b1333\", \"predict_id\": \"0xb2a2f0dfe5054b0ea6415bb25b5a68ca\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1620960140,
+                    "name": "Yeon-test_fullwiki_pred-results",
+                    "remote": "dae9580999f1-0078561f8eb144cea46e82879870562a",
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "started": 1620960090,
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.785457,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "uuid": "0xf8bf921f94de42239f794581622f2fa0"
+            },
+            "scores": {
+                "ans_em": 0.6290344361917624,
+                "ans_f1": 0.7582931170253554,
+                "joint_em": 0.4218771100607698,
+                "joint_f1": 0.6708227415723603,
+                "sup_em": 0.5771775827143821,
+                "sup_f1": 0.8126291781592413
+            },
+            "submission": {
+                "created": 1620956380,
+                "description": "Anonymous (Anonymous) (single model)",
+                "num_period_submissions": 0,
+                "num_total_submissions": 2,
+                "public": true,
+                "user_name": "Yeon"
+            }
+        },
+        {
+            "bundle": {
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x1e74ad6faf044c2cabf9d90dc7eaf805/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
@@ -7556,11 +7644,11 @@
                 "created": 1620811979,
                 "description": "Anonymous (Anonymous) (single model)",
                 "num_period_submissions": 0,
-                "num_total_submissions": 1,
+                "num_total_submissions": 2,
                 "public": true,
                 "user_name": "Yeon"
             }
         }
     ],
-    "updated": 1620934083.375535
+    "updated": 1621051719.8643608
 }
