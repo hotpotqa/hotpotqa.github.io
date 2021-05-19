@@ -1582,41 +1582,43 @@
                 "dependencies": [
                     {
                         "child_path": "eval.py",
-                        "child_uuid": "0xf8bf921f94de42239f794581622f2fa0",
+                        "child_uuid": "0x6230fd7da53940f9b6379dc86a3a4f04",
                         "parent_name": "eval_v1.2.py",
                         "parent_path": "",
                         "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
                     },
                     {
                         "child_path": "gold.json",
-                        "child_uuid": "0xf8bf921f94de42239f794581622f2fa0",
+                        "child_uuid": "0x6230fd7da53940f9b6379dc86a3a4f04",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
                         "child_path": "pred.json",
-                        "child_uuid": "0xf8bf921f94de42239f794581622f2fa0",
+                        "child_uuid": "0x6230fd7da53940f9b6379dc86a3a4f04",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
                         "parent_uuid": "0xb2a2f0dfe5054b0ea6415bb25b5a68ca"
                     }
                 ],
                 "frozen": null,
-                "id": "0xf8bf921f94de42239f794581622f2fa0",
+                "id": "0x6230fd7da53940f9b6379dc86a3a4f04",
                 "is_anonymous": false,
                 "metadata": {
                     "actions": [],
                     "allow_failed_dependencies": false,
-                    "created": 1620956555,
+                    "cpu_usage": 0.0,
+                    "created": 1621439270,
                     "data_size": 4462,
                     "description": "{\"submit_id\": \"0xb2a2f0dfe5054b0ea6415bb25b5a68ca\", \"submitter_id\": \"0xe998b1d6be874fa69f913b305c4b1333\", \"predict_id\": \"0xb2a2f0dfe5054b0ea6415bb25b5a68ca\"}",
                     "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
                     "exclude_patterns": [],
                     "exitcode": 0,
-                    "last_updated": 1620960140,
+                    "last_updated": 1621439479,
+                    "memory_usage": 0.0,
                     "name": "Yeon-test_fullwiki_pred-results",
-                    "remote": "dae9580999f1-0078561f8eb144cea46e82879870562a",
+                    "remote": "875d1924bb15-964fe44d641b4526901c456ed9ba3786",
                     "request_cpus": 1,
                     "request_disk": "",
                     "request_docker_image": "qipeng/hotpotqa-eval",
@@ -1627,12 +1629,16 @@
                     "request_queue": "",
                     "request_time": "",
                     "run_status": "Finished",
-                    "started": 1620960090,
+                    "started": 1621439273,
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
-                    "time": 0.785457,
+                    "time": 0.896935,
+                    "time_cleaning_up": 8.803366899490356,
+                    "time_preparing": 168.56332445144653,
+                    "time_running": 10.16002082824707,
                     "time_system": 0.0,
+                    "time_uploading_results": 18.366954565048218,
                     "time_user": 0.0
                 },
                 "owner": {
@@ -1642,7 +1648,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
-                "uuid": "0xf8bf921f94de42239f794581622f2fa0"
+                "uuid": "0x6230fd7da53940f9b6379dc86a3a4f04"
             },
             "scores": {
                 "ans_em": 0.6290344361917624,
@@ -1655,8 +1661,102 @@
             "submission": {
                 "created": 1620956380,
                 "description": "Anonymous (Anonymous) (single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 2,
+                "num_period_submissions": 2,
+                "num_total_submissions": 3,
+                "public": true,
+                "user_name": "Yeon"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xe49566efd6734eafad4b76b94cbdeff8/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0xc86ee379bbbcacd23975a3a899d450ed9e382e01",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x426f8a5c50754cc9b3274b6912372d94",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x426f8a5c50754cc9b3274b6912372d94",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x426f8a5c50754cc9b3274b6912372d94",
+                        "parent_name": "test_fullwiki_pred_eff",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0xe49566efd6734eafad4b76b94cbdeff8"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x426f8a5c50754cc9b3274b6912372d94",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1621439354,
+                    "data_size": 4464,
+                    "description": "{\"submit_id\": \"0xe49566efd6734eafad4b76b94cbdeff8\", \"submitter_id\": \"0xe998b1d6be874fa69f913b305c4b1333\", \"predict_id\": \"0xe49566efd6734eafad4b76b94cbdeff8\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1621439493,
+                    "memory_usage": 0.0,
+                    "name": "Yeon-test_fullwiki_pred_eff-results",
+                    "remote": "875d1924bb15-964fe44d641b4526901c456ed9ba3786",
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "started": 1621439357,
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.868666,
+                    "time_cleaning_up": 8.191746473312378,
+                    "time_preparing": 95.31770515441895,
+                    "time_running": 10.185709238052368,
+                    "time_system": 0.0,
+                    "time_uploading_results": 21.865070819854736,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "uuid": "0x426f8a5c50754cc9b3274b6912372d94"
+            },
+            "scores": {
+                "ans_em": 0.6267386900742742,
+                "ans_f1": 0.7551556131952101,
+                "joint_em": 0.42039162727886564,
+                "joint_f1": 0.6687194370069016,
+                "sup_em": 0.5754220121539501,
+                "sup_f1": 0.8093022754873018
+            },
+            "submission": {
+                "created": 1621424817,
+                "description": "Anonymous (Anonymous) (single model)",
+                "num_period_submissions": 2,
+                "num_total_submissions": 3,
                 "public": true,
                 "user_name": "Yeon"
             }
@@ -7643,12 +7743,12 @@
             "submission": {
                 "created": 1620811979,
                 "description": "Anonymous (Anonymous) (single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 2,
+                "num_period_submissions": 2,
+                "num_total_submissions": 3,
                 "public": true,
                 "user_name": "Yeon"
             }
         }
     ],
-    "updated": 1621051719.8643608
+    "updated": 1621439527.0853927
 }
