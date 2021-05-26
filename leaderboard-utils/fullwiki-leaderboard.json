@@ -1661,7 +1661,7 @@
             "submission": {
                 "created": 1620956380,
                 "description": "Anonymous (Anonymous) (single model)",
-                "num_period_submissions": 2,
+                "num_period_submissions": 0,
                 "num_total_submissions": 3,
                 "public": true,
                 "user_name": "Yeon"
@@ -1755,7 +1755,7 @@
             "submission": {
                 "created": 1621424817,
                 "description": "Anonymous (Anonymous) (single model)",
-                "num_period_submissions": 2,
+                "num_period_submissions": 0,
                 "num_total_submissions": 3,
                 "public": true,
                 "user_name": "Yeon"
@@ -7743,12 +7743,12 @@
             "submission": {
                 "created": 1620811979,
                 "description": "Anonymous (Anonymous) (single model)",
-                "num_period_submissions": 2,
+                "num_period_submissions": 0,
                 "num_total_submissions": 3,
                 "public": true,
                 "user_name": "Yeon"
             }
         }
     ],
-    "updated": 1621439527.0853927
+    "updated": 1622044343.1093047
 }
