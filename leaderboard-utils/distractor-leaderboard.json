@@ -160,7 +160,7 @@
             },
             "submission": {
                 "created": 1622229978,
-                "description": "Anonymous (Anonymous) (single model) []() ()",
+                "description": "SAE+ (JD AI Research) (single model) []() ()",
                 "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
@@ -6461,5 +6461,5 @@
             }
         }
     ],
-    "updated": 1622583814.2848907
+    "updated": 1625763759.6093576
 }
