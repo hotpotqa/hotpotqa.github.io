@@ -2291,6 +2291,100 @@
         },
         {
             "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x5973bde441f1494fa43375ce0e0a4a8a/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0x150c3e5a577699033ed037ed57ed653acf2c6a05",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xea1038f23bc3494d86f9d0b50c71e0db",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xea1038f23bc3494d86f9d0b50c71e0db",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xea1038f23bc3494d86f9d0b50c71e0db",
+                        "parent_name": "hotpot_fullwiki_test_20210820",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0x5973bde441f1494fa43375ce0e0a4a8a"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xea1038f23bc3494d86f9d0b50c71e0db",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1629434959,
+                    "data_size": 4462,
+                    "description": "{\"submit_id\": \"0x5973bde441f1494fa43375ce0e0a4a8a\", \"submitter_id\": \"0x1ef36810019a48c486ae1d17df8b0a69\", \"predict_id\": \"0x5973bde441f1494fa43375ce0e0a4a8a\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1629435135,
+                    "memory_usage": 0.0,
+                    "name": "lang-hotpot_fullwiki_test_20210820-results",
+                    "remote": "9a4e66ae554b-4da2e3da1f9949be80b57afe5b6cc9e8",
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "started": 1629434961,
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.845374,
+                    "time_cleaning_up": 8.150175094604492,
+                    "time_preparing": 129.7544560432434,
+                    "time_running": 10.143304347991943,
+                    "time_system": 0.0,
+                    "time_uploading_results": 24.451388359069824,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "uuid": "0xea1038f23bc3494d86f9d0b50c71e0db"
+            },
+            "scores": {
+                "ans_em": 0.6031060094530722,
+                "ans_f1": 0.731447521823041,
+                "joint_em": 0.3585415259959487,
+                "joint_f1": 0.6173492143498727,
+                "sup_em": 0.4987170830519919,
+                "sup_f1": 0.7683717955088797
+            },
+            "submission": {
+                "created": 1629434805,
+                "description": "Tree shaped cluster",
+                "num_period_submissions": 1,
+                "num_total_submissions": 11,
+                "public": true,
+                "user_name": "lang"
+            }
+        },
+        {
+            "bundle": {
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x42468c82c7fd4d9d900326da6955a017/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
@@ -2371,8 +2465,8 @@
             "submission": {
                 "created": 1612656732,
                 "description": "AFSgraph(Anonymous)(single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 9,
+                "num_period_submissions": 1,
+                "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
             }
@@ -2459,8 +2553,8 @@
             "submission": {
                 "created": 1601878015,
                 "description": "AFSgraph  model(Anonymous)(single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 9,
+                "num_period_submissions": 1,
+                "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
             }
@@ -2987,8 +3081,8 @@
             "submission": {
                 "created": 1595918686,
                 "description": "SAFSR model(Anonymous)(single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 9,
+                "num_period_submissions": 1,
+                "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
             }
@@ -4735,8 +4829,8 @@
             "submission": {
                 "created": 1575524219,
                 "description": "SAFSr-Bert(Anonymous)(single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 9,
+                "num_period_submissions": 1,
+                "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
             }
@@ -5689,8 +5783,8 @@
             "submission": {
                 "created": 1575088150,
                 "description": "SAFSr_model(Anonymous)(single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 9,
+                "num_period_submissions": 1,
+                "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
             }
@@ -6797,8 +6891,8 @@
             "submission": {
                 "created": 1575074858,
                 "description": "SAFSr_model(Anonymous)(single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 9,
+                "num_period_submissions": 1,
+                "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
             }
@@ -7141,8 +7235,8 @@
             "submission": {
                 "created": 1595917018,
                 "description": "",
-                "num_period_submissions": 0,
-                "num_total_submissions": 9,
+                "num_period_submissions": 1,
+                "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
             }
@@ -7227,8 +7321,8 @@
             "submission": {
                 "created": 1595917886,
                 "description": "SAFSr(Anonymous)(single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 9,
+                "num_period_submissions": 1,
+                "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
             }
@@ -7485,8 +7579,8 @@
             "submission": {
                 "created": 1612491116,
                 "description": "(Anonymous)(single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 9,
+                "num_period_submissions": 1,
+                "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
             }
@@ -7748,7 +7842,97 @@
                 "public": true,
                 "user_name": "Yeon"
             }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x52796848aa074f1792e34464961c8ebb/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": null,
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xaf6e2c062d3248e2a995cb493f7fe33b",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xaf6e2c062d3248e2a995cb493f7fe33b",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xaf6e2c062d3248e2a995cb493f7fe33b",
+                        "parent_name": "hotpot_fullwiki_test_21_8-18",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0x52796848aa074f1792e34464961c8ebb"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xaf6e2c062d3248e2a995cb493f7fe33b",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1629298770,
+                    "description": "{\"submit_id\": \"0x52796848aa074f1792e34464961c8ebb\", \"submitter_id\": \"0x1ef36810019a48c486ae1d17df8b0a69\", \"predict_id\": \"0x52796848aa074f1792e34464961c8ebb\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle contents from bundle service: Not Found - Path 'pred.json' in bundle 0x52796848aa074f1792e34464961c8ebb not found ",
+                    "last_updated": 1629298799,
+                    "memory_usage": 0.0,
+                    "name": "lang-hotpot_fullwiki_test_21_8-18-results",
+                    "remote": "b7e35fffae5e-d4e528072bcf4f5ea215a7b24f74b0ab",
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "started": 1629298777,
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_cleaning_up": 8.114728689193726,
+                    "time_preparing": 13.151244401931763,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "uuid": "0xaf6e2c062d3248e2a995cb493f7fe33b"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1629253948,
+                "description": "Tree-shaped cluster",
+                "num_period_submissions": 1,
+                "num_total_submissions": 11,
+                "public": true,
+                "user_name": "lang"
+            }
         }
     ],
-    "updated": 1626411884.7357066
+    "updated": 1629474013.8967032
 }
