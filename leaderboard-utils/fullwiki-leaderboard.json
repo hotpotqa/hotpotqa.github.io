@@ -158,7 +158,7 @@
             },
             "submission": {
                 "created": 1620662685,
-                "description": "AISO (Anonymous) (single model)",
+                "description": "AISO (Institute of Computing Technology, Chinese Academy of Sciences) (single model)",
                 "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
@@ -2377,7 +2377,7 @@
             "submission": {
                 "created": 1629434805,
                 "description": "Tree shaped cluster",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
@@ -2465,7 +2465,7 @@
             "submission": {
                 "created": 1612656732,
                 "description": "AFSgraph(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
@@ -2553,7 +2553,7 @@
             "submission": {
                 "created": 1601878015,
                 "description": "AFSgraph  model(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
@@ -3081,7 +3081,7 @@
             "submission": {
                 "created": 1595918686,
                 "description": "SAFSR model(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
@@ -4829,7 +4829,7 @@
             "submission": {
                 "created": 1575524219,
                 "description": "SAFSr-Bert(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
@@ -5783,7 +5783,7 @@
             "submission": {
                 "created": 1575088150,
                 "description": "SAFSr_model(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
@@ -6891,7 +6891,7 @@
             "submission": {
                 "created": 1575074858,
                 "description": "SAFSr_model(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
@@ -7235,7 +7235,7 @@
             "submission": {
                 "created": 1595917018,
                 "description": "",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
@@ -7321,7 +7321,7 @@
             "submission": {
                 "created": 1595917886,
                 "description": "SAFSr(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
@@ -7579,7 +7579,7 @@
             "submission": {
                 "created": 1612491116,
                 "description": "(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
@@ -7927,12 +7927,12 @@
             "submission": {
                 "created": 1629253948,
                 "description": "Tree-shaped cluster",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 11,
                 "public": true,
                 "user_name": "lang"
             }
         }
     ],
-    "updated": 1629474013.8967032
+    "updated": 1629993461.8587966
 }
