@@ -1149,6 +1149,100 @@
         },
         {
             "bundle": {
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0xfd7dfd74d03641168226ee005554c4a0/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0x7fa278e5a97cb94c784fa46a44039281099d24ea",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x25665ebf5ead4ee88998acfcdb807139",
+                        "parent_name": "eval_v1.1.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x25665ebf5ead4ee88998acfcdb807139",
+                        "parent_name": "test_distractor_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x25665ebf5ead4ee88998acfcdb807139",
+                        "parent_name": "Giwon_Hong-predict_woknowledge-predict",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0xfd7dfd74d03641168226ee005554c4a0"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x25665ebf5ead4ee88998acfcdb807139",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1631718633,
+                    "data_size": 4463,
+                    "description": "{\"submit_id\": \"0xd103b8937e0b4d499d1ffd614494168b\", \"submitter_id\": \"0xaaf94e5f518c446f90d7b81022ef991c\", \"predict_id\": \"0xfd7dfd74d03641168226ee005554c4a0\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1631733876,
+                    "memory_usage": 0.0,
+                    "name": "Giwon_Hong-predict_woknowledge-results",
+                    "remote": "93ae6ba9cc3d-e38b89b2051748578400a1f9e2f0ee50",
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "started": 1631733717,
+                    "tags": [
+                        "aqtoptoh-distractor-test-eval"
+                    ],
+                    "time": 0.834041,
+                    "time_cleaning_up": 8.181943416595459,
+                    "time_preparing": 113.79419183731079,
+                    "time_running": 10.16597604751587,
+                    "time_system": 0.0,
+                    "time_uploading_results": 24.508079767227173,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "uuid": "0x25665ebf5ead4ee88998acfcdb807139"
+            },
+            "scores": {
+                "ans_em": 0.6912896691424713,
+                "ans_f1": 0.8201458859718922,
+                "joint_em": 0.4650911546252532,
+                "joint_f1": 0.7387164632342084,
+                "sup_em": 0.6205266711681297,
+                "sup_f1": 0.8819185683399289
+            },
+            "submission": {
+                "created": 1631640812,
+                "description": "Anonymous_KA (Anonymous) (single model)",
+                "num_period_submissions": 1,
+                "num_total_submissions": 2,
+                "public": true,
+                "user_name": "Giwon_Hong"
+            }
+        },
+        {
+            "bundle": {
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0xaffaf5ec5c864fb689c9b228b090d200/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
@@ -2911,8 +3005,8 @@
             "submission": {
                 "created": 1607048215,
                 "description": "AnonymousK (Anonymous) (single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 1,
+                "num_period_submissions": 1,
+                "num_total_submissions": 2,
                 "public": true,
                 "user_name": "Giwon_Hong"
             }
@@ -6837,5 +6931,5 @@
             }
         }
     ],
-    "updated": 1629474073.7891855
+    "updated": 1631761934.854301
 }

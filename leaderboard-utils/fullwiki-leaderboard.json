@@ -158,7 +158,7 @@
             },
             "submission": {
                 "created": 1620662685,
-                "description": "AISO (Institute of Computing Technology, Chinese Academy of Sciences) (single model)",
+                "description": "AISO (Institute of Computing Technology, Chinese Academy of Sciences) (single model) [Zhu et al., EMNLP 2021](https://arxiv.org/abs/2109.06747) (https://github.com/zycdev/AISO)",
                 "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
@@ -7934,5 +7934,5 @@
             }
         }
     ],
-    "updated": 1629993461.8587966
+    "updated": 1631761895.7866561
 }
