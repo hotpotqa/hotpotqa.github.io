@@ -1140,7 +1140,7 @@
             },
             "submission": {
                 "created": 1602016478,
-                "description": "FFReader-large (Anonymous) (single model) []()()",
+                "description": "FFReader-large (Kyoto University) (single model) [(Alkhaldi et al., 2021)](http://hdl.handle.net/2433/265879)()",
                 "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
@@ -1234,8 +1234,8 @@
             },
             "submission": {
                 "created": 1631640812,
-                "description": "Anonymous_KA (Anonymous) (single model)",
-                "num_period_submissions": 1,
+                "description": "GIT (KAIST) (single model)",
+                "num_period_submissions": 0,
                 "num_total_submissions": 2,
                 "public": true,
                 "user_name": "Giwon_Hong"
@@ -3005,7 +3005,7 @@
             "submission": {
                 "created": 1607048215,
                 "description": "AnonymousK (Anonymous) (single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 2,
                 "public": true,
                 "user_name": "Giwon_Hong"
@@ -4140,7 +4140,7 @@
             },
             "submission": {
                 "created": 1599626645,
-                "description": "IRC (Anonymous) (single model) ",
+                "description": "IRC (NTT Media Intelligence Laboratories) (single model)  [(Nishida et al., 2021)](https://arxiv.org/abs/2111.09029)",
                 "num_period_submissions": 0,
                 "num_total_submissions": 2,
                 "public": true,
@@ -6931,5 +6931,5 @@
             }
         }
     ],
-    "updated": 1631761934.854301
+    "updated": 1637605023.3527348
 }
