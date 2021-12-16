@@ -1485,7 +1485,7 @@
             "submission": {
                 "created": 1638668752,
                 "description": "AFSGraph-retriever(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 13,
                 "public": true,
                 "user_name": "lang"
@@ -2295,7 +2295,7 @@
             "submission": {
                 "created": 1637044186,
                 "description": "Multi-dimensional-AFSGraph(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 13,
                 "public": true,
                 "user_name": "lang"
@@ -2389,7 +2389,7 @@
             "submission": {
                 "created": 1637808513,
                 "description": "Model name (Affiliation) (single model / ensemble) [paper name](paper link) (code link)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
                 "user_name": "YuLiu"
@@ -2483,7 +2483,7 @@
             "submission": {
                 "created": 1637819789,
                 "description": "HopAns (ptf) (single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
                 "user_name": "PanTaiFeng"
@@ -2753,7 +2753,7 @@
             "submission": {
                 "created": 1629434805,
                 "description": "Tree-shaped-cluster (Anonymous) (single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 13,
                 "public": true,
                 "user_name": "lang"
@@ -2841,7 +2841,7 @@
             "submission": {
                 "created": 1612656732,
                 "description": "AFSgraph(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 13,
                 "public": true,
                 "user_name": "lang"
@@ -2929,7 +2929,7 @@
             "submission": {
                 "created": 1601878015,
                 "description": "AFSgraph  model(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 13,
                 "public": true,
                 "user_name": "lang"
@@ -3457,7 +3457,7 @@
             "submission": {
                 "created": 1595918686,
                 "description": "SAFSR model(Dalian University of Technology)(single model)[(Lang, et al. 2021)](https://arxiv.org/pdf/1809.09600.pdf)https://www.sciencedirect.com/science/article/pii/S1568494621007808",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 13,
                 "public": true,
                 "user_name": "lang"
@@ -5205,7 +5205,7 @@
             "submission": {
                 "created": 1575524219,
                 "description": "SAFSr-Bert(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 13,
                 "public": true,
                 "user_name": "lang"
@@ -6159,7 +6159,7 @@
             "submission": {
                 "created": 1575088150,
                 "description": "SAFSr_model(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 13,
                 "public": true,
                 "user_name": "lang"
@@ -7267,7 +7267,7 @@
             "submission": {
                 "created": 1575074858,
                 "description": "SAFSr_model(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 13,
                 "public": true,
                 "user_name": "lang"
@@ -7611,7 +7611,7 @@
             "submission": {
                 "created": 1595917018,
                 "description": "",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 13,
                 "public": true,
                 "user_name": "lang"
@@ -7697,7 +7697,7 @@
             "submission": {
                 "created": 1595917886,
                 "description": "SAFSr(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 13,
                 "public": true,
                 "user_name": "lang"
@@ -7955,7 +7955,7 @@
             "submission": {
                 "created": 1612491116,
                 "description": "(Anonymous)(single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 13,
                 "public": true,
                 "user_name": "lang"
@@ -8303,12 +8303,12 @@
             "submission": {
                 "created": 1629253948,
                 "description": "Tree-shaped cluster",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 13,
                 "public": true,
                 "user_name": "lang"
             }
         }
     ],
-    "updated": 1638807117.2585523
+    "updated": 1638984873.8103075
 }

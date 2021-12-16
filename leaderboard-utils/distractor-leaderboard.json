@@ -134,6 +134,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1622331680,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -222,6 +223,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1620982899,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -312,6 +314,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1626158296,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -404,6 +407,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1610903288,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -492,6 +496,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1599620479,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -580,6 +585,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1605966444,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -611,6 +617,101 @@
                 "num_total_submissions": 1,
                 "public": false,
                 "user_name": "lrh002"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0x7f548d4669344f08809da581a3bdf5b1/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0xc2bfb557fa1e616de28ce9b60b6b62ed0fa33e7a",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xb4383bd18ebd466790db6fa1647fb69c",
+                        "parent_name": "eval_v1.1.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xb4383bd18ebd466790db6fa1647fb69c",
+                        "parent_name": "test_distractor_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xb4383bd18ebd466790db6fa1647fb69c",
+                        "parent_name": "libert-predict-predict",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0x7f548d4669344f08809da581a3bdf5b1"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xb4383bd18ebd466790db6fa1647fb69c",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1639622996,
+                    "data_size": 4460,
+                    "description": "{\"submit_id\": \"0xe585f6d9e50e4fefaf2af18131c85601\", \"submitter_id\": \"0xece9d84fb4dc4f39b6050ac7723c700f\", \"predict_id\": \"0x7f548d4669344f08809da581a3bdf5b1\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1639661757,
+                    "memory_usage": 0.0,
+                    "name": "libert-predict-results",
+                    "remote": "7fd41514222f-23a6fd1e6c604fed94653075d775e6e1",
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "started": 1639661645,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-distractor-test-eval"
+                    ],
+                    "time": 0.755259,
+                    "time_cleaning_up": 8.143513679504395,
+                    "time_preparing": 75.44063425064087,
+                    "time_running": 10.126452445983887,
+                    "time_system": 0.0,
+                    "time_uploading_results": 16.282063245773315,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "uuid": "0xb4383bd18ebd466790db6fa1647fb69c"
+            },
+            "scores": {
+                "ans_em": 0.6966914247130317,
+                "ans_f1": 0.8243313071627775,
+                "joint_em": 0.47521944632005403,
+                "joint_f1": 0.7418979091363147,
+                "sup_em": 0.62525320729237,
+                "sup_f1": 0.8773370728603896
+            },
+            "submission": {
+                "created": 1639564984,
+                "description": "BoSe (Anonymous) (single model)",
+                "num_period_submissions": 1,
+                "num_total_submissions": 1,
+                "public": true,
+                "user_name": "libert"
             }
         },
         {
@@ -670,6 +771,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1621011723,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -762,6 +864,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1606182351,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -850,6 +953,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1606331761,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -938,6 +1042,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1575250749,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -1026,6 +1131,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1614032247,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -1114,6 +1220,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1602117984,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -1204,6 +1311,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1631733717,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -1296,6 +1404,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1589307595,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -1384,6 +1493,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1590801861,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -1472,6 +1582,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1571554907,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -1560,6 +1671,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1590781641,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -1648,6 +1760,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1592813458,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -1736,6 +1849,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1613441125,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -1824,6 +1938,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1622003575,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -1914,6 +2029,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1626319401,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -2008,6 +2124,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1625034035,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -2102,6 +2219,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1625169372,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -2194,6 +2312,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1611546431,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -2282,6 +2401,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1564536761,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -2368,6 +2488,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1574259965,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -2456,6 +2577,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1599619709,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -2544,6 +2666,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1569619158,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -2630,6 +2753,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1580865829,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -2718,6 +2842,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1569992029,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -2804,6 +2929,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1564691039,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -2890,6 +3016,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1614252278,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -2978,6 +3105,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1607117124,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -3066,6 +3194,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1559336545,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -3154,6 +3283,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1620973633,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -3246,6 +3376,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1589299407,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -3334,6 +3465,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1596180214,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -3422,6 +3554,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1575235299,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -3510,6 +3643,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1560563026,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -3596,6 +3730,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1569365004,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -3682,6 +3817,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1613272023,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -3770,6 +3906,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1568786062,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -3856,6 +3993,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1567385870,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -3942,6 +4080,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1555092346,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -4028,6 +4167,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1567533200,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -4114,6 +4254,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1601691288,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -4202,6 +4343,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1560416939,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -4288,6 +4430,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1615863694,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -4378,6 +4521,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1620953560,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -4470,6 +4614,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1615821557,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -4558,6 +4703,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1620955978,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -4646,6 +4792,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1598332100,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -4734,6 +4881,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1567508578,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -4820,6 +4968,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1561032248,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -4906,6 +5055,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1566010255,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -4992,6 +5142,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1550818996,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -5078,6 +5229,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1551753803,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -5164,6 +5316,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1556008409,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -5250,6 +5403,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1551368683,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -5336,6 +5490,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1555540337,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -5422,6 +5577,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1555722923,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -5508,6 +5664,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1551463706,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -5594,6 +5751,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1598287179,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -5682,6 +5840,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1542874858,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -5768,6 +5927,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1551725646,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -5854,6 +6014,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1555473183,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -5940,6 +6101,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1558208399,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -6026,6 +6188,7 @@
                     "request_time": "",
                     "run_status": "Upload started",
                     "started": 1539372772,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -6106,6 +6269,7 @@
                     "request_priority": 0,
                     "request_queue": "",
                     "request_time": "",
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ]
@@ -6189,6 +6353,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1551297932,
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ],
@@ -6269,6 +6434,7 @@
                     "request_priority": 0,
                     "request_queue": "",
                     "request_time": "",
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ]
@@ -6348,6 +6514,7 @@
                     "request_priority": 0,
                     "request_queue": "",
                     "request_time": "",
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ]
@@ -6426,6 +6593,7 @@
                     "request_priority": 0,
                     "request_queue": "",
                     "request_time": "",
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ]
@@ -6505,6 +6673,7 @@
                     "request_priority": 0,
                     "request_queue": "",
                     "request_time": "",
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ]
@@ -6584,6 +6753,7 @@
                     "request_priority": 0,
                     "request_queue": "",
                     "request_time": "",
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ]
@@ -6663,6 +6833,7 @@
                     "request_priority": 0,
                     "request_queue": "",
                     "request_time": "",
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ]
@@ -6742,6 +6913,7 @@
                     "request_priority": 0,
                     "request_queue": "",
                     "request_time": "",
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ]
@@ -6821,6 +6993,7 @@
                     "request_priority": 0,
                     "request_queue": "",
                     "request_time": "",
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ]
@@ -6900,6 +7073,7 @@
                     "request_priority": 0,
                     "request_queue": "",
                     "request_time": "",
+                    "store": "",
                     "tags": [
                         "aqtoptoh-distractor-test-eval"
                     ]
@@ -6929,7 +7103,87 @@
                 "public": true,
                 "user_name": "chengzhipanpan"
             }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0x49fab74420a44c0d849e563f11417fb7/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": null,
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xea92b64571c240a494084058166eaa8a",
+                        "parent_name": "eval_v1.1.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xea92b64571c240a494084058166eaa8a",
+                        "parent_name": "test_distractor_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xea92b64571c240a494084058166eaa8a",
+                        "parent_name": "sywang-predict-predict",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0x49fab74420a44c0d849e563f11417fb7"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xea92b64571c240a494084058166eaa8a",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "created": 1639365625,
+                    "description": "{\"submit_id\": \"0x4e3cd0bf65fa48658ff95c504e02f3a6\", \"submitter_id\": \"0xf09c90bd1d2448709d88556966a95336\", \"predict_id\": \"0x49fab74420a44c0d849e563f11417fb7\"}",
+                    "exclude_patterns": [],
+                    "failure_message": " Parent bundles failed: 0x49fab74420a44c0d849e563f11417fb7 (Please use the --allow-failed-dependencies flag to depend on results of failed or killed bundles)",
+                    "name": "sywang-predict-results",
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-distractor-test-eval"
+                    ]
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "uuid": "0xea92b64571c240a494084058166eaa8a"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1639126518,
+                "description": "BoSe (Anonymous) (single model)",
+                "num_period_submissions": 0,
+                "num_total_submissions": 1,
+                "public": true,
+                "user_name": "sywang"
+            }
         }
     ],
-    "updated": 1637605023.3527348
+    "updated": 1639675337.988823
 }
