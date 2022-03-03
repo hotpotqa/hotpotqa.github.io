@@ -168,7 +168,7 @@
             "submission": {
                 "created": 1643388085,
                 "description": "FE2H on ALBERT (Anonymous) (single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
                 "user_name": "leiweijun"
@@ -346,7 +346,7 @@
             "submission": {
                 "created": 1614433848,
                 "description": "S2G+(Shanghai Jiao Tong University)(single model)[]()",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 4,
                 "public": true,
                 "user_name": "chengzhipanpan"
@@ -712,6 +712,101 @@
                 "num_total_submissions": 1,
                 "public": false,
                 "user_name": "lrh002"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0x7731d1bf40b1466480a47d58dd01e8ed/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0xb8ff3397394b002fc3362f6077596ccd9836bdf1",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x07c9c43cfd4b49bb8edde2dab1c581a2",
+                        "parent_name": "eval_v1.1.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x07c9c43cfd4b49bb8edde2dab1c581a2",
+                        "parent_name": "test_distractor_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x07c9c43cfd4b49bb8edde2dab1c581a2",
+                        "parent_name": "xiaofenglei-predict-predict",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0x7731d1bf40b1466480a47d58dd01e8ed"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x07c9c43cfd4b49bb8edde2dab1c581a2",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1644910799,
+                    "data_size": 4460,
+                    "description": "{\"submit_id\": \"0x06f0037af10d4938ae8b9694bd4d7514\", \"submitter_id\": \"0x0fba003bc6c646388515ece347c95f54\", \"predict_id\": \"0x7731d1bf40b1466480a47d58dd01e8ed\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1646251100,
+                    "memory_usage": 0.0,
+                    "name": "xiaofenglei-predict-results",
+                    "remote": "af9899cf5c7d-3494d306fd754c7994c45db85fd8047f",
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "started": 1646251011,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-distractor-test-eval"
+                    ],
+                    "time": 0.774968,
+                    "time_cleaning_up": 0.03367257118225098,
+                    "time_preparing": 71.7550117969513,
+                    "time_running": 5.128194808959961,
+                    "time_system": 0.0,
+                    "time_uploading_results": 6.1137535572052,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "uuid": "0x07c9c43cfd4b49bb8edde2dab1c581a2"
+            },
+            "scores": {
+                "ans_em": 0.6954760297096556,
+                "ans_f1": 0.8269066280046964,
+                "joint_em": 0.48467251856853477,
+                "joint_f1": 0.7490511665231188,
+                "sup_em": 0.6478055367994598,
+                "sup_f1": 0.8871657234655413
+            },
+            "submission": {
+                "created": 1644908102,
+                "description": "FE2H on ELECTRA (Anonymous) (single model)",
+                "num_period_submissions": 0,
+                "num_total_submissions": 1,
+                "public": true,
+                "user_name": "xiaofenglei"
             }
         },
         {
@@ -1444,7 +1539,7 @@
             "submission": {
                 "created": 1613818784,
                 "description": "S2G+(Anonymous)(single model)[]()",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 4,
                 "public": true,
                 "user_name": "chengzhipanpan"
@@ -1806,7 +1901,7 @@
             "submission": {
                 "created": 1590705707,
                 "description": "Longformer (Anonymous) (single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 2,
                 "public": true,
                 "user_name": "armanc"
@@ -2625,7 +2720,7 @@
             "submission": {
                 "created": 1611484557,
                 "description": "S2G-large(Anonymous)(single model)[]()",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 4,
                 "public": true,
                 "user_name": "chengzhipanpan"
@@ -3513,7 +3608,7 @@
             "submission": {
                 "created": 1614735300,
                 "description": "S2G-base(Anonymous)(single model)[]()",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 4,
                 "public": true,
                 "user_name": "chengzhipanpan"
@@ -5635,7 +5730,7 @@
             "submission": {
                 "created": 1551749322,
                 "description": "BERT Plus(CIS Lab) (single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 2,
                 "public": true,
                 "user_name": "susht3"
@@ -6674,7 +6769,7 @@
             "submission": {
                 "created": 1551635032,
                 "description": "",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 2,
                 "public": true,
                 "user_name": "susht3"
@@ -6753,7 +6848,7 @@
             "submission": {
                 "created": 1590508867,
                 "description": "",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 2,
                 "public": true,
                 "user_name": "armanc"
@@ -6833,12 +6928,92 @@
             "submission": {
                 "created": 1639126518,
                 "description": "BoSe (Anonymous) (single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
                 "user_name": "sywang"
             }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0x4d457a3b4f6d4453815e513b0a920838/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": null,
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x444b79304e7847fdbc2024d581a33d54",
+                        "parent_name": "eval_v1.1.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x444b79304e7847fdbc2024d581a33d54",
+                        "parent_name": "test_distractor_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x444b79304e7847fdbc2024d581a33d54",
+                        "parent_name": "jevishoo-predict-predict",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0x4d457a3b4f6d4453815e513b0a920838"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x444b79304e7847fdbc2024d581a33d54",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "created": 1644392822,
+                    "description": "{\"submit_id\": \"0x225666add8c0462582019af99a0e5303\", \"submitter_id\": \"0x7c9b4b0301354d17b5b2e9911e8deb54\", \"predict_id\": \"0x4d457a3b4f6d4453815e513b0a920838\"}",
+                    "exclude_patterns": [],
+                    "failure_message": " Parent bundles failed: 0x4d457a3b4f6d4453815e513b0a920838 (Please use the --allow-failed-dependencies flag to depend on results of failed or killed bundles)",
+                    "name": "jevishoo-predict-results",
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-distractor-test-eval"
+                    ]
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "uuid": "0x444b79304e7847fdbc2024d581a33d54"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1643354890,
+                "description": "MC-RGCN (Guizhou University) (single model)",
+                "num_period_submissions": 0,
+                "num_total_submissions": 1,
+                "public": true,
+                "user_name": "jevishoo"
+            }
         }
     ],
-    "updated": 1643989252.6976264
+    "updated": 1646327522.2350476
 }
