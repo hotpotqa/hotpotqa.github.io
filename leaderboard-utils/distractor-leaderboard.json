@@ -261,12 +261,12 @@
                 "sup_f1": 0.8920265532352178
             },
             "submission": {
-                "created": 1646816863,
-                "description": "IRFMQA(Anonymous)(single model)",
-                "num_period_submissions": 1,
-                "num_total_submissions": 1,
-                "public": true,
-                "user_name": "yun"
+                "created": null,
+                "description": null,
+                "num_period_submissions": 0,
+                "num_total_submissions": 0,
+                "public": false,
+                "user_name": null
             }
         },
         {
@@ -1277,7 +1277,7 @@
             },
             "submission": {
                 "created": 1618014765,
-                "description": "KIFGraph (Anonymous) (single model) ",
+                "description": "KIFGraph (LAB) (single model) ",
                 "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
@@ -7190,5 +7190,5 @@
             }
         }
     ],
-    "updated": 1646929603.0913932
+    "updated": 1646972976.2833366
 }
