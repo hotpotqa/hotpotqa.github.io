@@ -264,7 +264,7 @@
             },
             "submission": {
                 "created": 1646816863,
-                "description": "PIR(Anonymous)(single model)",
+                "description": "Anonymous(Anonymous)(single model)",
                 "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
@@ -2482,7 +2482,7 @@
             "submission": {
                 "created": 1650024578,
                 "description": "EGF Reader-large (Anonymous) (single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
                 "user_name": "zzq"
@@ -7386,41 +7386,41 @@
         },
         {
             "bundle": {
-                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0x6c6a52f3c3894dc89b1c6ae9bd6060e4/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0x668531c11fb2443d86cac46be0ba2e51/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
                 "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
-                        "child_uuid": "0x2518a09c48ac49c49c57336d9712f7be",
+                        "child_uuid": "0x397911728bad40f2900faf7d114ee094",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
                         "child_path": "gold.json",
-                        "child_uuid": "0x2518a09c48ac49c49c57336d9712f7be",
+                        "child_uuid": "0x397911728bad40f2900faf7d114ee094",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
                         "child_path": "pred.json",
-                        "child_uuid": "0x2518a09c48ac49c49c57336d9712f7be",
+                        "child_uuid": "0x397911728bad40f2900faf7d114ee094",
                         "parent_name": "yzy-predict-predict",
                         "parent_path": "pred.json",
-                        "parent_uuid": "0x6c6a52f3c3894dc89b1c6ae9bd6060e4"
+                        "parent_uuid": "0x668531c11fb2443d86cac46be0ba2e51"
                     }
                 ],
                 "frozen": null,
-                "id": "0x2518a09c48ac49c49c57336d9712f7be",
+                "id": "0x397911728bad40f2900faf7d114ee094",
                 "is_anonymous": false,
                 "metadata": {
                     "actions": [],
                     "allow_failed_dependencies": false,
-                    "created": 1647360739,
-                    "description": "{\"submit_id\": \"0x2913ea2dc2b74002b79c8eaeaedfbc30\", \"submitter_id\": \"0x8cca544ea2a64f91baa25081314315e5\", \"predict_id\": \"0x6c6a52f3c3894dc89b1c6ae9bd6060e4\"}",
+                    "created": 1652887993,
+                    "description": "{\"submit_id\": \"0xdca8befcd0f94b3c8f1e234b22cc54f5\", \"submitter_id\": \"0x8cca544ea2a64f91baa25081314315e5\", \"predict_id\": \"0x668531c11fb2443d86cac46be0ba2e51\"}",
                     "exclude_patterns": [],
                     "name": "yzy-predict-results",
                     "remote_history": [],
@@ -7445,7 +7445,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "created",
-                "uuid": "0x2518a09c48ac49c49c57336d9712f7be"
+                "uuid": "0x397911728bad40f2900faf7d114ee094"
             },
             "scores": {
                 "ans_em": null,
@@ -7456,8 +7456,8 @@
                 "sup_f1": null
             },
             "submission": {
-                "created": 1646902562,
-                "description": "RD Model()(single model)[]()()",
+                "created": 1652702013,
+                "description": "RD Model Max()(single model)[]()()",
                 "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
@@ -7465,5 +7465,5 @@
             }
         }
     ],
-    "updated": 1651202331.3706462
+    "updated": 1653053976.2521636
 }
