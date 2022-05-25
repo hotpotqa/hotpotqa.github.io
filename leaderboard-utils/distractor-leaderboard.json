@@ -453,8 +453,8 @@
             },
             "submission": {
                 "created": 1652702013,
-                "description": "RD Model Max()(single model)[]()()",
-                "num_period_submissions": 1,
+                "description": "M2PR-RD-Large (Fudan University & Huawei Poisson Lab) (single model) []()()",
+                "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
                 "user_name": "yzy"
@@ -7484,5 +7484,5 @@
             }
         }
     ],
-    "updated": 1653322288.3305283
+    "updated": 1653434293.7440608
 }
