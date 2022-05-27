@@ -168,7 +168,7 @@
             },
             "submission": {
                 "created": 1643388085,
-                "description": "FE2H on ALBERT (Anonymous) (single model)",
+                "description": "FE2H on ALBERT  (Nanjing University) (single model) [From Easy to Hard: Two-stage Selector and Reader for Multi-hop Question Answering](https://arxiv.org/abs/2205.11729)",
                 "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
@@ -7484,5 +7484,5 @@
             }
         }
     ],
-    "updated": 1653434293.7440608
+    "updated": 1653672045.5853543
 }
