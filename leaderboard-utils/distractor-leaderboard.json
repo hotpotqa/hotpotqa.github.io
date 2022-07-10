@@ -273,6 +273,105 @@
         },
         {
             "bundle": {
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0xca8c92ff15db4b16b73b5f209584b129/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0xa7bca33d2c11947279135f868a164a2fd7bdbc92",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x13a9c59730ed433ba3e824ce950cdc13",
+                        "parent_name": "eval_v1.1.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x13a9c59730ed433ba3e824ce950cdc13",
+                        "parent_name": "test_distractor_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x13a9c59730ed433ba3e824ce950cdc13",
+                        "parent_name": "yinzhangyue-predict-predict",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0xca8c92ff15db4b16b73b5f209584b129"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x13a9c59730ed433ba3e824ce950cdc13",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1657319635,
+                    "data_size": 4462,
+                    "description": "{\"submit_id\": \"0xf31ed9866f18441ea9deb5d38567d326\", \"submitter_id\": \"0x8b293afac5614932aa543c30eca75a09\", \"predict_id\": \"0xca8c92ff15db4b16b73b5f209584b129\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1657358719,
+                    "memory_usage": 0.0,
+                    "name": "yinzhangyue-predict-results",
+                    "on_preemptible_worker": false,
+                    "remote": "ae21e8ee03c8-3fe16a4b90694ce38eb0f0857088f095",
+                    "remote_history": [
+                        "ae21e8ee03c8"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "started": 1657358621,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-distractor-test-eval"
+                    ],
+                    "time": 0.823237,
+                    "time_cleaning_up": 4.252551555633545,
+                    "time_preparing": 76.09508872032166,
+                    "time_running": 3.3600497245788574,
+                    "time_system": 0.0,
+                    "time_uploading_results": 8.179516315460205,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "uuid": "0x13a9c59730ed433ba3e824ce950cdc13"
+            },
+            "scores": {
+                "ans_em": 0.7207292370020256,
+                "ans_f1": 0.8434589028808679,
+                "joint_em": 0.4973666441593518,
+                "joint_f1": 0.7669987663631842,
+                "sup_em": 0.6544226873733964,
+                "sup_f1": 0.8955787449102998
+            },
+            "submission": {
+                "created": 1656330472,
+                "description": "C2FM with F1 Smoothing (Fudan University & Huawei Poisson Lab) (single model) []()()",
+                "num_period_submissions": 0,
+                "num_total_submissions": 1,
+                "public": true,
+                "user_name": "yinzhangyue"
+            }
+        },
+        {
+            "bundle": {
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0x9ebbc34eac5d44d99b1610aeb59724ff/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
@@ -453,7 +552,7 @@
             },
             "submission": {
                 "created": 1652702013,
-                "description": "M2PR-RD-Large (Fudan University & Huawei Poisson Lab) (single model) []()()",
+                "description": "C2FM (Fudan University & Huawei Poisson Lab) (single model) []()()",
                 "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
@@ -7482,7 +7581,88 @@
                 "public": true,
                 "user_name": "jevishoo"
             }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0x93dc1cebdad24e9a8995b7c12eadddbb/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": null,
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xafaa9912ee0c406cbfd942dffba8ab0f",
+                        "parent_name": "eval_v1.1.py",
+                        "parent_path": "",
+                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xafaa9912ee0c406cbfd942dffba8ab0f",
+                        "parent_name": "test_distractor_gold",
+                        "parent_path": "",
+                        "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xafaa9912ee0c406cbfd942dffba8ab0f",
+                        "parent_name": "Neutralzz-predict-predict",
+                        "parent_path": "pred.json",
+                        "parent_uuid": "0x93dc1cebdad24e9a8995b7c12eadddbb"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xafaa9912ee0c406cbfd942dffba8ab0f",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "created": 1657319644,
+                    "description": "{\"submit_id\": \"0x4d35505616104afb86aa2605a7daa0ab\", \"submitter_id\": \"0x910091f31e444ab9bd6c8c7bd84ec7c4\", \"predict_id\": \"0x93dc1cebdad24e9a8995b7c12eadddbb\"}",
+                    "exclude_patterns": [],
+                    "failure_message": " Parent bundles failed: 0x93dc1cebdad24e9a8995b7c12eadddbb (Please use the --allow-failed-dependencies flag to depend on results of failed or killed bundles)",
+                    "name": "Neutralzz-predict-results",
+                    "remote_history": [],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-distractor-test-eval"
+                    ]
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "uuid": "0xafaa9912ee0c406cbfd942dffba8ab0f"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1657238893,
+                "description": "PipNet (Tencent Cloud Xiaowei) (single model)",
+                "num_period_submissions": 0,
+                "num_total_submissions": 1,
+                "public": true,
+                "user_name": "Neutralzz"
+            }
         }
     ],
-    "updated": 1653672045.5853543
+    "updated": 1657476876.487685
 }
