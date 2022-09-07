@@ -89,6 +89,7 @@
                         "child_uuid": "0x9b1ee1d27bdc4fdc9d5c9c17964e504d",
                         "parent_name": "eval_v1.2.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
                     },
                     {
@@ -96,6 +97,7 @@
                         "child_uuid": "0x9b1ee1d27bdc4fdc9d5c9c17964e504d",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -103,6 +105,7 @@
                         "child_uuid": "0x9b1ee1d27bdc4fdc9d5c9c17964e504d",
                         "parent_name": "_04270247_1500",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x014f781abfea4fc7b3ea22fa0b7740a6"
                     }
                 ],
@@ -148,6 +151,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x9b1ee1d27bdc4fdc9d5c9c17964e504d"
             },
             "scores": {
@@ -179,6 +183,7 @@
                         "child_uuid": "0x436efc99270c4d9ea5e9af2c27aec1d3",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -186,6 +191,7 @@
                         "child_uuid": "0x436efc99270c4d9ea5e9af2c27aec1d3",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -193,6 +199,7 @@
                         "child_uuid": "0x436efc99270c4d9ea5e9af2c27aec1d3",
                         "parent_name": "pred4",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xb55e41b28bc846d3be44fbb6a55de757"
                     }
                 ],
@@ -238,6 +245,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x436efc99270c4d9ea5e9af2c27aec1d3"
             },
             "scores": {
@@ -269,6 +277,7 @@
                         "child_uuid": "0x3de6e3a8aa864400b464e3e6c3f7e8f3",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -276,6 +285,7 @@
                         "child_uuid": "0x3de6e3a8aa864400b464e3e6c3f7e8f3",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -283,6 +293,7 @@
                         "child_uuid": "0x3de6e3a8aa864400b464e3e6c3f7e8f3",
                         "parent_name": "pred3",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x7c435370eca84cd59434633ce18d9aac"
                     }
                 ],
@@ -328,6 +339,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x3de6e3a8aa864400b464e3e6c3f7e8f3"
             },
             "scores": {
@@ -359,6 +371,7 @@
                         "child_uuid": "0x758def67624e4029858c2564834ced37",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -366,6 +379,7 @@
                         "child_uuid": "0x758def67624e4029858c2564834ced37",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -373,6 +387,7 @@
                         "child_uuid": "0x758def67624e4029858c2564834ced37",
                         "parent_name": "test_fullwiki_pred_2_2",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x84ba07a69b5149cd93954901b66bde33"
                     }
                 ],
@@ -418,6 +433,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x758def67624e4029858c2564834ced37"
             },
             "scores": {
@@ -449,6 +465,7 @@
                         "child_uuid": "0x7daa9e6913014cbcaaa75ab5b2f3e82e",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -456,6 +473,7 @@
                         "child_uuid": "0x7daa9e6913014cbcaaa75ab5b2f3e82e",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -463,6 +481,7 @@
                         "child_uuid": "0x7daa9e6913014cbcaaa75ab5b2f3e82e",
                         "parent_name": "test_fullwiki",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xdada30bdc360476b997b6f055c0e92f8"
                     }
                 ],
@@ -508,6 +527,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x7daa9e6913014cbcaaa75ab5b2f3e82e"
             },
             "scores": {
@@ -539,6 +559,7 @@
                         "child_uuid": "0x7c1856bb3be14c209babfd13463e5d1d",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -546,6 +567,7 @@
                         "child_uuid": "0x7c1856bb3be14c209babfd13463e5d1d",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -553,6 +575,7 @@
                         "child_uuid": "0x7c1856bb3be14c209babfd13463e5d1d",
                         "parent_name": "test_fullwiki_pred_opt_hotpot3",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x7c209374157748c2bc7c103ea94b4e03"
                     }
                 ],
@@ -598,6 +621,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x7c1856bb3be14c209babfd13463e5d1d"
             },
             "scores": {
@@ -629,6 +653,7 @@
                         "child_uuid": "0x814cd99202604f5aaed01b12041c38cc",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -636,6 +661,7 @@
                         "child_uuid": "0x814cd99202604f5aaed01b12041c38cc",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -643,6 +669,7 @@
                         "child_uuid": "0x814cd99202604f5aaed01b12041c38cc",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x57dd00d0930c4d02913ce2f2f3f681d6"
                     }
                 ],
@@ -688,6 +715,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x814cd99202604f5aaed01b12041c38cc"
             },
             "scores": {
@@ -719,6 +747,7 @@
                         "child_uuid": "0xe1d6ca2817964dfeb6ab82eb8d79cb09",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -726,6 +755,7 @@
                         "child_uuid": "0xe1d6ca2817964dfeb6ab82eb8d79cb09",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -733,6 +763,7 @@
                         "child_uuid": "0xe1d6ca2817964dfeb6ab82eb8d79cb09",
                         "parent_name": "test_fullwiki_pred2",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc615591e35b84ac58a085a63eab02140"
                     }
                 ],
@@ -778,6 +809,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xe1d6ca2817964dfeb6ab82eb8d79cb09"
             },
             "scores": {
@@ -809,6 +841,7 @@
                         "child_uuid": "0xa7818617f02645ad8a3d59c82d61fa5c",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -816,6 +849,7 @@
                         "child_uuid": "0xa7818617f02645ad8a3d59c82d61fa5c",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -823,6 +857,7 @@
                         "child_uuid": "0xa7818617f02645ad8a3d59c82d61fa5c",
                         "parent_name": "test_fullwiki_ensemble",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x6a0dfcf94156447e916135e5a2c17806"
                     }
                 ],
@@ -868,6 +903,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xa7818617f02645ad8a3d59c82d61fa5c"
             },
             "scores": {
@@ -899,6 +935,7 @@
                         "child_uuid": "0x4b38f0fdd2a14161aa5d3d24f13db4d2",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -906,6 +943,7 @@
                         "child_uuid": "0x4b38f0fdd2a14161aa5d3d24f13db4d2",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -913,6 +951,7 @@
                         "child_uuid": "0x4b38f0fdd2a14161aa5d3d24f13db4d2",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xbeeac5b632ff46bc99d484d21a3d85f3"
                     }
                 ],
@@ -958,6 +997,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x4b38f0fdd2a14161aa5d3d24f13db4d2"
             },
             "scores": {
@@ -989,6 +1029,7 @@
                         "child_uuid": "0x614df63acdfc400abf3856e606c4ef26",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -996,6 +1037,7 @@
                         "child_uuid": "0x614df63acdfc400abf3856e606c4ef26",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -1003,6 +1045,7 @@
                         "child_uuid": "0x614df63acdfc400abf3856e606c4ef26",
                         "parent_name": "test_fullwiki_200807",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xe356c997099f4250b06aa7bb4401d86f"
                     }
                 ],
@@ -1048,6 +1091,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x614df63acdfc400abf3856e606c4ef26"
             },
             "scores": {
@@ -1079,6 +1123,7 @@
                         "child_uuid": "0x40a9fd7f9c78467ca2554f93fd41b13f",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1086,6 +1131,7 @@
                         "child_uuid": "0x40a9fd7f9c78467ca2554f93fd41b13f",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -1093,6 +1139,7 @@
                         "child_uuid": "0x40a9fd7f9c78467ca2554f93fd41b13f",
                         "parent_name": null,
                         "parent_path": "pred.json",
+                        "parent_state": null,
                         "parent_uuid": "0xf1b7d6330c4942d68b3a2dfcb72fc6ed"
                     }
                 ],
@@ -1138,6 +1185,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x40a9fd7f9c78467ca2554f93fd41b13f"
             },
             "scores": {
@@ -1169,6 +1217,7 @@
                         "child_uuid": "0x6b29b2d7b99448efba4e45dabe1fa1d8",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1176,6 +1225,7 @@
                         "child_uuid": "0x6b29b2d7b99448efba4e45dabe1fa1d8",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -1183,6 +1233,7 @@
                         "child_uuid": "0x6b29b2d7b99448efba4e45dabe1fa1d8",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x61dff7b196644177b09f30d8703a53c5"
                     }
                 ],
@@ -1228,6 +1279,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x6b29b2d7b99448efba4e45dabe1fa1d8"
             },
             "scores": {
@@ -1259,6 +1311,7 @@
                         "child_uuid": "0x4029d532cc3f49c0a2a8c20872d6304a",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1266,6 +1319,7 @@
                         "child_uuid": "0x4029d532cc3f49c0a2a8c20872d6304a",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -1273,6 +1327,7 @@
                         "child_uuid": "0x4029d532cc3f49c0a2a8c20872d6304a",
                         "parent_name": "test_fullwiki_pred_opt_hotpot",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x582df388ab9945d9a2080b30f39e1b72"
                     }
                 ],
@@ -1318,6 +1373,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x4029d532cc3f49c0a2a8c20872d6304a"
             },
             "scores": {
@@ -1349,6 +1405,7 @@
                         "child_uuid": "0xf7277a091ee740619f466b114066887f",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1356,6 +1413,7 @@
                         "child_uuid": "0xf7277a091ee740619f466b114066887f",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -1363,6 +1421,7 @@
                         "child_uuid": "0xf7277a091ee740619f466b114066887f",
                         "parent_name": "pred2",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x378f4296eb4a4397a1cdc09e7979e0c2"
                     }
                 ],
@@ -1408,6 +1467,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xf7277a091ee740619f466b114066887f"
             },
             "scores": {
@@ -1439,6 +1499,7 @@
                         "child_uuid": "0x1db8862e19d446af844eae5e63f58df6",
                         "parent_name": "eval_v1.2.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
                     },
                     {
@@ -1446,6 +1507,7 @@
                         "child_uuid": "0x1db8862e19d446af844eae5e63f58df6",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -1453,6 +1515,7 @@
                         "child_uuid": "0x1db8862e19d446af844eae5e63f58df6",
                         "parent_name": "AFSGraph-retriever",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x77a602333bbb4b75bd4852d32b2f5f8c"
                     }
                 ],
@@ -1504,6 +1567,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x1db8862e19d446af844eae5e63f58df6"
             },
             "scores": {
@@ -1535,6 +1599,7 @@
                         "child_uuid": "0x1964b5bd5ddc4e778305f4e6ac9eef29",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1542,6 +1607,7 @@
                         "child_uuid": "0x1964b5bd5ddc4e778305f4e6ac9eef29",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -1549,6 +1615,7 @@
                         "child_uuid": "0x1964b5bd5ddc4e778305f4e6ac9eef29",
                         "parent_name": "test_fullwiki",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x84aad93074364296bc587f5b42330612"
                     }
                 ],
@@ -1594,6 +1661,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x1964b5bd5ddc4e778305f4e6ac9eef29"
             },
             "scores": {
@@ -1625,6 +1693,7 @@
                         "child_uuid": "0x510e23b8fdcd420a87d2191678c4f5cf",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1632,6 +1701,7 @@
                         "child_uuid": "0x510e23b8fdcd420a87d2191678c4f5cf",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -1639,6 +1709,7 @@
                         "child_uuid": "0x510e23b8fdcd420a87d2191678c4f5cf",
                         "parent_name": "test_fullwiki_pred_ddrqa",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x4f92ef67ee7e4a97a1fd119532971842"
                     }
                 ],
@@ -1684,6 +1755,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x510e23b8fdcd420a87d2191678c4f5cf"
             },
             "scores": {
@@ -1715,6 +1787,7 @@
                         "child_uuid": "0x6230fd7da53940f9b6379dc86a3a4f04",
                         "parent_name": "eval_v1.2.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
                     },
                     {
@@ -1722,6 +1795,7 @@
                         "child_uuid": "0x6230fd7da53940f9b6379dc86a3a4f04",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -1729,6 +1803,7 @@
                         "child_uuid": "0x6230fd7da53940f9b6379dc86a3a4f04",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xb2a2f0dfe5054b0ea6415bb25b5a68ca"
                     }
                 ],
@@ -1780,6 +1855,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x6230fd7da53940f9b6379dc86a3a4f04"
             },
             "scores": {
@@ -1811,6 +1887,7 @@
                         "child_uuid": "0x426f8a5c50754cc9b3274b6912372d94",
                         "parent_name": "eval_v1.2.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
                     },
                     {
@@ -1818,6 +1895,7 @@
                         "child_uuid": "0x426f8a5c50754cc9b3274b6912372d94",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -1825,6 +1903,7 @@
                         "child_uuid": "0x426f8a5c50754cc9b3274b6912372d94",
                         "parent_name": "test_fullwiki_pred_eff",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xe49566efd6734eafad4b76b94cbdeff8"
                     }
                 ],
@@ -1876,6 +1955,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x426f8a5c50754cc9b3274b6912372d94"
             },
             "scores": {
@@ -1907,6 +1987,7 @@
                         "child_uuid": "0xf76037cb5b604cc0a6611a1d96ef72d3",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1914,6 +1995,7 @@
                         "child_uuid": "0xf76037cb5b604cc0a6611a1d96ef72d3",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -1921,6 +2003,7 @@
                         "child_uuid": "0xf76037cb5b604cc0a6611a1d96ef72d3",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x1e74ad6faf044c2cabf9d90dc7eaf805"
                     }
                 ],
@@ -1966,6 +2049,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xf76037cb5b604cc0a6611a1d96ef72d3"
             },
             "scores": {
@@ -1997,6 +2081,7 @@
                         "child_uuid": "0xe1812cd5a3e94387ae206e0c4ebb1b84",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2004,6 +2089,7 @@
                         "child_uuid": "0xe1812cd5a3e94387ae206e0c4ebb1b84",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -2011,6 +2097,7 @@
                         "child_uuid": "0xe1812cd5a3e94387ae206e0c4ebb1b84",
                         "parent_name": "test_fullwiki_pred_large",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x783a36ae3ff140c09902c393c360aac3"
                     }
                 ],
@@ -2056,6 +2143,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xe1812cd5a3e94387ae206e0c4ebb1b84"
             },
             "scores": {
@@ -2087,6 +2175,7 @@
                         "child_uuid": "0x5f8847b4e4404984a1346822140ee423",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2094,6 +2183,7 @@
                         "child_uuid": "0x5f8847b4e4404984a1346822140ee423",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -2101,6 +2191,7 @@
                         "child_uuid": "0x5f8847b4e4404984a1346822140ee423",
                         "parent_name": "hotpot-fullwiki-submission",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xf9a287b3588a49ef9c2a7fd609fc8e8a"
                     }
                 ],
@@ -2146,6 +2237,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x5f8847b4e4404984a1346822140ee423"
             },
             "scores": {
@@ -2177,6 +2269,7 @@
                         "child_uuid": "0x03f993202d4a428c844d0a50e74c6a8c",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2184,6 +2277,7 @@
                         "child_uuid": "0x03f993202d4a428c844d0a50e74c6a8c",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -2191,6 +2285,7 @@
                         "child_uuid": "0x03f993202d4a428c844d0a50e74c6a8c",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x4d13884ad92c4b6e93c7cc63d9e62ff4"
                     }
                 ],
@@ -2236,6 +2331,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x03f993202d4a428c844d0a50e74c6a8c"
             },
             "scores": {
@@ -2267,6 +2363,7 @@
                         "child_uuid": "0x46d3a93a206c42bf96d742583a4dda4c",
                         "parent_name": "eval_v1.2.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
                     },
                     {
@@ -2274,6 +2371,7 @@
                         "child_uuid": "0x46d3a93a206c42bf96d742583a4dda4c",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -2281,6 +2379,7 @@
                         "child_uuid": "0x46d3a93a206c42bf96d742583a4dda4c",
                         "parent_name": "multi-AFSGraph",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x224f379315b1474780c8a23cd28906bb"
                     }
                 ],
@@ -2332,6 +2431,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x46d3a93a206c42bf96d742583a4dda4c"
             },
             "scores": {
@@ -2363,6 +2463,7 @@
                         "child_uuid": "0xb33582a9c61142d582816fb581a90ae0",
                         "parent_name": "eval_v1.2.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
                     },
                     {
@@ -2370,6 +2471,7 @@
                         "child_uuid": "0xb33582a9c61142d582816fb581a90ae0",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -2377,6 +2479,7 @@
                         "child_uuid": "0xb33582a9c61142d582816fb581a90ae0",
                         "parent_name": "predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x8a5e9a6ab74c4c9a88c39cd5ee69e358"
                     }
                 ],
@@ -2428,6 +2531,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xb33582a9c61142d582816fb581a90ae0"
             },
             "scores": {
@@ -2459,6 +2563,7 @@
                         "child_uuid": "0xfd7a0f6b1fdb41389f8d9fd9a0194732",
                         "parent_name": "eval_v1.2.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
                     },
                     {
@@ -2466,6 +2571,7 @@
                         "child_uuid": "0xfd7a0f6b1fdb41389f8d9fd9a0194732",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -2473,6 +2579,7 @@
                         "child_uuid": "0xfd7a0f6b1fdb41389f8d9fd9a0194732",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xed76b6c0403c48daabad8df0732e152e"
                     }
                 ],
@@ -2524,6 +2631,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xfd7a0f6b1fdb41389f8d9fd9a0194732"
             },
             "scores": {
@@ -2555,6 +2663,7 @@
                         "child_uuid": "0xebc96c38570c4e4b9a5d05f6a067fcd4",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2562,6 +2671,7 @@
                         "child_uuid": "0xebc96c38570c4e4b9a5d05f6a067fcd4",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -2569,6 +2679,7 @@
                         "child_uuid": "0xebc96c38570c4e4b9a5d05f6a067fcd4",
                         "parent_name": "pred1",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xb710e78a2a344369b2dce47317617f9c"
                     }
                 ],
@@ -2614,6 +2725,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xebc96c38570c4e4b9a5d05f6a067fcd4"
             },
             "scores": {
@@ -2645,6 +2757,7 @@
                         "child_uuid": "0xf6391627f7b64c4f8cbc4e339d4765d4",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2652,6 +2765,7 @@
                         "child_uuid": "0xf6391627f7b64c4f8cbc4e339d4765d4",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -2659,6 +2773,7 @@
                         "child_uuid": "0xf6391627f7b64c4f8cbc4e339d4765d4",
                         "parent_name": "naacl2021_submit",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xaaa353daad6a46b59bae796328918b1b"
                     }
                 ],
@@ -2704,6 +2819,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xf6391627f7b64c4f8cbc4e339d4765d4"
             },
             "scores": {
@@ -2735,6 +2851,7 @@
                         "child_uuid": "0xea1038f23bc3494d86f9d0b50c71e0db",
                         "parent_name": "eval_v1.2.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
                     },
                     {
@@ -2742,6 +2859,7 @@
                         "child_uuid": "0xea1038f23bc3494d86f9d0b50c71e0db",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -2749,6 +2867,7 @@
                         "child_uuid": "0xea1038f23bc3494d86f9d0b50c71e0db",
                         "parent_name": "hotpot_fullwiki_test_20210820",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x5973bde441f1494fa43375ce0e0a4a8a"
                     }
                 ],
@@ -2800,6 +2919,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xea1038f23bc3494d86f9d0b50c71e0db"
             },
             "scores": {
@@ -2831,6 +2951,7 @@
                         "child_uuid": "0xe7c6b9d811ef46dab082321b225deb73",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2838,6 +2959,7 @@
                         "child_uuid": "0xe7c6b9d811ef46dab082321b225deb73",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -2845,6 +2967,7 @@
                         "child_uuid": "0xe7c6b9d811ef46dab082321b225deb73",
                         "parent_name": "pre_21-02-07",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x42468c82c7fd4d9d900326da6955a017"
                     }
                 ],
@@ -2890,6 +3013,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xe7c6b9d811ef46dab082321b225deb73"
             },
             "scores": {
@@ -2921,6 +3045,7 @@
                         "child_uuid": "0x01d6a20631c0491f803c4966ae710194",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2928,6 +3053,7 @@
                         "child_uuid": "0x01d6a20631c0491f803c4966ae710194",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -2935,6 +3061,7 @@
                         "child_uuid": "0x01d6a20631c0491f803c4966ae710194",
                         "parent_name": "AFSGraph-fullwiki-test",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x28bf3dee139d4f8281af19a152ec0ac0"
                     }
                 ],
@@ -2980,6 +3107,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x01d6a20631c0491f803c4966ae710194"
             },
             "scores": {
@@ -3011,6 +3139,7 @@
                         "child_uuid": "0x49e5f71d03d7408bbcadbacf86a45d17",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3018,6 +3147,7 @@
                         "child_uuid": "0x49e5f71d03d7408bbcadbacf86a45d17",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -3025,6 +3155,7 @@
                         "child_uuid": "0x49e5f71d03d7408bbcadbacf86a45d17",
                         "parent_name": "hotpotqa-test-grr",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xb0926befa0454c679669bef796e12f12"
                     }
                 ],
@@ -3070,6 +3201,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x49e5f71d03d7408bbcadbacf86a45d17"
             },
             "scores": {
@@ -3101,6 +3233,7 @@
                         "child_uuid": "0xb256e2ed1d7f43b5812e2176f85772cc",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3108,6 +3241,7 @@
                         "child_uuid": "0xb256e2ed1d7f43b5812e2176f85772cc",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -3115,6 +3249,7 @@
                         "child_uuid": "0xb256e2ed1d7f43b5812e2176f85772cc",
                         "parent_name": "RoBERTa-DenseRetriever-Fast",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x1fb088d0b59449cab3d704a759c226ff"
                     }
                 ],
@@ -3160,6 +3295,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xb256e2ed1d7f43b5812e2176f85772cc"
             },
             "scores": {
@@ -3191,6 +3327,7 @@
                         "child_uuid": "0x564620c32fd54c94acd7d1658a73e003",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3198,6 +3335,7 @@
                         "child_uuid": "0x564620c32fd54c94acd7d1658a73e003",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -3205,6 +3343,7 @@
                         "child_uuid": "0x564620c32fd54c94acd7d1658a73e003",
                         "parent_name": "DPR-recurrent",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xae33f7862d144f0b9a3a6494534f435f"
                     }
                 ],
@@ -3250,6 +3389,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x564620c32fd54c94acd7d1658a73e003"
             },
             "scores": {
@@ -3281,6 +3421,7 @@
                         "child_uuid": "0x1de6189f4daa443087ad2c106a3d3614",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3288,6 +3429,7 @@
                         "child_uuid": "0x1de6189f4daa443087ad2c106a3d3614",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -3295,6 +3437,7 @@
                         "child_uuid": "0x1de6189f4daa443087ad2c106a3d3614",
                         "parent_name": "pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x0d770781f7b74535ac4b52e8836b70b1"
                     }
                 ],
@@ -3340,6 +3483,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x1de6189f4daa443087ad2c106a3d3614"
             },
             "scores": {
@@ -3371,6 +3515,7 @@
                         "child_uuid": "0xf20f2ffcaf79428abc465d1cd55e6f73",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3378,6 +3523,7 @@
                         "child_uuid": "0xf20f2ffcaf79428abc465d1cd55e6f73",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -3385,6 +3531,7 @@
                         "child_uuid": "0xf20f2ffcaf79428abc465d1cd55e6f73",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x7ad3d5e168954ac589d04f43cf2424d6"
                     }
                 ],
@@ -3430,6 +3577,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xf20f2ffcaf79428abc465d1cd55e6f73"
             },
             "scores": {
@@ -3461,6 +3609,7 @@
                         "child_uuid": "0x7a52c6542da74844b133e9a29f6b5f01",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3468,6 +3617,7 @@
                         "child_uuid": "0x7a52c6542da74844b133e9a29f6b5f01",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -3475,6 +3625,7 @@
                         "child_uuid": "0x7a52c6542da74844b133e9a29f6b5f01",
                         "parent_name": "test_fullwiki_pred_new",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x317e33640e37491596ba0cf28a807a90"
                     }
                 ],
@@ -3520,6 +3671,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x7a52c6542da74844b133e9a29f6b5f01"
             },
             "scores": {
@@ -3551,6 +3703,7 @@
                         "child_uuid": "0x130dc3e0bdf24c76b37e666791ebeb6f",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3558,6 +3711,7 @@
                         "child_uuid": "0x130dc3e0bdf24c76b37e666791ebeb6f",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -3565,6 +3719,7 @@
                         "child_uuid": "0x130dc3e0bdf24c76b37e666791ebeb6f",
                         "parent_name": "predict-fullwiki-single",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xd34c49ca448b44fd9d1480aa69201784"
                     }
                 ],
@@ -3610,6 +3765,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x130dc3e0bdf24c76b37e666791ebeb6f"
             },
             "scores": {
@@ -3641,6 +3797,7 @@
                         "child_uuid": "0x61f9ae59c1d24ac7aad0d9c1fd8d6918",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3648,6 +3805,7 @@
                         "child_uuid": "0x61f9ae59c1d24ac7aad0d9c1fd8d6918",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -3655,6 +3813,7 @@
                         "child_uuid": "0x61f9ae59c1d24ac7aad0d9c1fd8d6918",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x357782b1350e4200815bc98c68fd36cb"
                     }
                 ],
@@ -3700,6 +3859,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x61f9ae59c1d24ac7aad0d9c1fd8d6918"
             },
             "scores": {
@@ -3731,6 +3891,7 @@
                         "child_uuid": "0xab3b4e9cd3534b66bcb858c32e0f4a92",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3738,6 +3899,7 @@
                         "child_uuid": "0xab3b4e9cd3534b66bcb858c32e0f4a92",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -3745,6 +3907,7 @@
                         "child_uuid": "0xab3b4e9cd3534b66bcb858c32e0f4a92",
                         "parent_name": "GraphRRFast",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x3154f953a22b40d48de10e13e8210066"
                     }
                 ],
@@ -3790,6 +3953,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xab3b4e9cd3534b66bcb858c32e0f4a92"
             },
             "scores": {
@@ -3821,6 +3985,7 @@
                         "child_uuid": "0xf4f72090c818411ca6dc7446771d621f",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3828,6 +3993,7 @@
                         "child_uuid": "0xf4f72090c818411ca6dc7446771d621f",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -3835,6 +4001,7 @@
                         "child_uuid": "0xf4f72090c818411ca6dc7446771d621f",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xb3f7a50cc936400bb0af024e7fb74e0b"
                     }
                 ],
@@ -3880,6 +4047,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xf4f72090c818411ca6dc7446771d621f"
             },
             "scores": {
@@ -3911,6 +4079,7 @@
                         "child_uuid": "0xce1abaff26444e829a01d7d11af18218",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3918,6 +4087,7 @@
                         "child_uuid": "0xce1abaff26444e829a01d7d11af18218",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -3925,6 +4095,7 @@
                         "child_uuid": "0xce1abaff26444e829a01d7d11af18218",
                         "parent_name": "predict-single",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xb868f227d88c47668a25e48701763f1b"
                     }
                 ],
@@ -3970,6 +4141,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xce1abaff26444e829a01d7d11af18218"
             },
             "scores": {
@@ -4001,6 +4173,7 @@
                         "child_uuid": "0xa92bae17c325417fad82681410213721",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4008,6 +4181,7 @@
                         "child_uuid": "0xa92bae17c325417fad82681410213721",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -4015,6 +4189,7 @@
                         "child_uuid": "0xa92bae17c325417fad82681410213721",
                         "parent_name": "hotpotqa-fullwiki-test-submit",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x4aca5102914a4d8c809f5cd6c64f0aad"
                     }
                 ],
@@ -4058,6 +4233,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xa92bae17c325417fad82681410213721"
             },
             "scores": {
@@ -4089,6 +4265,7 @@
                         "child_uuid": "0x90c30ffc959449aa9c3e48222b9c736c",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4096,6 +4273,7 @@
                         "child_uuid": "0x90c30ffc959449aa9c3e48222b9c736c",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -4103,6 +4281,7 @@
                         "child_uuid": "0x90c30ffc959449aa9c3e48222b9c736c",
                         "parent_name": "quark-fullwiki-submission",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xdd3db3196bb348cfb7ffd759fe574000"
                     }
                 ],
@@ -4148,6 +4327,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x90c30ffc959449aa9c3e48222b9c736c"
             },
             "scores": {
@@ -4179,6 +4359,7 @@
                         "child_uuid": "0xacad2e36990e4c8e8e02c79678e859a1",
                         "parent_name": "eval_v1.2.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
                     },
                     {
@@ -4186,6 +4367,7 @@
                         "child_uuid": "0xacad2e36990e4c8e8e02c79678e859a1",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -4193,6 +4375,7 @@
                         "child_uuid": "0xacad2e36990e4c8e8e02c79678e859a1",
                         "parent_name": "fullwiki-gar-bert-v2",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x7eb42e65d8554886852e2b6c2b5a650e"
                     }
                 ],
@@ -4238,6 +4421,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xacad2e36990e4c8e8e02c79678e859a1"
             },
             "scores": {
@@ -4269,6 +4453,7 @@
                         "child_uuid": "0xab7dac5e5b3846cb83077872417a97e3",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4276,6 +4461,7 @@
                         "child_uuid": "0xab7dac5e5b3846cb83077872417a97e3",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -4283,6 +4469,7 @@
                         "child_uuid": "0xab7dac5e5b3846cb83077872417a97e3",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xea13988a8f9645efa390759b00ea98a2"
                     }
                 ],
@@ -4326,6 +4513,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xab7dac5e5b3846cb83077872417a97e3"
             },
             "scores": {
@@ -4357,6 +4545,7 @@
                         "child_uuid": "0x3c78799055a04b3c94517fe767fe16e4",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4364,6 +4553,7 @@
                         "child_uuid": "0x3c78799055a04b3c94517fe767fe16e4",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -4371,6 +4561,7 @@
                         "child_uuid": "0x3c78799055a04b3c94517fe767fe16e4",
                         "parent_name": "pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x42991b010cc84a3790e1ab73f3de28fd"
                     }
                 ],
@@ -4416,6 +4607,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x3c78799055a04b3c94517fe767fe16e4"
             },
             "scores": {
@@ -4447,6 +4639,7 @@
                         "child_uuid": "0x4e685cdb112e4e788be2342ff31950cd",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4454,6 +4647,7 @@
                         "child_uuid": "0x4e685cdb112e4e788be2342ff31950cd",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -4461,6 +4655,7 @@
                         "child_uuid": "0x4e685cdb112e4e788be2342ff31950cd",
                         "parent_name": "fullwiki-gar-v2",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x87a2fd4f14064ca49edfe863b9bd85ba"
                     }
                 ],
@@ -4506,6 +4701,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x4e685cdb112e4e788be2342ff31950cd"
             },
             "scores": {
@@ -4537,6 +4733,7 @@
                         "child_uuid": "0x84ee533c81b545eca28a6ee1df7b544e",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4544,6 +4741,7 @@
                         "child_uuid": "0x84ee533c81b545eca28a6ee1df7b544e",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -4551,6 +4749,7 @@
                         "child_uuid": "0x84ee533c81b545eca28a6ee1df7b544e",
                         "parent_name": "pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xd4cba4e49fb64de0a87bcf09c19ec30d"
                     }
                 ],
@@ -4594,6 +4793,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x84ee533c81b545eca28a6ee1df7b544e"
             },
             "scores": {
@@ -4625,6 +4825,7 @@
                         "child_uuid": "0xd21885222df047aab103dcbbdbb2484e",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4632,6 +4833,7 @@
                         "child_uuid": "0xd21885222df047aab103dcbbdbb2484e",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -4639,6 +4841,7 @@
                         "child_uuid": "0xd21885222df047aab103dcbbdbb2484e",
                         "parent_name": "fullwiki-gar-nosf-v2",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xecebecc2b8a9465faab41880d9182f6c"
                     }
                 ],
@@ -4684,6 +4887,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xd21885222df047aab103dcbbdbb2484e"
             },
             "scores": {
@@ -4715,6 +4919,7 @@
                         "child_uuid": "0x6a703ef6233f4725904b18abeae638a2",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4722,6 +4927,7 @@
                         "child_uuid": "0x6a703ef6233f4725904b18abeae638a2",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -4729,6 +4935,7 @@
                         "child_uuid": "0x6a703ef6233f4725904b18abeae638a2",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x1d5283924d1441f5a35880fa2bbe856f"
                     }
                 ],
@@ -4772,6 +4979,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x6a703ef6233f4725904b18abeae638a2"
             },
             "scores": {
@@ -4803,6 +5011,7 @@
                         "child_uuid": "0xd210e767ee1b4ea3a83279cc81e5af7d",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4810,6 +5019,7 @@
                         "child_uuid": "0xd210e767ee1b4ea3a83279cc81e5af7d",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -4817,6 +5027,7 @@
                         "child_uuid": "0xd210e767ee1b4ea3a83279cc81e5af7d",
                         "parent_name": null,
                         "parent_path": "pred.json",
+                        "parent_state": null,
                         "parent_uuid": "0x6c751c1b060b41c09efa2a983f7118f6"
                     }
                 ],
@@ -4862,6 +5073,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xd210e767ee1b4ea3a83279cc81e5af7d"
             },
             "scores": {
@@ -4893,6 +5105,7 @@
                         "child_uuid": "0x4722020d82e6428fbade03cf293fb9bd",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4900,6 +5113,7 @@
                         "child_uuid": "0x4722020d82e6428fbade03cf293fb9bd",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -4907,6 +5121,7 @@
                         "child_uuid": "0x4722020d82e6428fbade03cf293fb9bd",
                         "parent_name": "PR-Bert_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x3fb58fea98ef49c48d0882de96c5c5d3"
                     }
                 ],
@@ -4950,6 +5165,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x4722020d82e6428fbade03cf293fb9bd"
             },
             "scores": {
@@ -4981,6 +5197,7 @@
                         "child_uuid": "0x55e0ad2e22164a61ba9ca10a8c779fcf",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4988,6 +5205,7 @@
                         "child_uuid": "0x55e0ad2e22164a61ba9ca10a8c779fcf",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -4995,6 +5213,7 @@
                         "child_uuid": "0x55e0ad2e22164a61ba9ca10a8c779fcf",
                         "parent_name": null,
                         "parent_path": "pred.json",
+                        "parent_state": null,
                         "parent_uuid": "0xd43c4f3eeaa74e4b817c53f28eada8f0"
                     }
                 ],
@@ -5040,6 +5259,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x55e0ad2e22164a61ba9ca10a8c779fcf"
             },
             "scores": {
@@ -5071,6 +5291,7 @@
                         "child_uuid": "0x71632d2b28274b988b070df738b7b00c",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5078,6 +5299,7 @@
                         "child_uuid": "0x71632d2b28274b988b070df738b7b00c",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -5085,6 +5307,7 @@
                         "child_uuid": "0x71632d2b28274b988b070df738b7b00c",
                         "parent_name": "test_full_wiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xdf7e5e78b0af4d9bb41390d5d4d3f000"
                     }
                 ],
@@ -5128,6 +5351,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x71632d2b28274b988b070df738b7b00c"
             },
             "scores": {
@@ -5159,6 +5383,7 @@
                         "child_uuid": "0xb2745459019f449994b7724f867445fb",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5166,6 +5391,7 @@
                         "child_uuid": "0xb2745459019f449994b7724f867445fb",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -5173,6 +5399,7 @@
                         "child_uuid": "0xb2745459019f449994b7724f867445fb",
                         "parent_name": "fullwiki",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x686ef4c062524d1d924fd36cbf3100e7"
                     }
                 ],
@@ -5218,6 +5445,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xb2745459019f449994b7724f867445fb"
             },
             "scores": {
@@ -5249,6 +5477,7 @@
                         "child_uuid": "0xa3648ef312c043be93e5ffbe79c1c563",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5256,6 +5485,7 @@
                         "child_uuid": "0xa3648ef312c043be93e5ffbe79c1c563",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -5263,6 +5493,7 @@
                         "child_uuid": "0xa3648ef312c043be93e5ffbe79c1c563",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x378c5b4d725443cfb034c69ae35f2909"
                     }
                 ],
@@ -5308,6 +5539,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xa3648ef312c043be93e5ffbe79c1c563"
             },
             "scores": {
@@ -5339,6 +5571,7 @@
                         "child_uuid": "0x00c41ad97ff54af38d508192cadecb42",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5346,6 +5579,7 @@
                         "child_uuid": "0x00c41ad97ff54af38d508192cadecb42",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -5353,6 +5587,7 @@
                         "child_uuid": "0x00c41ad97ff54af38d508192cadecb42",
                         "parent_name": null,
                         "parent_path": "pred.json",
+                        "parent_state": null,
                         "parent_uuid": "0x207aaea7f4444363b6c942a954b1e8b4"
                     }
                 ],
@@ -5398,6 +5633,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x00c41ad97ff54af38d508192cadecb42"
             },
             "scores": {
@@ -5429,6 +5665,7 @@
                         "child_uuid": "0x1b392434a2f24d8f8b07a503c3b01d99",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5436,6 +5673,7 @@
                         "child_uuid": "0x1b392434a2f24d8f8b07a503c3b01d99",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -5443,6 +5681,7 @@
                         "child_uuid": "0x1b392434a2f24d8f8b07a503c3b01d99",
                         "parent_name": null,
                         "parent_path": "pred.json",
+                        "parent_state": null,
                         "parent_uuid": "0x464c7a9269b640e98e432ab5cf0ecdfe"
                     }
                 ],
@@ -5488,6 +5727,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x1b392434a2f24d8f8b07a503c3b01d99"
             },
             "scores": {
@@ -5519,6 +5759,7 @@
                         "child_uuid": "0x8c72f0f1f602497890f63ddfe410b0ad",
                         "parent_name": "eval.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x190c9bd4a4a749f5bee897be94d08c98"
                     },
                     {
@@ -5526,6 +5767,7 @@
                         "child_uuid": "0x8c72f0f1f602497890f63ddfe410b0ad",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -5533,6 +5775,7 @@
                         "child_uuid": "0x8c72f0f1f602497890f63ddfe410b0ad",
                         "parent_name": "cg_result",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xa70f5e43ec35400ea39eda9528302c3a"
                     }
                 ],
@@ -5576,6 +5819,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x8c72f0f1f602497890f63ddfe410b0ad"
             },
             "scores": {
@@ -5607,6 +5851,7 @@
                         "child_uuid": "0xde04d6737c61401f954e2c3084880036",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5614,6 +5859,7 @@
                         "child_uuid": "0xde04d6737c61401f954e2c3084880036",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -5621,6 +5867,7 @@
                         "child_uuid": "0xde04d6737c61401f954e2c3084880036",
                         "parent_name": "leaderboard_submission",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x00f3d9845a324eef8d093a1eb63e1c10"
                     }
                 ],
@@ -5664,6 +5911,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xde04d6737c61401f954e2c3084880036"
             },
             "scores": {
@@ -5695,6 +5943,7 @@
                         "child_uuid": "0x42dbd6fbe881478ba49081f09f0e1914",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5702,6 +5951,7 @@
                         "child_uuid": "0x42dbd6fbe881478ba49081f09f0e1914",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -5709,6 +5959,7 @@
                         "child_uuid": "0x42dbd6fbe881478ba49081f09f0e1914",
                         "parent_name": "hotpot_test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x4073e83219964f84aa4866f315b3b56c"
                     }
                 ],
@@ -5752,6 +6003,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x42dbd6fbe881478ba49081f09f0e1914"
             },
             "scores": {
@@ -5783,6 +6035,7 @@
                         "child_uuid": "0x22f04c84727448f5a0ca6dedc3f8d31c",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5790,6 +6043,7 @@
                         "child_uuid": "0x22f04c84727448f5a0ca6dedc3f8d31c",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -5797,6 +6051,7 @@
                         "child_uuid": "0x22f04c84727448f5a0ca6dedc3f8d31c",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x4bc9e21905594915bae42142eb4b2bb5"
                     }
                 ],
@@ -5840,6 +6095,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x22f04c84727448f5a0ca6dedc3f8d31c"
             },
             "scores": {
@@ -5861,6 +6117,109 @@
         },
         {
             "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x207e37d700014fb0874b3caeff49b583/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0x486172ab4c4eb46aef550b23b8da7d85fe1aac6d",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xf29acb72d5af4b66a1178cf8dc9cc4f7",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xf29acb72d5af4b66a1178cf8dc9cc4f7",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xf29acb72d5af4b66a1178cf8dc9cc4f7",
+                        "parent_name": "test_fullwiki_pred",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x207e37d700014fb0874b3caeff49b583"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xf29acb72d5af4b66a1178cf8dc9cc4f7",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1662478766,
+                    "data_size": 4792,
+                    "description": "{\"submit_id\": \"0x207e37d700014fb0874b3caeff49b583\", \"submitter_id\": \"0xa61e0e0518f443b8b4917831c9c84160\", \"predict_id\": \"0x207e37d700014fb0874b3caeff49b583\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1662478911,
+                    "memory_usage": 0.0,
+                    "name": "rekio-test_fullwiki_pred-results",
+                    "on_preemptible_worker": false,
+                    "remote": "b15b222571cf-aa4bc3e51136485891bce8bb8a4ecd06",
+                    "remote_history": [
+                        "b15b222571cf"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "started": 1662478769,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.824241,
+                    "time_cleaning_up": 1.1215364933013916,
+                    "time_preparing": 115.01629114151001,
+                    "time_running": 7.826701879501343,
+                    "time_system": 0.0,
+                    "time_uploading_results": 16.61788511276245,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
+                "uuid": "0xf29acb72d5af4b66a1178cf8dc9cc4f7"
+            },
+            "scores": {
+                "ans_em": 0.36853477380148547,
+                "ans_f1": 0.45959977555006937,
+                "joint_em": 0.11546252532072923,
+                "joint_f1": 0.2907241518045258,
+                "sup_em": 0.15259959486833222,
+                "sup_f1": 0.4676987878203207
+            },
+            "submission": {
+                "created": 1657337988,
+                "description": "AnonymousQ (Anonymous) (single model) []() ()",
+                "num_period_submissions": 1,
+                "num_total_submissions": 1,
+                "public": true,
+                "user_name": "rekio"
+            }
+        },
+        {
+            "bundle": {
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x82deec36d1ab4932b6a66bd125033704/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
@@ -5871,6 +6230,7 @@
                         "child_uuid": "0x704aa28ceece4826b803de1f1d71b5ed",
                         "parent_name": "eval_v1.2.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
                     },
                     {
@@ -5878,6 +6238,7 @@
                         "child_uuid": "0x704aa28ceece4826b803de1f1d71b5ed",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -5885,6 +6246,7 @@
                         "child_uuid": "0x704aa28ceece4826b803de1f1d71b5ed",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x82deec36d1ab4932b6a66bd125033704"
                     }
                 ],
@@ -5930,6 +6292,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x704aa28ceece4826b803de1f1d71b5ed"
             },
             "scores": {
@@ -5961,6 +6324,7 @@
                         "child_uuid": "0xe07126316de74c5f808f630388787647",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5968,6 +6332,7 @@
                         "child_uuid": "0xe07126316de74c5f808f630388787647",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -5975,6 +6340,7 @@
                         "child_uuid": "0xe07126316de74c5f808f630388787647",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xa0bf71262fca407a959883cf2d770282"
                     }
                 ],
@@ -6018,6 +6384,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xe07126316de74c5f808f630388787647"
             },
             "scores": {
@@ -6049,6 +6416,7 @@
                         "child_uuid": "0x71ba6c72611149d99082f12f04ce6eee",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -6056,6 +6424,7 @@
                         "child_uuid": "0x71ba6c72611149d99082f12f04ce6eee",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -6063,6 +6432,7 @@
                         "child_uuid": "0x71ba6c72611149d99082f12f04ce6eee",
                         "parent_name": "pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xcc616072f7ec4543801be8f12b2409ae"
                     }
                 ],
@@ -6106,6 +6476,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x71ba6c72611149d99082f12f04ce6eee"
             },
             "scores": {
@@ -6137,6 +6508,7 @@
                         "child_uuid": "0x28a3bba9f3da4520a8ee5a0b6055fcdf",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -6144,6 +6516,7 @@
                         "child_uuid": "0x28a3bba9f3da4520a8ee5a0b6055fcdf",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -6151,6 +6524,7 @@
                         "child_uuid": "0x28a3bba9f3da4520a8ee5a0b6055fcdf",
                         "parent_name": "model3_predictions_hotpotqa_fullwiki_test",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xafe80bb712274b2fb8c72f197ed1f62f"
                     }
                 ],
@@ -6194,6 +6568,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x28a3bba9f3da4520a8ee5a0b6055fcdf"
             },
             "scores": {
@@ -6225,6 +6600,7 @@
                         "child_uuid": "0x8703b6a8f2e245e69b83676177bc1f49",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -6232,6 +6608,7 @@
                         "child_uuid": "0x8703b6a8f2e245e69b83676177bc1f49",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -6239,6 +6616,7 @@
                         "child_uuid": "0x8703b6a8f2e245e69b83676177bc1f49",
                         "parent_name": "test_fullwiki_pred_old",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x1eec65a27f75412babe11c8ceb7a64b5"
                     }
                 ],
@@ -6284,6 +6662,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x8703b6a8f2e245e69b83676177bc1f49"
             },
             "scores": {
@@ -6315,6 +6694,7 @@
                         "child_uuid": "0xc629501e3e5a44348d85ec2b4d9e22e5",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -6322,6 +6702,7 @@
                         "child_uuid": "0xc629501e3e5a44348d85ec2b4d9e22e5",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -6329,6 +6710,7 @@
                         "child_uuid": "0xc629501e3e5a44348d85ec2b4d9e22e5",
                         "parent_name": "hotpotqa_submit_fullwiki",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x0bb7ad8ce8864c35bb2769bb653e4b68"
                     }
                 ],
@@ -6372,6 +6754,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xc629501e3e5a44348d85ec2b4d9e22e5"
             },
             "scores": {
@@ -6403,6 +6786,7 @@
                         "child_uuid": "0xa123c200fd014b918df75a30ff7f93da",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -6410,6 +6794,7 @@
                         "child_uuid": "0xa123c200fd014b918df75a30ff7f93da",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -6417,6 +6802,7 @@
                         "child_uuid": "0xa123c200fd014b918df75a30ff7f93da",
                         "parent_name": "fullwiki",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x7eb49785993a4fd9be11c29529b26947"
                     }
                 ],
@@ -6460,6 +6846,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xa123c200fd014b918df75a30ff7f93da"
             },
             "scores": {
@@ -6491,6 +6878,7 @@
                         "child_uuid": "0x640ba41b99164e1cb2b56f93f9da3fad",
                         "parent_name": "eval.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x190c9bd4a4a749f5bee897be94d08c98"
                     },
                     {
@@ -6498,6 +6886,7 @@
                         "child_uuid": "0x640ba41b99164e1cb2b56f93f9da3fad",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -6505,6 +6894,7 @@
                         "child_uuid": "0x640ba41b99164e1cb2b56f93f9da3fad",
                         "parent_name": "test_f_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x0db284c116204cc0a3195463879ac8af"
                     }
                 ],
@@ -6548,6 +6938,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x640ba41b99164e1cb2b56f93f9da3fad"
             },
             "scores": {
@@ -6579,6 +6970,7 @@
                         "child_uuid": "0x6a0a3769ac9b4308af0aa201c5ed19fd",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -6586,6 +6978,7 @@
                         "child_uuid": "0x6a0a3769ac9b4308af0aa201c5ed19fd",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -6593,6 +6986,7 @@
                         "child_uuid": "0x6a0a3769ac9b4308af0aa201c5ed19fd",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x6e249b3188794f7aa8c1b609821b853b"
                     }
                 ],
@@ -6636,6 +7030,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x6a0a3769ac9b4308af0aa201c5ed19fd"
             },
             "scores": {
@@ -6667,6 +7062,7 @@
                         "child_uuid": "0xf69828f7adf94e5b87b1b8324a3cd7b5",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -6674,6 +7070,7 @@
                         "child_uuid": "0xf69828f7adf94e5b87b1b8324a3cd7b5",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -6681,6 +7078,7 @@
                         "child_uuid": "0xf69828f7adf94e5b87b1b8324a3cd7b5",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xadbb9bfabfaf4f4fa1f17390d3e52972"
                     }
                 ],
@@ -6724,6 +7122,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xf69828f7adf94e5b87b1b8324a3cd7b5"
             },
             "scores": {
@@ -6755,6 +7154,7 @@
                         "child_uuid": "0x4ed289bd487e4806be4e0dd9f79bb927",
                         "parent_name": "eval.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x190c9bd4a4a749f5bee897be94d08c98"
                     },
                     {
@@ -6762,6 +7162,7 @@
                         "child_uuid": "0x4ed289bd487e4806be4e0dd9f79bb927",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -6769,6 +7170,7 @@
                         "child_uuid": "0x4ed289bd487e4806be4e0dd9f79bb927",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x531569f7a47244bfa97ab60cd672c8cd"
                     }
                 ],
@@ -6812,6 +7214,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x4ed289bd487e4806be4e0dd9f79bb927"
             },
             "scores": {
@@ -6843,6 +7246,7 @@
                         "child_uuid": "0x5b84a9860b7447348afb5df643f8d0e3",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -6850,6 +7254,7 @@
                         "child_uuid": "0x5b84a9860b7447348afb5df643f8d0e3",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -6857,6 +7262,7 @@
                         "child_uuid": "0x5b84a9860b7447348afb5df643f8d0e3",
                         "parent_name": "prediction",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x5459e9012f8a48a49ccd747b883db27e"
                     }
                 ],
@@ -6900,6 +7306,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x5b84a9860b7447348afb5df643f8d0e3"
             },
             "scores": {
@@ -6931,6 +7338,7 @@
                         "child_uuid": "0xc166f7fdda294989a013c2888239eba3",
                         "parent_name": "eval.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x190c9bd4a4a749f5bee897be94d08c98"
                     },
                     {
@@ -6938,6 +7346,7 @@
                         "child_uuid": "0xc166f7fdda294989a013c2888239eba3",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -6945,6 +7354,7 @@
                         "child_uuid": "0xc166f7fdda294989a013c2888239eba3",
                         "parent_name": "test_full_pred.json",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xb113bf442b734821ba652e1d82391e3d"
                     }
                 ],
@@ -6986,6 +7396,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0xc166f7fdda294989a013c2888239eba3"
             },
             "scores": {
@@ -7017,6 +7428,7 @@
                         "child_uuid": "0xc3e053f412bb46879648d68e12d98393",
                         "parent_name": "eval.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x190c9bd4a4a749f5bee897be94d08c98"
                     },
                     {
@@ -7024,6 +7436,7 @@
                         "child_uuid": "0xc3e053f412bb46879648d68e12d98393",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -7031,6 +7444,7 @@
                         "child_uuid": "0xc3e053f412bb46879648d68e12d98393",
                         "parent_name": "pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x877dd0cbac204f3aa90ec83aa313a6c3"
                     }
                 ],
@@ -7072,6 +7486,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0xc3e053f412bb46879648d68e12d98393"
             },
             "scores": {
@@ -7103,6 +7518,7 @@
                         "child_uuid": "0x0e84b7f48491413d947ccf773984d33d",
                         "parent_name": "eval.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x190c9bd4a4a749f5bee897be94d08c98"
                     },
                     {
@@ -7110,6 +7526,7 @@
                         "child_uuid": "0x0e84b7f48491413d947ccf773984d33d",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -7117,6 +7534,7 @@
                         "child_uuid": "0x0e84b7f48491413d947ccf773984d33d",
                         "parent_name": "pred.json",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x803d528db67848f4b8aa15b46db6019e"
                     }
                 ],
@@ -7158,6 +7576,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0x0e84b7f48491413d947ccf773984d33d"
             },
             "scores": {
@@ -7189,6 +7608,7 @@
                         "child_uuid": "0x0e72966394b14b5b917cbcef9a708107",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -7196,6 +7616,7 @@
                         "child_uuid": "0x0e72966394b14b5b917cbcef9a708107",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -7203,6 +7624,7 @@
                         "child_uuid": "0x0e72966394b14b5b917cbcef9a708107",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x649682adfa964ca4950a841ebaf1135d"
                     }
                 ],
@@ -7244,6 +7666,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0x0e72966394b14b5b917cbcef9a708107"
             },
             "scores": {
@@ -7275,6 +7698,7 @@
                         "child_uuid": "0x7cb08a6792794800a68de02a38ebaacb",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -7282,6 +7706,7 @@
                         "child_uuid": "0x7cb08a6792794800a68de02a38ebaacb",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -7289,6 +7714,7 @@
                         "child_uuid": "0x7cb08a6792794800a68de02a38ebaacb",
                         "parent_name": "test-pred-file",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xd9f34653b93e4988b9f822544de63a28"
                     }
                 ],
@@ -7330,6 +7756,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0x7cb08a6792794800a68de02a38ebaacb"
             },
             "scores": {
@@ -7361,6 +7788,7 @@
                         "child_uuid": "0x41a7eb959f014fe2b6e80581bdb61355",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -7368,6 +7796,7 @@
                         "child_uuid": "0x41a7eb959f014fe2b6e80581bdb61355",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -7375,6 +7804,7 @@
                         "child_uuid": "0x41a7eb959f014fe2b6e80581bdb61355",
                         "parent_name": "SAFSr",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xd098f1f8238340a89c47cd3799e00461"
                     }
                 ],
@@ -7418,6 +7848,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0x41a7eb959f014fe2b6e80581bdb61355"
             },
             "scores": {
@@ -7449,6 +7880,7 @@
                         "child_uuid": "0xbf6000527e0049dfafd01bf8270230ae",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -7456,6 +7888,7 @@
                         "child_uuid": "0xbf6000527e0049dfafd01bf8270230ae",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -7463,6 +7896,7 @@
                         "child_uuid": "0xbf6000527e0049dfafd01bf8270230ae",
                         "parent_name": "xxx",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc6474ed9e8e144728bad7da3a1dcb625"
                     }
                 ],
@@ -7506,6 +7940,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0xbf6000527e0049dfafd01bf8270230ae"
             },
             "scores": {
@@ -7537,6 +7972,7 @@
                         "child_uuid": "0x379de4e633c145b99c96f1e14cac6253",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -7544,6 +7980,7 @@
                         "child_uuid": "0x379de4e633c145b99c96f1e14cac6253",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -7551,6 +7988,7 @@
                         "child_uuid": "0x379de4e633c145b99c96f1e14cac6253",
                         "parent_name": "pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xcefb9bdcd3774c1ba51766721b155c53"
                     }
                 ],
@@ -7594,6 +8032,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0x379de4e633c145b99c96f1e14cac6253"
             },
             "scores": {
@@ -7625,6 +8064,7 @@
                         "child_uuid": "0x9b6882dfc87f49cc949bf2954076bdeb",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -7632,6 +8072,7 @@
                         "child_uuid": "0x9b6882dfc87f49cc949bf2954076bdeb",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -7639,6 +8080,7 @@
                         "child_uuid": "0x9b6882dfc87f49cc949bf2954076bdeb",
                         "parent_name": null,
                         "parent_path": "pred.json",
+                        "parent_state": null,
                         "parent_uuid": "0x570be11bbef84ad197f8115282bdcfb1"
                     }
                 ],
@@ -7682,6 +8124,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0x9b6882dfc87f49cc949bf2954076bdeb"
             },
             "scores": {
@@ -7713,6 +8156,7 @@
                         "child_uuid": "0x11b39e71aba140b3b6e253e4653aa02f",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -7720,6 +8164,7 @@
                         "child_uuid": "0x11b39e71aba140b3b6e253e4653aa02f",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -7727,6 +8172,7 @@
                         "child_uuid": "0x11b39e71aba140b3b6e253e4653aa02f",
                         "parent_name": "pred.json",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x42c962b827404e6188e174a92596b703"
                     }
                 ],
@@ -7770,6 +8216,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0x11b39e71aba140b3b6e253e4653aa02f"
             },
             "scores": {
@@ -7801,6 +8248,7 @@
                         "child_uuid": "0x5aef93ecfe234a5ea98086e8d428e420",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -7808,6 +8256,7 @@
                         "child_uuid": "0x5aef93ecfe234a5ea98086e8d428e420",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -7815,6 +8264,7 @@
                         "child_uuid": "0x5aef93ecfe234a5ea98086e8d428e420",
                         "parent_name": "old_test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x3b1c579b013949cb89c59c8fcca8cdd7"
                     }
                 ],
@@ -7858,6 +8308,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0x5aef93ecfe234a5ea98086e8d428e420"
             },
             "scores": {
@@ -7889,6 +8340,7 @@
                         "child_uuid": "0x7111d694945a44c0ac0301b58b28459e",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -7896,6 +8348,7 @@
                         "child_uuid": "0x7111d694945a44c0ac0301b58b28459e",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -7903,6 +8356,7 @@
                         "child_uuid": "0x7111d694945a44c0ac0301b58b28459e",
                         "parent_name": null,
                         "parent_path": "pred.json",
+                        "parent_state": null,
                         "parent_uuid": "0x264a2c7501d045b1ae80b7ba2eec8e2e"
                     }
                 ],
@@ -7946,6 +8400,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0x7111d694945a44c0ac0301b58b28459e"
             },
             "scores": {
@@ -7977,6 +8432,7 @@
                         "child_uuid": "0x25ce1fb7d53f491f9e435df532b89147",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -7984,6 +8440,7 @@
                         "child_uuid": "0x25ce1fb7d53f491f9e435df532b89147",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -7991,6 +8448,7 @@
                         "child_uuid": "0x25ce1fb7d53f491f9e435df532b89147",
                         "parent_name": "sample_dev_pred.json",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xed0770399873400f9bf80710347c232d"
                     }
                 ],
@@ -8034,6 +8492,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0x25ce1fb7d53f491f9e435df532b89147"
             },
             "scores": {
@@ -8065,6 +8524,7 @@
                         "child_uuid": "0x4c317bb304114cda845e2ad3d94047c8",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -8072,6 +8532,7 @@
                         "child_uuid": "0x4c317bb304114cda845e2ad3d94047c8",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -8079,6 +8540,7 @@
                         "child_uuid": "0x4c317bb304114cda845e2ad3d94047c8",
                         "parent_name": "pred_210205",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xf8ade2257ce447448c9a8bbe77ddfee6"
                     }
                 ],
@@ -8122,6 +8584,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0x4c317bb304114cda845e2ad3d94047c8"
             },
             "scores": {
@@ -8153,6 +8616,7 @@
                         "child_uuid": "0xbe21eab1fe94490daecd270e6bb93e0e",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -8160,6 +8624,7 @@
                         "child_uuid": "0xbe21eab1fe94490daecd270e6bb93e0e",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -8167,6 +8632,7 @@
                         "child_uuid": "0xbe21eab1fe94490daecd270e6bb93e0e",
                         "parent_name": "irrr_test_pred_hotpot_only",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xe91e85fe00d447e696b1778227983ea8"
                     }
                 ],
@@ -8210,6 +8676,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0xbe21eab1fe94490daecd270e6bb93e0e"
             },
             "scores": {
@@ -8241,6 +8708,7 @@
                         "child_uuid": "0xc8e4c7c224944d29af5bc83751e70cb5",
                         "parent_name": "eval_v1.2.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
                     },
                     {
@@ -8248,6 +8716,7 @@
                         "child_uuid": "0xc8e4c7c224944d29af5bc83751e70cb5",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -8255,6 +8724,7 @@
                         "child_uuid": "0xc8e4c7c224944d29af5bc83751e70cb5",
                         "parent_name": null,
                         "parent_path": "pred.json",
+                        "parent_state": null,
                         "parent_uuid": "0x44b3cfd364f240949be54753422b5391"
                     }
                 ],
@@ -8298,6 +8768,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0xc8e4c7c224944d29af5bc83751e70cb5"
             },
             "scores": {
@@ -8329,6 +8800,7 @@
                         "child_uuid": "0x90d176bd552849e19cebd19f46093e7f",
                         "parent_name": "eval_v1.2.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
                     },
                     {
@@ -8336,6 +8808,7 @@
                         "child_uuid": "0x90d176bd552849e19cebd19f46093e7f",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -8343,6 +8816,7 @@
                         "child_uuid": "0x90d176bd552849e19cebd19f46093e7f",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x25f77007f4644047906d5ab3a0253c91"
                     }
                 ],
@@ -8386,6 +8860,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0x90d176bd552849e19cebd19f46093e7f"
             },
             "scores": {
@@ -8417,6 +8892,7 @@
                         "child_uuid": "0xaf6e2c062d3248e2a995cb493f7fe33b",
                         "parent_name": "eval_v1.2.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
                     },
                     {
@@ -8424,6 +8900,7 @@
                         "child_uuid": "0xaf6e2c062d3248e2a995cb493f7fe33b",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
                     },
                     {
@@ -8431,6 +8908,7 @@
                         "child_uuid": "0xaf6e2c062d3248e2a995cb493f7fe33b",
                         "parent_name": "hotpot_fullwiki_test_21_8-18",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x52796848aa074f1792e34464961c8ebb"
                     }
                 ],
@@ -8478,6 +8956,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0xaf6e2c062d3248e2a995cb493f7fe33b"
             },
             "scores": {
@@ -8498,5 +8977,5 @@
             }
         }
     ],
-    "updated": 1654967813.505982
+    "updated": 1662519519.9431489
 }
