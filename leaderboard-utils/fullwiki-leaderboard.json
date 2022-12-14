@@ -3787,6 +3787,110 @@
         },
         {
             "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xfb8236f694954d3780d91f8b57e9d618/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0x5419f645c90a90e6b058169955e03fd6494e5fa5",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xcc3d4ccf558e40ff88817cea23325e5c",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xcc3d4ccf558e40ff88817cea23325e5c",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xcc3d4ccf558e40ff88817cea23325e5c",
+                        "parent_name": "test_fullwiki_pred",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xfb8236f694954d3780d91f8b57e9d618"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xcc3d4ccf558e40ff88817cea23325e5c",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1671035655,
+                    "data_size": 4343,
+                    "description": "{\"submit_id\": \"0xfb8236f694954d3780d91f8b57e9d618\", \"submitter_id\": \"0x08141f896c58483db5dd857a1e050c46\", \"predict_id\": \"0xfb8236f694954d3780d91f8b57e9d618\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1671035768,
+                    "memory_usage": 0.0,
+                    "name": "mkhalifa-test_fullwiki_pred-results",
+                    "on_preemptible_worker": false,
+                    "remote": "2911935b0468-b832a77c683f4dd8a3ccabd6243d5b6f",
+                    "remote_history": [
+                        "2911935b0468"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
+                    "started": 1671035664,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.744524,
+                    "time_cleaning_up": 0.048233747482299805,
+                    "time_preparing": 82.05473685264587,
+                    "time_running": 3.023423671722412,
+                    "time_system": 0.0,
+                    "time_uploading_results": 10.730489730834961,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
+                "uuid": "0xcc3d4ccf558e40ff88817cea23325e5c"
+            },
+            "scores": {
+                "ans_em": 0.5805536799459824,
+                "ans_f1": 0.7108763557799188,
+                "joint_em": 0.0,
+                "joint_f1": 0.0,
+                "sup_em": 0.0,
+                "sup_f1": 0.0
+            },
+            "submission": {
+                "created": 1670994500,
+                "description": "PromptRank-fewshot-2-demos",
+                "num_period_submissions": 1,
+                "num_total_submissions": 1,
+                "public": true,
+                "user_name": "mkhalifa"
+            }
+        },
+        {
+            "bundle": {
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x357782b1350e4200815bc98c68fd36cb/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
@@ -6212,7 +6316,7 @@
             "submission": {
                 "created": 1657337988,
                 "description": "AnonymousQ (Anonymous) (single model) []() ()",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
                 "user_name": "rekio"
@@ -6338,9 +6442,9 @@
                     {
                         "child_path": "pred.json",
                         "child_uuid": "0xe07126316de74c5f808f630388787647",
-                        "parent_name": "test_fullwiki_pred",
+                        "parent_name": null,
                         "parent_path": "pred.json",
-                        "parent_state": "ready",
+                        "parent_state": null,
                         "parent_uuid": "0xa0bf71262fca407a959883cf2d770282"
                     }
                 ],
@@ -6352,7 +6456,7 @@
                     "allow_failed_dependencies": false,
                     "created": 1551453930,
                     "data_size": 307947,
-                    "description": "{\"submit_id\": \"0xa0bf71262fca407a959883cf2d770282\", \"predict_id\": \"0xa0bf71262fca407a959883cf2d770282\", \"submitter_id\": \"0x56a27893ce3442d4830dd631d556b9e6\"}",
+                    "description": "",
                     "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
                     "exclude_patterns": [],
                     "exitcode": 0,
@@ -6396,12 +6500,12 @@
                 "sup_f1": 0.0
             },
             "submission": {
-                "created": 1551424479,
-                "description": "DecompRC (University of Washington) (single model) [(Min et al., ACL'18)](https://arxiv.org/pdf/1906.02916.pdf) (https://github.com/shmsw25/DecompRC)",
+                "created": 1551453930,
+                "description": "",
                 "num_period_submissions": 0,
-                "num_total_submissions": 2,
-                "public": false,
-                "user_name": "vzhong"
+                "num_total_submissions": 0,
+                "public": null,
+                "user_name": null
             }
         },
         {
@@ -7532,9 +7636,9 @@
                     {
                         "child_path": "pred.json",
                         "child_uuid": "0x0e84b7f48491413d947ccf773984d33d",
-                        "parent_name": "pred.json",
+                        "parent_name": null,
                         "parent_path": "pred.json",
-                        "parent_state": "ready",
+                        "parent_state": null,
                         "parent_uuid": "0x803d528db67848f4b8aa15b46db6019e"
                     }
                 ],
@@ -7545,7 +7649,7 @@
                     "actions": [],
                     "allow_failed_dependencies": false,
                     "created": 1551423575,
-                    "description": "{\"submit_id\": \"0x803d528db67848f4b8aa15b46db6019e\", \"predict_id\": \"0x803d528db67848f4b8aa15b46db6019e\", \"submitter_id\": \"0x56a27893ce3442d4830dd631d556b9e6\"}",
+                    "description": "",
                     "exclude_patterns": [],
                     "failure_message": "Failed to download dependency pred.json: ",
                     "last_updated": 1551423608,
@@ -7588,12 +7692,12 @@
                 "sup_f1": null
             },
             "submission": {
-                "created": 1551420807,
-                "description": "DecompRC (University of Washington) (single model) [(Min et al., ACL'18)](https://arxiv.org/pdf/1906.02916.pdf) (https://github.com/shmsw25/DecompRC)",
+                "created": 1551423575,
+                "description": "",
                 "num_period_submissions": 0,
-                "num_total_submissions": 2,
-                "public": false,
-                "user_name": "vzhong"
+                "num_total_submissions": 0,
+                "public": null,
+                "user_name": null
             }
         },
         {
@@ -8977,5 +9081,5 @@
             }
         }
     ],
-    "updated": 1662519519.9431489
+    "updated": 1671036348.7757123
 }

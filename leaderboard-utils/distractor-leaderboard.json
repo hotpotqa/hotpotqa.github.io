@@ -91,6 +91,7 @@
                         "child_uuid": "0x85ea5d3ab9a14ffd9eb2dcb9200963f4",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -98,6 +99,7 @@
                         "child_uuid": "0x85ea5d3ab9a14ffd9eb2dcb9200963f4",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -105,6 +107,7 @@
                         "child_uuid": "0x85ea5d3ab9a14ffd9eb2dcb9200963f4",
                         "parent_name": "Neutralzz-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xeb47e2bac0f24ec0884b40fc3b0969e9"
                     }
                 ],
@@ -159,6 +162,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x85ea5d3ab9a14ffd9eb2dcb9200963f4"
             },
             "scores": {
@@ -190,6 +194,7 @@
                         "child_uuid": "0x0b1518b6ec4547af9d1648ee07821e61",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -197,6 +202,7 @@
                         "child_uuid": "0x0b1518b6ec4547af9d1648ee07821e61",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -204,6 +210,7 @@
                         "child_uuid": "0x0b1518b6ec4547af9d1648ee07821e61",
                         "parent_name": "leiweijun-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x2ff21c6c9e594cc3b0339d564be20cb0"
                     }
                 ],
@@ -255,6 +262,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x0b1518b6ec4547af9d1648ee07821e61"
             },
             "scores": {
@@ -286,6 +294,7 @@
                         "child_uuid": "0x0d3322e52a884e97bf31fbc2f7ef0c7d",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -293,6 +302,7 @@
                         "child_uuid": "0x0d3322e52a884e97bf31fbc2f7ef0c7d",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -300,6 +310,7 @@
                         "child_uuid": "0x0d3322e52a884e97bf31fbc2f7ef0c7d",
                         "parent_name": "yun-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x302c0ee111c945729ee21d756d8d9fca"
                     }
                 ],
@@ -351,6 +362,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x0d3322e52a884e97bf31fbc2f7ef0c7d"
             },
             "scores": {
@@ -382,6 +394,7 @@
                         "child_uuid": "0x13a9c59730ed433ba3e824ce950cdc13",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -389,6 +402,7 @@
                         "child_uuid": "0x13a9c59730ed433ba3e824ce950cdc13",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -396,6 +410,7 @@
                         "child_uuid": "0x13a9c59730ed433ba3e824ce950cdc13",
                         "parent_name": "yinzhangyue-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xca8c92ff15db4b16b73b5f209584b129"
                     }
                 ],
@@ -450,6 +465,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x13a9c59730ed433ba3e824ce950cdc13"
             },
             "scores": {
@@ -481,6 +497,7 @@
                         "child_uuid": "0xa69c883fa4c844218021be64e073c614",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -488,6 +505,7 @@
                         "child_uuid": "0xa69c883fa4c844218021be64e073c614",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -495,6 +513,7 @@
                         "child_uuid": "0xa69c883fa4c844218021be64e073c614",
                         "parent_name": "string-hotpotqa-distractor-test-submit-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x9ebbc34eac5d44d99b1610aeb59724ff"
                     }
                 ],
@@ -540,6 +559,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xa69c883fa4c844218021be64e073c614"
             },
             "scores": {
@@ -571,6 +591,7 @@
                         "child_uuid": "0xb377d99e5cb74ba5b5b2c64173d2f0bd",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -578,6 +599,7 @@
                         "child_uuid": "0xb377d99e5cb74ba5b5b2c64173d2f0bd",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -585,6 +607,7 @@
                         "child_uuid": "0xb377d99e5cb74ba5b5b2c64173d2f0bd",
                         "parent_name": "yzy-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x253ff3dde3ce41b2a9308c207a583d44"
                     }
                 ],
@@ -639,6 +662,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xb377d99e5cb74ba5b5b2c64173d2f0bd"
             },
             "scores": {
@@ -670,6 +694,7 @@
                         "child_uuid": "0x309826fe8fc94683b5cace65f51291cd",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -677,6 +702,7 @@
                         "child_uuid": "0x309826fe8fc94683b5cace65f51291cd",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -684,6 +710,7 @@
                         "child_uuid": "0x309826fe8fc94683b5cace65f51291cd",
                         "parent_name": "chengzhipanpan-albert_predict_v2-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x6d27f90357b248c4863f5a67e34ed434"
                     }
                 ],
@@ -729,6 +756,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x309826fe8fc94683b5cace65f51291cd"
             },
             "scores": {
@@ -760,6 +788,7 @@
                         "child_uuid": "0xb469697c9c1a4cebab1fbf935a4b09c1",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -767,6 +796,7 @@
                         "child_uuid": "0xb469697c9c1a4cebab1fbf935a4b09c1",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -774,6 +804,7 @@
                         "child_uuid": "0xb469697c9c1a4cebab1fbf935a4b09c1",
                         "parent_name": "wubh-albert_predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc446b971e7ce41cba4d971859318c2c0"
                     }
                 ],
@@ -825,6 +856,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xb469697c9c1a4cebab1fbf935a4b09c1"
             },
             "scores": {
@@ -856,6 +888,7 @@
                         "child_uuid": "0x0288bcfa7735403d9c33f55cb4cb4463",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -863,6 +896,7 @@
                         "child_uuid": "0x0288bcfa7735403d9c33f55cb4cb4463",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -870,6 +904,7 @@
                         "child_uuid": "0x0288bcfa7735403d9c33f55cb4cb4463",
                         "parent_name": "lrh003-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xd43fe03d766f44c68cc1943ea20045d8"
                     }
                 ],
@@ -915,6 +950,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x0288bcfa7735403d9c33f55cb4cb4463"
             },
             "scores": {
@@ -946,6 +982,7 @@
                         "child_uuid": "0x5a37359865e24c1d843b2fb66c501cc9",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -953,6 +990,7 @@
                         "child_uuid": "0x5a37359865e24c1d843b2fb66c501cc9",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -960,6 +998,7 @@
                         "child_uuid": "0x5a37359865e24c1d843b2fb66c501cc9",
                         "parent_name": "lancer-predict-large-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xebe6da7b19c24702a04cc3364838a215"
                     }
                 ],
@@ -1005,6 +1044,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x5a37359865e24c1d843b2fb66c501cc9"
             },
             "scores": {
@@ -1036,6 +1076,7 @@
                         "child_uuid": "0x68cdcdcd18ba403e9878797d1d4652d5",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1043,6 +1084,7 @@
                         "child_uuid": "0x68cdcdcd18ba403e9878797d1d4652d5",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -1050,6 +1092,7 @@
                         "child_uuid": "0x68cdcdcd18ba403e9878797d1d4652d5",
                         "parent_name": "yzyqq-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x25da9ea3db0143fb87ead0f0d6163dd7"
                     }
                 ],
@@ -1101,6 +1144,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x68cdcdcd18ba403e9878797d1d4652d5"
             },
             "scores": {
@@ -1132,6 +1176,7 @@
                         "child_uuid": "0xedfa314e87314912ad4f3f3ba95980df",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1139,6 +1184,7 @@
                         "child_uuid": "0xedfa314e87314912ad4f3f3ba95980df",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -1146,6 +1192,7 @@
                         "child_uuid": "0xedfa314e87314912ad4f3f3ba95980df",
                         "parent_name": "lrh002-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xe0be74df67a141aaaacfb418b08110fb"
                     }
                 ],
@@ -1191,6 +1238,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xedfa314e87314912ad4f3f3ba95980df"
             },
             "scores": {
@@ -1222,6 +1270,7 @@
                         "child_uuid": "0x07c9c43cfd4b49bb8edde2dab1c581a2",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1229,6 +1278,7 @@
                         "child_uuid": "0x07c9c43cfd4b49bb8edde2dab1c581a2",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -1236,6 +1286,7 @@
                         "child_uuid": "0x07c9c43cfd4b49bb8edde2dab1c581a2",
                         "parent_name": "xiaofenglei-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x7731d1bf40b1466480a47d58dd01e8ed"
                     }
                 ],
@@ -1287,6 +1338,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x07c9c43cfd4b49bb8edde2dab1c581a2"
             },
             "scores": {
@@ -1318,6 +1370,7 @@
                         "child_uuid": "0x0de16ec100224935a1785f73728875f8",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1325,6 +1378,7 @@
                         "child_uuid": "0x0de16ec100224935a1785f73728875f8",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -1332,6 +1386,7 @@
                         "child_uuid": "0x0de16ec100224935a1785f73728875f8",
                         "parent_name": "libert-predict-base-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xf3d448d12e194e27a262a2bf310683a1"
                     }
                 ],
@@ -1383,6 +1438,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x0de16ec100224935a1785f73728875f8"
             },
             "scores": {
@@ -1414,6 +1470,7 @@
                         "child_uuid": "0xb4383bd18ebd466790db6fa1647fb69c",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1421,6 +1478,7 @@
                         "child_uuid": "0xb4383bd18ebd466790db6fa1647fb69c",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -1428,6 +1486,7 @@
                         "child_uuid": "0xb4383bd18ebd466790db6fa1647fb69c",
                         "parent_name": "libert-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x7f548d4669344f08809da581a3bdf5b1"
                     }
                 ],
@@ -1479,6 +1538,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xb4383bd18ebd466790db6fa1647fb69c"
             },
             "scores": {
@@ -1510,6 +1570,7 @@
                         "child_uuid": "0x161c0975fdf141f6af1bd5a6d8b0e5dd",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1517,6 +1578,7 @@
                         "child_uuid": "0x161c0975fdf141f6af1bd5a6d8b0e5dd",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -1524,6 +1586,7 @@
                         "child_uuid": "0x161c0975fdf141f6af1bd5a6d8b0e5dd",
                         "parent_name": "yuan-predict-single-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x9fe98d1d9d59400bb1613bd8e75e6570"
                     }
                 ],
@@ -1575,6 +1638,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x161c0975fdf141f6af1bd5a6d8b0e5dd"
             },
             "scores": {
@@ -1606,6 +1670,7 @@
                         "child_uuid": "0xf18ce938d1794c92bf5a5e5d4f190a18",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1613,6 +1678,7 @@
                         "child_uuid": "0xf18ce938d1794c92bf5a5e5d4f190a18",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -1620,6 +1686,7 @@
                         "child_uuid": "0xf18ce938d1794c92bf5a5e5d4f190a18",
                         "parent_name": "cclaude-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x63dbea405d114683a6018ac75bc993e9"
                     }
                 ],
@@ -1671,6 +1738,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xf18ce938d1794c92bf5a5e5d4f190a18"
             },
             "scores": {
@@ -1702,6 +1770,7 @@
                         "child_uuid": "0xe5cef2b8fa444f679245e1e38b3aea28",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1709,6 +1778,7 @@
                         "child_uuid": "0xe5cef2b8fa444f679245e1e38b3aea28",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -1716,6 +1786,7 @@
                         "child_uuid": "0xe5cef2b8fa444f679245e1e38b3aea28",
                         "parent_name": "yongjie_hyj-predict2-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xdffa53964b0b4e838be6337bc1a36cfe"
                     }
                 ],
@@ -1761,6 +1832,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xe5cef2b8fa444f679245e1e38b3aea28"
             },
             "scores": {
@@ -1792,6 +1864,7 @@
                         "child_uuid": "0x51fbbe9eadcf4deea915b43ff447253e",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1799,6 +1872,7 @@
                         "child_uuid": "0x51fbbe9eadcf4deea915b43ff447253e",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -1806,6 +1880,7 @@
                         "child_uuid": "0x51fbbe9eadcf4deea915b43ff447253e",
                         "parent_name": "yongjie_hyj-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xf4160655a24d4bd588b954c5bbe3dd28"
                     }
                 ],
@@ -1851,6 +1926,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x51fbbe9eadcf4deea915b43ff447253e"
             },
             "scores": {
@@ -1882,6 +1958,7 @@
                         "child_uuid": "0xa15430336bcf43678e95412324a10bff",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1889,6 +1966,7 @@
                         "child_uuid": "0xa15430336bcf43678e95412324a10bff",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -1896,6 +1974,7 @@
                         "child_uuid": "0xa15430336bcf43678e95412324a10bff",
                         "parent_name": "studyfang-predict-single-v2-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x8b8ac47cd967485286cbb06a55930fa8"
                     }
                 ],
@@ -1941,6 +2020,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xa15430336bcf43678e95412324a10bff"
             },
             "scores": {
@@ -1972,6 +2052,7 @@
                         "child_uuid": "0x41e8850ee62e457ea78682fe766fd40c",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -1979,6 +2060,7 @@
                         "child_uuid": "0x41e8850ee62e457ea78682fe766fd40c",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -1986,6 +2068,7 @@
                         "child_uuid": "0x41e8850ee62e457ea78682fe766fd40c",
                         "parent_name": "chengzhipanpan-albert_predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x02a9b508fcea4138954e4ff928d617ea"
                     }
                 ],
@@ -2031,6 +2114,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x41e8850ee62e457ea78682fe766fd40c"
             },
             "scores": {
@@ -2062,6 +2146,7 @@
                         "child_uuid": "0x5d3540aafbb445bdbf44af815a17a25f",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2069,6 +2154,7 @@
                         "child_uuid": "0x5d3540aafbb445bdbf44af815a17a25f",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -2076,6 +2162,7 @@
                         "child_uuid": "0x5d3540aafbb445bdbf44af815a17a25f",
                         "parent_name": "talkhaldi-predict1gcu101-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x12fc93d405fb4f509e3372b6b03143f2"
                     }
                 ],
@@ -2121,6 +2208,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x5d3540aafbb445bdbf44af815a17a25f"
             },
             "scores": {
@@ -2152,6 +2240,7 @@
                         "child_uuid": "0x25665ebf5ead4ee88998acfcdb807139",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2159,6 +2248,7 @@
                         "child_uuid": "0x25665ebf5ead4ee88998acfcdb807139",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -2166,6 +2256,7 @@
                         "child_uuid": "0x25665ebf5ead4ee88998acfcdb807139",
                         "parent_name": "Giwon_Hong-predict_woknowledge-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xfd7dfd74d03641168226ee005554c4a0"
                     }
                 ],
@@ -2217,6 +2308,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x25665ebf5ead4ee88998acfcdb807139"
             },
             "scores": {
@@ -2248,6 +2340,7 @@
                         "child_uuid": "0x461b914f5069494fb2244d6f0429e9c3",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2255,6 +2348,7 @@
                         "child_uuid": "0x461b914f5069494fb2244d6f0429e9c3",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -2262,6 +2356,7 @@
                         "child_uuid": "0x461b914f5069494fb2244d6f0429e9c3",
                         "parent_name": "lixinyi-predict_large_update1-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xaffaf5ec5c864fb689c9b228b090d200"
                     }
                 ],
@@ -2307,6 +2402,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x461b914f5069494fb2244d6f0429e9c3"
             },
             "scores": {
@@ -2338,6 +2434,7 @@
                         "child_uuid": "0x1536b3ee79bf4398b650c7d2c842a904",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2345,6 +2442,7 @@
                         "child_uuid": "0x1536b3ee79bf4398b650c7d2c842a904",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -2352,6 +2450,7 @@
                         "child_uuid": "0x1536b3ee79bf4398b650c7d2c842a904",
                         "parent_name": "armanc-hp-predictions-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xf92698429762400ab193a88786c2cff2"
                     }
                 ],
@@ -2397,6 +2496,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x1536b3ee79bf4398b650c7d2c842a904"
             },
             "scores": {
@@ -2428,6 +2528,7 @@
                         "child_uuid": "0x3923b3806446456e83c44c5705493ba7",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2435,6 +2536,7 @@
                         "child_uuid": "0x3923b3806446456e83c44c5705493ba7",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -2442,6 +2544,7 @@
                         "child_uuid": "0x3923b3806446456e83c44c5705493ba7",
                         "parent_name": "nanshao-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x2ad4cfd85dde47b48a4dda08baa0e3ef"
                     }
                 ],
@@ -2487,6 +2590,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x3923b3806446456e83c44c5705493ba7"
             },
             "scores": {
@@ -2518,6 +2622,7 @@
                         "child_uuid": "0x8158e0fa146d458d93e108c60fc86499",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2525,6 +2630,7 @@
                         "child_uuid": "0x8158e0fa146d458d93e108c60fc86499",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -2532,6 +2638,7 @@
                         "child_uuid": "0x8158e0fa146d458d93e108c60fc86499",
                         "parent_name": "phillypham-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xa665c6b0fe59454c820224f6e654da40"
                     }
                 ],
@@ -2577,6 +2684,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x8158e0fa146d458d93e108c60fc86499"
             },
             "scores": {
@@ -2608,6 +2716,7 @@
                         "child_uuid": "0xf312b18b22ff4fc7ba0490c341f03362",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2615,6 +2724,7 @@
                         "child_uuid": "0xf312b18b22ff4fc7ba0490c341f03362",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -2622,6 +2732,7 @@
                         "child_uuid": "0xf312b18b22ff4fc7ba0490c341f03362",
                         "parent_name": "lrh001-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x4b77c77730544722a02b778f6a72d025"
                     }
                 ],
@@ -2667,6 +2778,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xf312b18b22ff4fc7ba0490c341f03362"
             },
             "scores": {
@@ -2698,6 +2810,7 @@
                         "child_uuid": "0xd05b6da6c0d34202aae172acbdd471cc",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2705,6 +2818,7 @@
                         "child_uuid": "0xd05b6da6c0d34202aae172acbdd471cc",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -2712,6 +2826,7 @@
                         "child_uuid": "0xd05b6da6c0d34202aae172acbdd471cc",
                         "parent_name": "zzq-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x4efa9d5037ba40dbbf8a1f4d8b1be357"
                     }
                 ],
@@ -2766,6 +2881,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xd05b6da6c0d34202aae172acbdd471cc"
             },
             "scores": {
@@ -2797,6 +2913,7 @@
                         "child_uuid": "0x5e8ef5118c1b4513a3fc3310bf97d0ec",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2804,6 +2921,7 @@
                         "child_uuid": "0x5e8ef5118c1b4513a3fc3310bf97d0ec",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -2811,6 +2929,7 @@
                         "child_uuid": "0x5e8ef5118c1b4513a3fc3310bf97d0ec",
                         "parent_name": "usydnlp-predict-can-large-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xe1cdccc6314e4821ab75eabab0cbd9f5"
                     }
                 ],
@@ -2856,6 +2975,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x5e8ef5118c1b4513a3fc3310bf97d0ec"
             },
             "scores": {
@@ -2887,6 +3007,7 @@
                         "child_uuid": "0x38c6c88fb07547909cae0962cf5b5461",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2894,6 +3015,7 @@
                         "child_uuid": "0x38c6c88fb07547909cae0962cf5b5461",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -2901,6 +3023,7 @@
                         "child_uuid": "0x38c6c88fb07547909cae0962cf5b5461",
                         "parent_name": "braineater-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc5a355ca72174290b97427af24d3c7bb"
                     }
                 ],
@@ -2946,6 +3069,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x38c6c88fb07547909cae0962cf5b5461"
             },
             "scores": {
@@ -2977,6 +3101,7 @@
                         "child_uuid": "0x259faf33b7b242d58d6bb45f28a9d0a6",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -2984,6 +3109,7 @@
                         "child_uuid": "0x259faf33b7b242d58d6bb45f28a9d0a6",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -2991,6 +3117,7 @@
                         "child_uuid": "0x259faf33b7b242d58d6bb45f28a9d0a6",
                         "parent_name": "stevenchen1-predict1-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xd186e8d6a1c24205820d12eb2116ab7e"
                     }
                 ],
@@ -3042,6 +3169,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x259faf33b7b242d58d6bb45f28a9d0a6"
             },
             "scores": {
@@ -3073,6 +3201,7 @@
                         "child_uuid": "0xc7eed7a8693545f3af013ef5363bd8ef",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3080,6 +3209,7 @@
                         "child_uuid": "0xc7eed7a8693545f3af013ef5363bd8ef",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -3087,6 +3217,7 @@
                         "child_uuid": "0xc7eed7a8693545f3af013ef5363bd8ef",
                         "parent_name": "stevenchen-predictions-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x618fed57b6a945cc9d541d2347388724"
                     }
                 ],
@@ -3138,6 +3269,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xc7eed7a8693545f3af013ef5363bd8ef"
             },
             "scores": {
@@ -3169,6 +3301,7 @@
                         "child_uuid": "0x8f30b796a3af44b6a8653f34a3b92547",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3176,6 +3309,7 @@
                         "child_uuid": "0x8f30b796a3af44b6a8653f34a3b92547",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -3183,6 +3317,7 @@
                         "child_uuid": "0x8f30b796a3af44b6a8653f34a3b92547",
                         "parent_name": "stevenchen-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc83517372d6f4d6795a36551a07ff050"
                     }
                 ],
@@ -3234,6 +3369,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x8f30b796a3af44b6a8653f34a3b92547"
             },
             "scores": {
@@ -3265,6 +3401,7 @@
                         "child_uuid": "0x30091dba0dc74b96a449b3cd586aee0d",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3272,6 +3409,7 @@
                         "child_uuid": "0x30091dba0dc74b96a449b3cd586aee0d",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -3279,6 +3417,7 @@
                         "child_uuid": "0x30091dba0dc74b96a449b3cd586aee0d",
                         "parent_name": "chengzhipanpan-large_predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x2e36fb8252fa41f084f112bcb007e7f2"
                     }
                 ],
@@ -3324,6 +3463,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x30091dba0dc74b96a449b3cd586aee0d"
             },
             "scores": {
@@ -3355,6 +3495,7 @@
                         "child_uuid": "0x60b4c9454c28435da837a182b40e8145",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3362,6 +3503,7 @@
                         "child_uuid": "0x60b4c9454c28435da837a182b40e8145",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -3369,6 +3511,7 @@
                         "child_uuid": "0x60b4c9454c28435da837a182b40e8145",
                         "parent_name": "mrglass-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x5764844443cd4c46b898fe35c6a9d4c3"
                     }
                 ],
@@ -3412,6 +3555,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x60b4c9454c28435da837a182b40e8145"
             },
             "scores": {
@@ -3443,6 +3587,7 @@
                         "child_uuid": "0x7825c1fa6df84ee18149d471dadb8356",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3450,6 +3595,7 @@
                         "child_uuid": "0x7825c1fa6df84ee18149d471dadb8356",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -3457,6 +3603,7 @@
                         "child_uuid": "0x7825c1fa6df84ee18149d471dadb8356",
                         "parent_name": "tuming1990jd-predict3-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x223d656c42564478b76150ca326f3258"
                     }
                 ],
@@ -3502,6 +3649,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x7825c1fa6df84ee18149d471dadb8356"
             },
             "scores": {
@@ -3533,6 +3681,7 @@
                         "child_uuid": "0xc55823842d0f4aabba3134a1a57ea121",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3540,6 +3689,7 @@
                         "child_uuid": "0xc55823842d0f4aabba3134a1a57ea121",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -3547,6 +3697,7 @@
                         "child_uuid": "0xc55823842d0f4aabba3134a1a57ea121",
                         "parent_name": "lancer-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xa20c82d39b6c4e2e99415c451ff7b5bc"
                     }
                 ],
@@ -3592,6 +3743,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xc55823842d0f4aabba3134a1a57ea121"
             },
             "scores": {
@@ -3623,6 +3775,7 @@
                         "child_uuid": "0x54642782e63047129175cf80fbc8be03",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3630,6 +3783,7 @@
                         "child_uuid": "0x54642782e63047129175cf80fbc8be03",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -3637,6 +3791,7 @@
                         "child_uuid": "0x54642782e63047129175cf80fbc8be03",
                         "parent_name": "studyfang-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xb0578372a1c54305a2de3824db4ef5db"
                     }
                 ],
@@ -3680,6 +3835,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x54642782e63047129175cf80fbc8be03"
             },
             "scores": {
@@ -3711,6 +3867,7 @@
                         "child_uuid": "0x8cfc7e857ed94edeaa2289ec05b4cf63",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3718,6 +3875,7 @@
                         "child_uuid": "0x8cfc7e857ed94edeaa2289ec05b4cf63",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -3725,6 +3883,7 @@
                         "child_uuid": "0x8cfc7e857ed94edeaa2289ec05b4cf63",
                         "parent_name": "unsuperviseddecomposition-predict_udqa-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xd41baaffc3494ef9badabeda6ec4e09b"
                     }
                 ],
@@ -3770,6 +3929,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x8cfc7e857ed94edeaa2289ec05b4cf63"
             },
             "scores": {
@@ -3801,6 +3961,7 @@
                         "child_uuid": "0x38626c4bca3e421c81a92ab84d67d6b8",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3808,6 +3969,7 @@
                         "child_uuid": "0x38626c4bca3e421c81a92ab84d67d6b8",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -3815,6 +3977,7 @@
                         "child_uuid": "0x38626c4bca3e421c81a92ab84d67d6b8",
                         "parent_name": "eps-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xec07bc4a1216472c8a893a42288005c2"
                     }
                 ],
@@ -3858,6 +4021,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x38626c4bca3e421c81a92ab84d67d6b8"
             },
             "scores": {
@@ -3889,6 +4053,7 @@
                         "child_uuid": "0xe9301914183a469e85ac91d7c1f0ec1c",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3896,6 +4061,7 @@
                         "child_uuid": "0xe9301914183a469e85ac91d7c1f0ec1c",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -3903,6 +4069,7 @@
                         "child_uuid": "0xe9301914183a469e85ac91d7c1f0ec1c",
                         "parent_name": "mrglass-predict-single-model-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xd94f6062e3b34de78d43ad04585a60e1"
                     }
                 ],
@@ -3946,6 +4113,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xe9301914183a469e85ac91d7c1f0ec1c"
             },
             "scores": {
@@ -3977,6 +4145,7 @@
                         "child_uuid": "0xcaf6f6d84ca54b9a95a5ff39854525ff",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -3984,6 +4153,7 @@
                         "child_uuid": "0xcaf6f6d84ca54b9a95a5ff39854525ff",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -3991,6 +4161,7 @@
                         "child_uuid": "0xcaf6f6d84ca54b9a95a5ff39854525ff",
                         "parent_name": "lucky_sheep-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x25eb0ffa83e8429f9ee4c0cea2cf465e"
                     }
                 ],
@@ -4036,6 +4207,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xcaf6f6d84ca54b9a95a5ff39854525ff"
             },
             "scores": {
@@ -4067,6 +4239,7 @@
                         "child_uuid": "0x192afe33449c4a3da8ed6ee8d956f385",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4074,6 +4247,7 @@
                         "child_uuid": "0x192afe33449c4a3da8ed6ee8d956f385",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -4081,6 +4255,7 @@
                         "child_uuid": "0x192afe33449c4a3da8ed6ee8d956f385",
                         "parent_name": "Giwon_Hong-test_inference3_again_1.3_cachefix-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x42050668371e49f99f28e945ec9f17a7"
                     }
                 ],
@@ -4126,6 +4301,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x192afe33449c4a3da8ed6ee8d956f385"
             },
             "scores": {
@@ -4157,6 +4333,7 @@
                         "child_uuid": "0xe9f7be6a87164719aedd14190cd6c970",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4164,6 +4341,7 @@
                         "child_uuid": "0xe9f7be6a87164719aedd14190cd6c970",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -4171,6 +4349,7 @@
                         "child_uuid": "0xe9f7be6a87164719aedd14190cd6c970",
                         "parent_name": "chengzhipanpan-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x3f7f8cf375084dec952ba245f6481f14"
                     }
                 ],
@@ -4222,6 +4401,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xe9f7be6a87164719aedd14190cd6c970"
             },
             "scores": {
@@ -4253,6 +4433,7 @@
                         "child_uuid": "0x1ee1e9cc4f744f70ab5542c2061a1aa4",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4260,6 +4441,7 @@
                         "child_uuid": "0x1ee1e9cc4f744f70ab5542c2061a1aa4",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -4267,6 +4449,7 @@
                         "child_uuid": "0x1ee1e9cc4f744f70ab5542c2061a1aa4",
                         "parent_name": "yumere-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x4321905bcbdd4abc9b0215c3bc6b0a54"
                     }
                 ],
@@ -4310,6 +4493,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x1ee1e9cc4f744f70ab5542c2061a1aa4"
             },
             "scores": {
@@ -4341,6 +4525,7 @@
                         "child_uuid": "0x3740ac30d9eb429cb901cac4a444c499",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4348,6 +4533,7 @@
                         "child_uuid": "0x3740ac30d9eb429cb901cac4a444c499",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -4355,6 +4541,7 @@
                         "child_uuid": "0x3740ac30d9eb429cb901cac4a444c499",
                         "parent_name": "chwang85-predict-gar-bert-v2-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xaec23639480f4b2e8e06c950795441eb"
                     }
                 ],
@@ -4406,6 +4593,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x3740ac30d9eb429cb901cac4a444c499"
             },
             "scores": {
@@ -4437,6 +4625,7 @@
                         "child_uuid": "0x3537994f8c934b70aabcfef2e876cdb1",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4444,6 +4633,7 @@
                         "child_uuid": "0x3537994f8c934b70aabcfef2e876cdb1",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -4451,6 +4641,7 @@
                         "child_uuid": "0x3537994f8c934b70aabcfef2e876cdb1",
                         "parent_name": "lixinyi-predict_base_update1-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x232454eeaa4240aab1edab2b0f8eadf0"
                     }
                 ],
@@ -4496,6 +4687,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x3537994f8c934b70aabcfef2e876cdb1"
             },
             "scores": {
@@ -4527,6 +4719,7 @@
                         "child_uuid": "0xcef6c2ef3bca4d78a7455ae1aaf12246",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4534,6 +4727,7 @@
                         "child_uuid": "0xcef6c2ef3bca4d78a7455ae1aaf12246",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -4541,6 +4735,7 @@
                         "child_uuid": "0xcef6c2ef3bca4d78a7455ae1aaf12246",
                         "parent_name": "chwang85-predict-gar-bert-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xf06a070802bf4f5c8283c32becef9baa"
                     }
                 ],
@@ -4586,6 +4781,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xcef6c2ef3bca4d78a7455ae1aaf12246"
             },
             "scores": {
@@ -4617,6 +4813,7 @@
                         "child_uuid": "0x57218e57507b435ba6d576fddbc2abd0",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4624,6 +4821,7 @@
                         "child_uuid": "0x57218e57507b435ba6d576fddbc2abd0",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -4631,6 +4829,7 @@
                         "child_uuid": "0x57218e57507b435ba6d576fddbc2abd0",
                         "parent_name": "tyxqiean-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x05af6ce9da25413ebd6c3ffcf7f0ec02"
                     }
                 ],
@@ -4676,6 +4875,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x57218e57507b435ba6d576fddbc2abd0"
             },
             "scores": {
@@ -4707,6 +4907,7 @@
                         "child_uuid": "0xff5ec8752417479daf0fa0d26d36a4fe",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4714,6 +4915,7 @@
                         "child_uuid": "0xff5ec8752417479daf0fa0d26d36a4fe",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -4721,6 +4923,7 @@
                         "child_uuid": "0xff5ec8752417479daf0fa0d26d36a4fe",
                         "parent_name": "akar_sf-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x5343a0bbbf3543e8926e225d6a60bbce"
                     }
                 ],
@@ -4764,6 +4967,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xff5ec8752417479daf0fa0d26d36a4fe"
             },
             "scores": {
@@ -4795,6 +4999,7 @@
                         "child_uuid": "0x4a3dae5677b44fb8ab2a54463c420de9",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4802,6 +5007,7 @@
                         "child_uuid": "0x4a3dae5677b44fb8ab2a54463c420de9",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -4809,6 +5015,7 @@
                         "child_uuid": "0x4a3dae5677b44fb8ab2a54463c420de9",
                         "parent_name": "jfchen-hotpot_predict_bundle-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xde5ac9be11854ad1ba9909afe53f4024"
                     }
                 ],
@@ -4852,6 +5059,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x4a3dae5677b44fb8ab2a54463c420de9"
             },
             "scores": {
@@ -4883,6 +5091,7 @@
                         "child_uuid": "0x2ba6d0afb94742ce8d3a13d61a216e9a",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4890,6 +5099,7 @@
                         "child_uuid": "0x2ba6d0afb94742ce8d3a13d61a216e9a",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -4897,6 +5107,7 @@
                         "child_uuid": "0x2ba6d0afb94742ce8d3a13d61a216e9a",
                         "parent_name": "usydnlp-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x39611216014b4f14a1a57c88ba3c1c95"
                     }
                 ],
@@ -4942,6 +5153,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x2ba6d0afb94742ce8d3a13d61a216e9a"
             },
             "scores": {
@@ -4973,6 +5185,7 @@
                         "child_uuid": "0xbab955a0b9734f3ebe656a86e71bf327",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -4980,6 +5193,7 @@
                         "child_uuid": "0xbab955a0b9734f3ebe656a86e71bf327",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -4987,6 +5201,7 @@
                         "child_uuid": "0xbab955a0b9734f3ebe656a86e71bf327",
                         "parent_name": "quentin-grail-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x171e9f4027d84123bf0d5c3550c02fea"
                     }
                 ],
@@ -5030,6 +5245,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xbab955a0b9734f3ebe656a86e71bf327"
             },
             "scores": {
@@ -5061,6 +5277,7 @@
                         "child_uuid": "0xfed9d478f9894737ae15910edaa46ce7",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5068,6 +5285,7 @@
                         "child_uuid": "0xfed9d478f9894737ae15910edaa46ce7",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -5075,6 +5293,7 @@
                         "child_uuid": "0xfed9d478f9894737ae15910edaa46ce7",
                         "parent_name": "tuming1990asu-predict2-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x023ccd31bd0348dda564b4e3d60203f8"
                     }
                 ],
@@ -5118,6 +5337,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xfed9d478f9894737ae15910edaa46ce7"
             },
             "scores": {
@@ -5149,6 +5369,7 @@
                         "child_uuid": "0x5265141f1b4043aa88f8f002a081f67f",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5156,6 +5377,7 @@
                         "child_uuid": "0x5265141f1b4043aa88f8f002a081f67f",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -5163,6 +5385,7 @@
                         "child_uuid": "0x5265141f1b4043aa88f8f002a081f67f",
                         "parent_name": "yumere3-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x26661ae9bdb54a21ada4697356e08203"
                     }
                 ],
@@ -5206,6 +5429,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x5265141f1b4043aa88f8f002a081f67f"
             },
             "scores": {
@@ -5237,6 +5461,7 @@
                         "child_uuid": "0x9dda70dc3bc848bba31dbb5c5e198c9b",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5244,6 +5469,7 @@
                         "child_uuid": "0x9dda70dc3bc848bba31dbb5c5e198c9b",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -5251,6 +5477,7 @@
                         "child_uuid": "0x9dda70dc3bc848bba31dbb5c5e198c9b",
                         "parent_name": "tuming1990asu-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xee80efaba5e54326bcd0840d08b0a0da"
                     }
                 ],
@@ -5294,6 +5521,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x9dda70dc3bc848bba31dbb5c5e198c9b"
             },
             "scores": {
@@ -5325,6 +5553,7 @@
                         "child_uuid": "0xab52712f6a374ab6aab2dc497d6155ad",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5332,6 +5561,7 @@
                         "child_uuid": "0xab52712f6a374ab6aab2dc497d6155ad",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -5339,6 +5569,7 @@
                         "child_uuid": "0xab52712f6a374ab6aab2dc497d6155ad",
                         "parent_name": "bnbn333-predict_irc-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x9182485d90344762afc374a14e4f3e3f"
                     }
                 ],
@@ -5384,6 +5615,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xab52712f6a374ab6aab2dc497d6155ad"
             },
             "scores": {
@@ -5415,6 +5647,7 @@
                         "child_uuid": "0x216874951b394f039659326d3c374d2a",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5422,6 +5655,7 @@
                         "child_uuid": "0x216874951b394f039659326d3c374d2a",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -5429,6 +5663,7 @@
                         "child_uuid": "0x216874951b394f039659326d3c374d2a",
                         "parent_name": "gpsbhargav-s_g_1-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x9f93c829105a445d9b4626dc0a4eb6a8"
                     }
                 ],
@@ -5472,6 +5707,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x216874951b394f039659326d3c374d2a"
             },
             "scores": {
@@ -5503,6 +5739,7 @@
                         "child_uuid": "0x5a94ce4a7f2d49428024931f1cc74c41",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5510,6 +5747,7 @@
                         "child_uuid": "0x5a94ce4a7f2d49428024931f1cc74c41",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -5517,6 +5755,7 @@
                         "child_uuid": "0x5a94ce4a7f2d49428024931f1cc74c41",
                         "parent_name": "chwang85-predict-gar-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x4bd69ca986264f50ac02b423de77a54f"
                     }
                 ],
@@ -5562,6 +5801,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x5a94ce4a7f2d49428024931f1cc74c41"
             },
             "scores": {
@@ -5593,6 +5833,7 @@
                         "child_uuid": "0xe228ded4d4ec4db097d23330f3bcf651",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5600,6 +5841,7 @@
                         "child_uuid": "0xe228ded4d4ec4db097d23330f3bcf651",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -5607,6 +5849,7 @@
                         "child_uuid": "0xe228ded4d4ec4db097d23330f3bcf651",
                         "parent_name": "chwang85-predict-gar-v2-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x2df677d005dc453cb494d596f2c2697a"
                     }
                 ],
@@ -5658,6 +5901,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xe228ded4d4ec4db097d23330f3bcf651"
             },
             "scores": {
@@ -5689,6 +5933,7 @@
                         "child_uuid": "0x32ddc25890674d9c87f575fdbd200fd4",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5696,6 +5941,7 @@
                         "child_uuid": "0x32ddc25890674d9c87f575fdbd200fd4",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -5703,6 +5949,7 @@
                         "child_uuid": "0x32ddc25890674d9c87f575fdbd200fd4",
                         "parent_name": "chwang85-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x4726605601b142acb42977a2a44619dc"
                     }
                 ],
@@ -5748,6 +5995,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x32ddc25890674d9c87f575fdbd200fd4"
             },
             "scores": {
@@ -5779,6 +6027,7 @@
                         "child_uuid": "0xf0e7ee60d0124240b9e49b91a9215cc2",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5786,6 +6035,7 @@
                         "child_uuid": "0xf0e7ee60d0124240b9e49b91a9215cc2",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -5793,6 +6043,7 @@
                         "child_uuid": "0xf0e7ee60d0124240b9e49b91a9215cc2",
                         "parent_name": "chwang85-predict-gar-nosf-v2-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xe01a46eaf6704721bbdd87c888aa9a6e"
                     }
                 ],
@@ -5838,6 +6089,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xf0e7ee60d0124240b9e49b91a9215cc2"
             },
             "scores": {
@@ -5869,6 +6121,7 @@
                         "child_uuid": "0xc54d516ea26840caacbfca5895475e63",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5876,6 +6129,7 @@
                         "child_uuid": "0xc54d516ea26840caacbfca5895475e63",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -5883,6 +6137,7 @@
                         "child_uuid": "0xc54d516ea26840caacbfca5895475e63",
                         "parent_name": "chwang85-predict-gar-bert-nosf-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xb3af92e8fd294c6aa285eb94ce6cc6d7"
                     }
                 ],
@@ -5928,6 +6183,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xc54d516ea26840caacbfca5895475e63"
             },
             "scores": {
@@ -5959,6 +6215,7 @@
                         "child_uuid": "0xc61764ab98bd45e88b9bdc3603405f8b",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -5966,6 +6223,7 @@
                         "child_uuid": "0xc61764ab98bd45e88b9bdc3603405f8b",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -5973,6 +6231,7 @@
                         "child_uuid": "0xc61764ab98bd45e88b9bdc3603405f8b",
                         "parent_name": "zhying-mypredict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x4f94f60da6be44ddbd4a4a471c592a3f"
                     }
                 ],
@@ -6016,6 +6275,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xc61764ab98bd45e88b9bdc3603405f8b"
             },
             "scores": {
@@ -6047,6 +6307,7 @@
                         "child_uuid": "0xf8418dfa584040a09b359ac5a481c37e",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -6054,6 +6315,7 @@
                         "child_uuid": "0xf8418dfa584040a09b359ac5a481c37e",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -6061,6 +6323,7 @@
                         "child_uuid": "0xf8418dfa584040a09b359ac5a481c37e",
                         "parent_name": "quentin-grail-run_flask-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x8a1d980455dd4d44902bdba4c1dd1e28"
                     }
                 ],
@@ -6104,6 +6367,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xf8418dfa584040a09b359ac5a481c37e"
             },
             "scores": {
@@ -6135,6 +6399,7 @@
                         "child_uuid": "0x4483baf3ee1348e18fc94f054cc18bd7",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -6142,6 +6407,7 @@
                         "child_uuid": "0x4483baf3ee1348e18fc94f054cc18bd7",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -6149,6 +6415,7 @@
                         "child_uuid": "0x4483baf3ee1348e18fc94f054cc18bd7",
                         "parent_name": "mnskim-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x8d72839e9ab1464aaf690ee556750813"
                     }
                 ],
@@ -6192,6 +6459,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x4483baf3ee1348e18fc94f054cc18bd7"
             },
             "scores": {
@@ -6223,6 +6491,7 @@
                         "child_uuid": "0x11ca025ca1f34711932da9c79c5ac664",
                         "parent_name": "eval.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x190c9bd4a4a749f5bee897be94d08c98"
                     },
                     {
@@ -6230,6 +6499,7 @@
                         "child_uuid": "0x11ca025ca1f34711932da9c79c5ac664",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -6237,6 +6507,7 @@
                         "child_uuid": "0x11ca025ca1f34711932da9c79c5ac664",
                         "parent_name": "susht-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xb7390f9492b3484f9e891377fcf5db7b"
                     }
                 ],
@@ -6280,6 +6551,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x11ca025ca1f34711932da9c79c5ac664"
             },
             "scores": {
@@ -6311,6 +6583,7 @@
                         "child_uuid": "0x47042f1cb7ee43deacf1d197e6410e66",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -6318,6 +6591,7 @@
                         "child_uuid": "0x47042f1cb7ee43deacf1d197e6410e66",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -6325,6 +6599,7 @@
                         "child_uuid": "0x47042f1cb7ee43deacf1d197e6410e66",
                         "parent_name": "susht3-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xa0fc4c3685eb4fdd85bf730b56ed3b19"
                     }
                 ],
@@ -6368,6 +6643,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x47042f1cb7ee43deacf1d197e6410e66"
             },
             "scores": {
@@ -6399,6 +6675,7 @@
                         "child_uuid": "0x35e3c68d65d64e04b6688e2e4de766f0",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -6406,6 +6683,7 @@
                         "child_uuid": "0x35e3c68d65d64e04b6688e2e4de766f0",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -6413,6 +6691,7 @@
                         "child_uuid": "0x35e3c68d65d64e04b6688e2e4de766f0",
                         "parent_name": "YunxuanXiao-bertner_predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xf1c670e84107406a8934b296a38bef7c"
                     }
                 ],
@@ -6456,6 +6735,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x35e3c68d65d64e04b6688e2e4de766f0"
             },
             "scores": {
@@ -6487,6 +6767,7 @@
                         "child_uuid": "0xe48ea768f1914584ac96f07441cf27bf",
                         "parent_name": "eval.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x190c9bd4a4a749f5bee897be94d08c98"
                     },
                     {
@@ -6494,6 +6775,7 @@
                         "child_uuid": "0xe48ea768f1914584ac96f07441cf27bf",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -6501,6 +6783,7 @@
                         "child_uuid": "0xe48ea768f1914584ac96f07441cf27bf",
                         "parent_name": "sewon-dev_preds-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x20f18a05998b4247ae566fcb18fc3883"
                     }
                 ],
@@ -6544,6 +6827,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xe48ea768f1914584ac96f07441cf27bf"
             },
             "scores": {
@@ -6575,6 +6859,7 @@
                         "child_uuid": "0x995534a55c5a4ed6bbf5384e4d09f9af",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -6582,6 +6867,7 @@
                         "child_uuid": "0x995534a55c5a4ed6bbf5384e4d09f9af",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -6589,6 +6875,7 @@
                         "child_uuid": "0x995534a55c5a4ed6bbf5384e4d09f9af",
                         "parent_name": "qgrail-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x6b876bb392f74d5ba3d4c837ca9726f3"
                     }
                 ],
@@ -6632,6 +6919,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x995534a55c5a4ed6bbf5384e4d09f9af"
             },
             "scores": {
@@ -6663,6 +6951,7 @@
                         "child_uuid": "0x01c33a653c364fd9a700484cacc5fc9c",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -6670,6 +6959,7 @@
                         "child_uuid": "0x01c33a653c364fd9a700484cacc5fc9c",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -6677,6 +6967,7 @@
                         "child_uuid": "0x01c33a653c364fd9a700484cacc5fc9c",
                         "parent_name": "minsoo9575-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x556b719b71ba4f8c9389925aed35d902"
                     }
                 ],
@@ -6720,6 +7011,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x01c33a653c364fd9a700484cacc5fc9c"
             },
             "scores": {
@@ -6751,6 +7043,7 @@
                         "child_uuid": "0x9b15ed4ebf304d94bd1199e6566775fc",
                         "parent_name": "eval.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x190c9bd4a4a749f5bee897be94d08c98"
                     },
                     {
@@ -6758,6 +7051,7 @@
                         "child_uuid": "0x9b15ed4ebf304d94bd1199e6566775fc",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -6765,6 +7059,7 @@
                         "child_uuid": "0x9b15ed4ebf304d94bd1199e6566775fc",
                         "parent_name": "YunxuanXiao-predict_final2-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xecfa1d7d384e434cbe0bffa254fddddd"
                     }
                 ],
@@ -6808,6 +7103,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x9b15ed4ebf304d94bd1199e6566775fc"
             },
             "scores": {
@@ -6839,6 +7135,7 @@
                         "child_uuid": "0xb57e9179e2424bcf827adeb8c8ee9693",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -6846,6 +7143,7 @@
                         "child_uuid": "0xb57e9179e2424bcf827adeb8c8ee9693",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -6853,6 +7151,7 @@
                         "child_uuid": "0xb57e9179e2424bcf827adeb8c8ee9693",
                         "parent_name": "chwang85-predict-gar-nosf-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xe45d8022f3574f1b9c8c3b29707f5d55"
                     }
                 ],
@@ -6898,6 +7197,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xb57e9179e2424bcf827adeb8c8ee9693"
             },
             "scores": {
@@ -6929,6 +7229,7 @@
                         "child_uuid": "0x737c40d5d66c4a6eb90a4242385f5352",
                         "parent_name": "eval.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x190c9bd4a4a749f5bee897be94d08c98"
                     },
                     {
@@ -6936,6 +7237,7 @@
                         "child_uuid": "0x737c40d5d66c4a6eb90a4242385f5352",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -6943,6 +7245,7 @@
                         "child_uuid": "0x737c40d5d66c4a6eb90a4242385f5352",
                         "parent_name": "kosuken-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x19cbf1a1b4b04d859b52e7ea8457da29"
                     }
                 ],
@@ -6986,6 +7289,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x737c40d5d66c4a6eb90a4242385f5352"
             },
             "scores": {
@@ -7017,6 +7321,7 @@
                         "child_uuid": "0x1b9df53d06c54f16954944f535cef39b",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -7024,6 +7329,7 @@
                         "child_uuid": "0x1b9df53d06c54f16954944f535cef39b",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -7031,6 +7337,7 @@
                         "child_uuid": "0x1b9df53d06c54f16954944f535cef39b",
                         "parent_name": "minsoo9574-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x371fc353f5f349d497f5d1a45f1e6048"
                     }
                 ],
@@ -7074,6 +7381,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x1b9df53d06c54f16954944f535cef39b"
             },
             "scores": {
@@ -7105,6 +7413,7 @@
                         "child_uuid": "0x49ca04714667495384c94b0c7cae25d7",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -7112,6 +7421,7 @@
                         "child_uuid": "0x49ca04714667495384c94b0c7cae25d7",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -7119,6 +7429,7 @@
                         "child_uuid": "0x49ca04714667495384c94b0c7cae25d7",
                         "parent_name": "mkim3-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xeb5d59998d5046faaaf7791f25b57cbd"
                     }
                 ],
@@ -7162,6 +7473,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0x49ca04714667495384c94b0c7cae25d7"
             },
             "scores": {
@@ -7193,6 +7505,7 @@
                         "child_uuid": "0xcf577559d9a54317882aee51b879d463",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -7200,6 +7513,7 @@
                         "child_uuid": "0xcf577559d9a54317882aee51b879d463",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -7207,6 +7521,7 @@
                         "child_uuid": "0xcf577559d9a54317882aee51b879d463",
                         "parent_name": "dmye3-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0x2abb53575b7745e0aa6f031892cb3b55"
                     }
                 ],
@@ -7250,6 +7565,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xcf577559d9a54317882aee51b879d463"
             },
             "scores": {
@@ -7281,6 +7597,7 @@
                         "child_uuid": "0xd706ec2f9f2a4181b1bc057dbe9d7857",
                         "parent_name": "eval.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x190c9bd4a4a749f5bee897be94d08c98"
                     },
                     {
@@ -7288,6 +7605,7 @@
                         "child_uuid": "0xd706ec2f9f2a4181b1bc057dbe9d7857",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -7295,6 +7613,7 @@
                         "child_uuid": "0xd706ec2f9f2a4181b1bc057dbe9d7857",
                         "parent_name": "pengqi-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "ready",
                         "parent_uuid": "0xb619fdb84072438583ea41ea8136f756"
                     }
                 ],
@@ -7338,6 +7657,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
                 "uuid": "0xd706ec2f9f2a4181b1bc057dbe9d7857"
             },
             "scores": {
@@ -7369,6 +7689,7 @@
                         "child_uuid": "0xc2b113b4157d469790d6a35f29dc6c32",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -7376,6 +7697,7 @@
                         "child_uuid": "0xc2b113b4157d469790d6a35f29dc6c32",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -7383,6 +7705,7 @@
                         "child_uuid": "0xc2b113b4157d469790d6a35f29dc6c32",
                         "parent_name": "susht3-evaluate-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "failed",
                         "parent_uuid": "0x89f608ce27804e648e796794cc86a822"
                     }
                 ],
@@ -7419,6 +7742,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0xc2b113b4157d469790d6a35f29dc6c32"
             },
             "scores": {
@@ -7450,6 +7774,7 @@
                         "child_uuid": "0x19561affb407498faa73e6842f3b898b",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -7457,6 +7782,7 @@
                         "child_uuid": "0x19561affb407498faa73e6842f3b898b",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -7464,6 +7790,7 @@
                         "child_uuid": "0x19561affb407498faa73e6842f3b898b",
                         "parent_name": "armanc-hp-lf-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "failed",
                         "parent_uuid": "0xac7a491caaa94e60a498d6899e9368de"
                     }
                 ],
@@ -7500,6 +7827,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0x19561affb407498faa73e6842f3b898b"
             },
             "scores": {
@@ -7531,6 +7859,7 @@
                         "child_uuid": "0x0ae395488df14818b6a94b140a4c5257",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -7538,6 +7867,7 @@
                         "child_uuid": "0x0ae395488df14818b6a94b140a4c5257",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -7545,6 +7875,7 @@
                         "child_uuid": "0x0ae395488df14818b6a94b140a4c5257",
                         "parent_name": "sywang-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "failed",
                         "parent_uuid": "0x8e06bbdfe893474f9ac0726e7633f1c8"
                     }
                 ],
@@ -7581,6 +7912,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0x0ae395488df14818b6a94b140a4c5257"
             },
             "scores": {
@@ -7612,6 +7944,7 @@
                         "child_uuid": "0x444b79304e7847fdbc2024d581a33d54",
                         "parent_name": "eval_v1.1.py",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
                     },
                     {
@@ -7619,6 +7952,7 @@
                         "child_uuid": "0x444b79304e7847fdbc2024d581a33d54",
                         "parent_name": "test_distractor_gold",
                         "parent_path": "",
+                        "parent_state": "ready",
                         "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
                     },
                     {
@@ -7626,6 +7960,7 @@
                         "child_uuid": "0x444b79304e7847fdbc2024d581a33d54",
                         "parent_name": "jevishoo-predict-predict",
                         "parent_path": "pred.json",
+                        "parent_state": "failed",
                         "parent_uuid": "0x4d457a3b4f6d4453815e513b0a920838"
                     }
                 ],
@@ -7662,6 +7997,7 @@
                 "permission": 2,
                 "permission_spec": "all",
                 "state": "failed",
+                "state_details": "Bundle has failed.",
                 "uuid": "0x444b79304e7847fdbc2024d581a33d54"
             },
             "scores": {
@@ -7682,5 +8018,5 @@
             }
         }
     ],
-    "updated": 1658615410.6147802
+    "updated": 1671035720.9087749
 }
