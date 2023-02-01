@@ -173,6 +173,110 @@
         },
         {
             "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xc6964c4db433411c97f6743f1d4a2a88/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0x216734e2b3ba1fc7ecf69a1803edbb89fad6e9a6",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xb9889ea11d584f51b678c3ad553fb577",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xb9889ea11d584f51b678c3ad553fb577",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xb9889ea11d584f51b678c3ad553fb577",
+                        "parent_name": "pred.json",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc6964c4db433411c97f6743f1d4a2a88"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xb9889ea11d584f51b678c3ad553fb577",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1675230512,
+                    "data_size": 4461,
+                    "description": "{\"submit_id\": \"0xc6964c4db433411c97f6743f1d4a2a88\", \"submitter_id\": \"0x34625e9d8b9347249d67ca61c6dbf1e5\", \"predict_id\": \"0xc6964c4db433411c97f6743f1d4a2a88\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1675230550,
+                    "memory_usage": 0.0,
+                    "name": "kaixinm-pred.json-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-975c8b25afd84357aadc28a5f5cfcec8",
+                    "remote_history": [
+                        "92cee104a73a"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
+                    "started": 1675230517,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 1.166356,
+                    "time_cleaning_up": 4.238156318664551,
+                    "time_preparing": 7.96617317199707,
+                    "time_running": 3.315418004989624,
+                    "time_system": 0.0,
+                    "time_uploading_results": 10.199448108673096,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
+                "uuid": "0xb9889ea11d584f51b678c3ad553fb577"
+            },
+            "scores": {
+                "ans_em": 0.673869007427414,
+                "ans_f1": 0.8014429540814663,
+                "joint_em": 0.45658338960162054,
+                "joint_f1": 0.716596275051451,
+                "sup_em": 0.612559081701553,
+                "sup_f1": 0.8531410880364482
+            },
+            "submission": {
+                "created": 1675230432,
+                "description": "Chain-of-Skills (Anonymous) (single model) []() ()",
+                "num_period_submissions": 2,
+                "num_total_submissions": 2,
+                "public": true,
+                "user_name": "kaixinm"
+            }
+        },
+        {
+            "bundle": {
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xb55e41b28bc846d3be44fbb6a55de757/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
@@ -3883,7 +3987,7 @@
             "submission": {
                 "created": 1670994500,
                 "description": "PromptRank-fewshot-2-demos",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
                 "user_name": "mkhalifa"
@@ -9079,7 +9183,107 @@
                 "public": true,
                 "user_name": "lang"
             }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xb24c533ed5574c80954c4a347e0af0df/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": null,
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x1664e9a7550047fba48f727065317843",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x1664e9a7550047fba48f727065317843",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x1664e9a7550047fba48f727065317843",
+                        "parent_name": "Hotpot_pred",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xb24c533ed5574c80954c4a347e0af0df"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x1664e9a7550047fba48f727065317843",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1675229323,
+                    "description": "{\"submit_id\": \"0xb24c533ed5574c80954c4a347e0af0df\", \"submitter_id\": \"0x34625e9d8b9347249d67ca61c6dbf1e5\", \"predict_id\": \"0xb24c533ed5574c80954c4a347e0af0df\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle info from bundle service: Not Found - Path 'pred.json' in bundle 0xb24c533ed5574c80954c4a347e0af0df not found ",
+                    "last_updated": 1675229340,
+                    "memory_usage": 0.0,
+                    "name": "kaixinm-Hotpot_pred-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-975c8b25afd84357aadc28a5f5cfcec8",
+                    "remote_history": [
+                        "92cee104a73a"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
+                    "started": 1675229327,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_cleaning_up": 2.039914131164551,
+                    "time_preparing": 5.5843095779418945,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0x1664e9a7550047fba48f727065317843"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1674971231,
+                "description": "Chain-of-Skills (Anonymous) (single model) []() ()",
+                "num_period_submissions": 2,
+                "num_total_submissions": 2,
+                "public": true,
+                "user_name": "kaixinm"
+            }
         }
     ],
-    "updated": 1671036348.7757123
+    "updated": 1675231490.920758
 }
