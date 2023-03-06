@@ -478,7 +478,7 @@
             },
             "submission": {
                 "created": 1656330472,
-                "description": "C2FM with F1 Smoothing (Fudan University & Huawei Poisson Lab) (single model) []()()",
+                "description": "Smoothing R3 (Fudan University & Huawei Poisson Lab) (single model) [Rethinking Label Smoothing on Multi-hop Question Answering](https://arxiv.org/pdf/2212.09512.pdf)(https://github.com/yinzhangyue/Smoothing-R3)",
                 "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
@@ -675,7 +675,7 @@
             },
             "submission": {
                 "created": 1652702013,
-                "description": "C2FM (Fudan University & Huawei Poisson Lab) (single model) []()()",
+                "description": "R3 (Fudan University & Huawei Poisson Lab) (single model) [Rethinking Label Smoothing on Multi-hop Question Answering](https://arxiv.org/pdf/2212.09512.pdf)(https://github.com/yinzhangyue/Smoothing-R3)",
                 "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
@@ -1162,6 +1162,110 @@
                 "num_total_submissions": 1,
                 "public": true,
                 "user_name": "yzyqq"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0x638a6c61bd084ba3acdd669c1b75b257/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": "0x0257a40a36357cc11593c3d1917692260f9317fa",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x9cb3c92b2b614c159b6766ab47fdf6ac",
+                        "parent_name": "eval_v1.1.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x9cb3c92b2b614c159b6766ab47fdf6ac",
+                        "parent_name": "test_distractor_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x9cb3c92b2b614c159b6766ab47fdf6ac",
+                        "parent_name": "Giwon_Hong-predict_GIT-predict",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x638a6c61bd084ba3acdd669c1b75b257"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x9cb3c92b2b614c159b6766ab47fdf6ac",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1678078836,
+                    "data_size": 4462,
+                    "description": "{\"submit_id\": \"0xaa48eaa6a0264c7e8f722185f8d5b4ea\", \"submitter_id\": \"0xaaf94e5f518c446f90d7b81022ef991c\", \"predict_id\": \"0x638a6c61bd084ba3acdd669c1b75b257\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1678099821,
+                    "memory_usage": 0.0,
+                    "name": "Giwon_Hong-predict_GIT-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-4da0bcc19ef34e3198e9a634d0cdaa20",
+                    "remote_history": [
+                        "89a960318aca"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
+                    "started": 1678099728,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-distractor-test-eval"
+                    ],
+                    "time": 0.729829,
+                    "time_cleaning_up": 0.03953671455383301,
+                    "time_preparing": 78.10162258148193,
+                    "time_running": 3.0187783241271973,
+                    "time_system": 0.0,
+                    "time_uploading_results": 6.6744544506073,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
+                "uuid": "0x9cb3c92b2b614c159b6766ab47fdf6ac"
+            },
+            "scores": {
+                "ans_em": 0.700742741390952,
+                "ans_f1": 0.828637291258011,
+                "joint_em": 0.47224848075624576,
+                "joint_f1": 0.7484740153389493,
+                "sup_em": 0.6259284267386901,
+                "sup_f1": 0.8853211384609333
+            },
+            "submission": {
+                "created": 1677328453,
+                "description": "GIT (KAIST) (single model)",
+                "num_period_submissions": 1,
+                "num_total_submissions": 3,
+                "public": true,
+                "user_name": "Giwon_Hong"
             }
         },
         {
@@ -2322,8 +2426,8 @@
             "submission": {
                 "created": 1631640812,
                 "description": "GIT (KAIST) (single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 2,
+                "num_period_submissions": 1,
+                "num_total_submissions": 3,
                 "public": true,
                 "user_name": "Giwon_Hong"
             }
@@ -4315,8 +4419,8 @@
             "submission": {
                 "created": 1607048215,
                 "description": "AnonymousK (Anonymous) (single model)",
-                "num_period_submissions": 0,
-                "num_total_submissions": 2,
+                "num_period_submissions": 1,
+                "num_total_submissions": 3,
                 "public": true,
                 "user_name": "Giwon_Hong"
             }
@@ -8016,7 +8120,91 @@
                 "public": true,
                 "user_name": "jevishoo"
             }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0x3ab1dc3312294dc28cac57035bb17460/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "data_hash": null,
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xb3be8808158544c9bfbb75a06809f6ca",
+                        "parent_name": "eval_v1.1.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xb3be8808158544c9bfbb75a06809f6ca",
+                        "parent_name": "test_distractor_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xb3be8808158544c9bfbb75a06809f6ca",
+                        "parent_name": "canghongjian-predict-predict",
+                        "parent_path": "pred.json",
+                        "parent_state": "worker_offline",
+                        "parent_uuid": "0x3ab1dc3312294dc28cac57035bb17460"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xb3be8808158544c9bfbb75a06809f6ca",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "created": 1678078826,
+                    "description": "{\"submit_id\": \"0x8e7301bc7e6a4529a667b031ee4e6d27\", \"submitter_id\": \"0x1a271464e7b6444cb4485ce4b6be9130\", \"predict_id\": \"0x3ab1dc3312294dc28cac57035bb17460\"}",
+                    "exclude_patterns": [],
+                    "name": "canghongjian-predict-results",
+                    "remote_history": [],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-distractor-test-eval"
+                    ]
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "created",
+                "state_details": "Bundle has been created but its contents have not been populated yet.",
+                "uuid": "0xb3be8808158544c9bfbb75a06809f6ca"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1671254335,
+                "description": "HIRA on  DEBERTA (BUPT) (single model) []()()",
+                "num_period_submissions": 1,
+                "num_total_submissions": 1,
+                "public": true,
+                "user_name": "canghongjian"
+            }
         }
     ],
-    "updated": 1671035720.9087749
+    "updated": 1678118599.9143672
 }

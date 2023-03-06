@@ -269,7 +269,7 @@
             "submission": {
                 "created": 1675230432,
                 "description": "Chain-of-Skills (Anonymous) (single model) []() ()",
-                "num_period_submissions": 2,
+                "num_period_submissions": 0,
                 "num_total_submissions": 2,
                 "public": true,
                 "user_name": "kaixinm"
@@ -9278,12 +9278,12 @@
             "submission": {
                 "created": 1674971231,
                 "description": "Chain-of-Skills (Anonymous) (single model) []() ()",
-                "num_period_submissions": 2,
+                "num_period_submissions": 0,
                 "num_total_submissions": 2,
                 "public": true,
                 "user_name": "kaixinm"
             }
         }
     ],
-    "updated": 1675231490.920758
+    "updated": 1677562367.5719447
 }
