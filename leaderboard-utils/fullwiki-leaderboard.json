@@ -82,7 +82,6 @@
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x014f781abfea4fc7b3ea22fa0b7740a6/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x68c39d02d943578b5645b1b9ee72a4279cfe1d62",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -176,7 +175,6 @@
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xc6964c4db433411c97f6743f1d4a2a88/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x216734e2b3ba1fc7ecf69a1803edbb89fad6e9a6",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -280,7 +278,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xb55e41b28bc846d3be44fbb6a55de757/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x2a684d846028379665ddda1fbfa45bc9ec00ff6e",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -374,7 +371,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x7c435370eca84cd59434633ce18d9aac/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xf85e20aff91fb70c884934dc54bd34c89cdbdd7c",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -468,7 +464,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x84ba07a69b5149cd93954901b66bde33/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xc8a0bbcb7c0ad09e84ccb71138cb724b2daa53cc",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -562,7 +557,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xdada30bdc360476b997b6f055c0e92f8/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x9589bfc22b88c27806673b721d47d7475afe432f",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -656,7 +650,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x7c209374157748c2bc7c103ea94b4e03/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x91cdab9f3cfe5d75a4e78e76c23cb845b780a333",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -750,7 +743,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x57dd00d0930c4d02913ce2f2f3f681d6/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x88e5e127cac56f496b607511fe30e5d5913cb077",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -844,7 +836,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xc615591e35b84ac58a085a63eab02140/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xa0a95932254befd7bfa8f21bfe079ee064f0d44e",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -938,7 +929,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x6a0dfcf94156447e916135e5a2c17806/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x1a89946fa633a8c7c3a4c5fff6f12c51be08b8fb",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -1032,7 +1022,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xbeeac5b632ff46bc99d484d21a3d85f3/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x9b34bf0aeae5745a86ebe70b532fa145c2cef797",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -1126,7 +1115,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xe356c997099f4250b06aa7bb4401d86f/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xb9cf821bfc4485126e6f53b6908a58ba4a606228",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -1220,7 +1208,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xf1b7d6330c4942d68b3a2dfcb72fc6ed/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x5a76ae58cde2bd48cc47c1816a57ec1d54eee54c",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -1314,7 +1301,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x61dff7b196644177b09f30d8703a53c5/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x5a76ae58cde2bd48cc47c1816a57ec1d54eee54c",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -1408,7 +1394,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x582df388ab9945d9a2080b30f39e1b72/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x26d45b42cd9af39b592839fa6cc53e4dd8f0a3dc",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -1502,7 +1487,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x378f4296eb4a4397a1cdc09e7979e0c2/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x05d9655815355097dfe3d31de0e52fb508930850",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -1596,7 +1580,6 @@
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x77a602333bbb4b75bd4852d32b2f5f8c/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xf0a81de3f4d8ab399f5beb216e99c679e9b6d9b6",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -1696,7 +1679,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x84aad93074364296bc587f5b42330612/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xa8a9aaafbcfa91c4da2e73e00837ec47c02a90cf",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -1790,7 +1772,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x4f92ef67ee7e4a97a1fd119532971842/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x01d7c7071a4f35b9b8fed171148e0a98afea89e2",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -1884,7 +1865,6 @@
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xb2a2f0dfe5054b0ea6415bb25b5a68ca/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x2d3217013300f3ac7e4de874e1403d6b844c6f55",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -1984,7 +1964,6 @@
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xe49566efd6734eafad4b76b94cbdeff8/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xc86ee379bbbcacd23975a3a899d450ed9e382e01",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -2084,7 +2063,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x1e74ad6faf044c2cabf9d90dc7eaf805/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xc8489d7c85bd0c007a73e825cc3eece161ad8cfb",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -2178,7 +2156,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x783a36ae3ff140c09902c393c360aac3/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x811728b19cb7e658d8a0143bbe3b8dd59ee4f073",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -2272,7 +2249,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xf9a287b3588a49ef9c2a7fd609fc8e8a/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xf10cae4e0f6039e5ab38d3c8db6cd62ba328ec58",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -2366,7 +2342,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x4d13884ad92c4b6e93c7cc63d9e62ff4/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xdfe038c61a9ea4563a21494e20d5ec5cd777103a",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -2460,7 +2435,6 @@
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x224f379315b1474780c8a23cd28906bb/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x19f1caa925a127d2f1cfc836575fd31ef6c6f3bb",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -2560,7 +2534,6 @@
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x8a5e9a6ab74c4c9a88c39cd5ee69e358/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xaabd3172192fa833e69695676857a281fa8df44f",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -2660,7 +2633,6 @@
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xed76b6c0403c48daabad8df0732e152e/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xaabd3172192fa833e69695676857a281fa8df44f",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -2760,7 +2732,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xb710e78a2a344369b2dce47317617f9c/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x9a3df6ae115a59597f61264990ddf400ef44e7ba",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -2854,7 +2825,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xaaa353daad6a46b59bae796328918b1b/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xb4f1cda34c353451e675ac6675108cf823f0568e",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -2948,7 +2918,6 @@
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x5973bde441f1494fa43375ce0e0a4a8a/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x150c3e5a577699033ed037ed57ed653acf2c6a05",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -3048,7 +3017,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x42468c82c7fd4d9d900326da6955a017/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x2d055f24a56eba907e66f8f4f7bae51a86bd6f2a",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -3142,7 +3110,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x28bf3dee139d4f8281af19a152ec0ac0/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x73f909bc1af4ea4e4be4f3c71222b4f0c5cda782",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -3236,7 +3203,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xb0926befa0454c679669bef796e12f12/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x010fc7fe4a3d83cb56fd7e768a10b89c7f062410",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -3330,7 +3296,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x1fb088d0b59449cab3d704a759c226ff/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x13b2b7159bb50d8586e3646925c20bfafda1dca2",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -3424,7 +3389,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xae33f7862d144f0b9a3a6494534f435f/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x13b2b7159bb50d8586e3646925c20bfafda1dca2",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -3518,7 +3482,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x0d770781f7b74535ac4b52e8836b70b1/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x9b27db2ac8b6bed49852e4aecd75985e4fbd5864",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -3612,7 +3575,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x7ad3d5e168954ac589d04f43cf2424d6/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x653df55373c453f7b06cacdbd68a47de7e7e3cc3",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -3706,7 +3668,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x317e33640e37491596ba0cf28a807a90/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xb8c2757580bfd486e6f15e5be8fe26a5ea7ffc2f",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -3800,7 +3761,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xd34c49ca448b44fd9d1480aa69201784/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xb94112ad1fa13104fa2ed14d5c3b81d601729a4c",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -3894,7 +3854,6 @@
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xfb8236f694954d3780d91f8b57e9d618/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x5419f645c90a90e6b058169955e03fd6494e5fa5",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -3998,7 +3957,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x357782b1350e4200815bc98c68fd36cb/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x6f3f7004719163fc5ae5ba73000d7f2fd947cdca",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -4092,7 +4050,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x3154f953a22b40d48de10e13e8210066/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x39da7026fcdc6b05d9ed812c20621ce52fcaf498",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -4186,7 +4143,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xb3f7a50cc936400bb0af024e7fb74e0b/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x753480bf69859ea4dc9f2ca94ba24af7637ce6f7",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -4280,7 +4236,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xb868f227d88c47668a25e48701763f1b/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x70243558899507980c469f7466b727426a115f9e",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -4374,7 +4329,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x4aca5102914a4d8c809f5cd6c64f0aad/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xac74f8dce31cc1e69519e4d05a396c3ae6bf6c1f",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -4466,7 +4420,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xdd3db3196bb348cfb7ffd759fe574000/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x58107bc9dbafb0d438573c4c85970428a4e3da85",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -4560,7 +4513,6 @@
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x7eb42e65d8554886852e2b6c2b5a650e/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xdc36468b180e003490e068e4c5636c47670caddd",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -4654,7 +4606,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xea13988a8f9645efa390759b00ea98a2/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x40f4f9a5c23b1182e7fb32135ac37f2f58bcc05d",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -4746,7 +4697,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x42991b010cc84a3790e1ab73f3de28fd/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xad7f96f36cfca9f8939b847baaf3dc120cd5f2b6",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -4840,7 +4790,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x87a2fd4f14064ca49edfe863b9bd85ba/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x7b76679e3c1d0ec2b14871e5376ded6d19304a29",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -4934,7 +4883,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xd4cba4e49fb64de0a87bcf09c19ec30d/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x653828b2b98f189144681740c41ecb3f5b7aeea1",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -5026,7 +4974,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xecebecc2b8a9465faab41880d9182f6c/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x8a506e97d5fc2f9803da2dd93267bd74891fd199",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -5120,7 +5067,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x1d5283924d1441f5a35880fa2bbe856f/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x62e5c4b5012ed40d8e8760726028061f70fb71e8",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -5212,7 +5158,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x6c751c1b060b41c09efa2a983f7118f6/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xd6a1506b324fc4fc7e0c9efb46dbb13905a75789",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -5306,7 +5251,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x3fb58fea98ef49c48d0882de96c5c5d3/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x5c04e2f98ff7335b0ba0c09f0e4a9006e78fc5cd",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -5398,7 +5342,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xd43c4f3eeaa74e4b817c53f28eada8f0/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x3604df33de5529182e9e3c8eaae332dc462775b0",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -5492,7 +5435,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xdf7e5e78b0af4d9bb41390d5d4d3f000/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x19fc8d1a03930278db67f6cd1b8e800a2532a815",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -5584,7 +5526,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x686ef4c062524d1d924fd36cbf3100e7/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x91aca7db878fec4f657a1223489ace0dbc9dd0b2",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -5678,7 +5619,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x378c5b4d725443cfb034c69ae35f2909/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xf094286037671a8c9380c01318cd38664e15c093",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -5772,7 +5712,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x207aaea7f4444363b6c942a954b1e8b4/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x1bd9333cd5b6cc7b01bed1e9f4259ab0e8934488",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -5866,7 +5805,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x464c7a9269b640e98e432ab5cf0ecdfe/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x0976a4469bf31f22a1f1838de98d64dfc89e406e",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -5960,7 +5898,6 @@
                 "args": "run eval.py:0x190c9bd4a4a749f5bee897be94d08c98 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xa70f5e43ec35400ea39eda9528302c3a/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xae1194dc24c2fb3aee9bf8dd4de83a661bbb2c07",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -6052,7 +5989,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x00f3d9845a324eef8d093a1eb63e1c10/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x77e47b3e1fe6a85224811ba3bbe1ae182f53ea5a",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -6144,7 +6080,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x4073e83219964f84aa4866f315b3b56c/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x32ffa47bd596af5bfa00ee74a1942d16d82f5a40",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -6236,7 +6171,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x4bc9e21905594915bae42142eb4b2bb5/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xccbf9b2eafde17d4ecc9534d2f4c2c273273366e",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -6328,7 +6262,6 @@
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x207e37d700014fb0874b3caeff49b583/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x486172ab4c4eb46aef550b23b8da7d85fe1aac6d",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -6431,7 +6364,6 @@
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x82deec36d1ab4932b6a66bd125033704/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x3cec8e2d51fccf620184501293598e537dc9b5e0",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -6522,10 +6454,112 @@
         },
         {
             "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x1ca114ef9448428999d3c09c44dfd269/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xc3ef3942fd7e449487b1b3e90239660c",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xc3ef3942fd7e449487b1b3e90239660c",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xc3ef3942fd7e449487b1b3e90239660c",
+                        "parent_name": "test_fullwiki_pred",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x1ca114ef9448428999d3c09c44dfd269"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xc3ef3942fd7e449487b1b3e90239660c",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1682402032,
+                    "data_size": 4437,
+                    "description": "{\"submit_id\": \"0x1ca114ef9448428999d3c09c44dfd269\", \"submitter_id\": \"0xdd7850faec3d47ce8545695a6e6adef2\", \"predict_id\": \"0x1ca114ef9448428999d3c09c44dfd269\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1682402126,
+                    "memory_usage": 0.0,
+                    "name": "zhuziyun-test_fullwiki_pred-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-a668781b68ac4df2bdc56c2e78073f32",
+                    "remote_history": [
+                        "791ed7f83af7"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
+                    "started": 1682402035,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 1.024571,
+                    "time_cleaning_up": 0.05396533012390137,
+                    "time_preparing": 83.84097456932068,
+                    "time_running": 3.0235002040863037,
+                    "time_system": 0.0,
+                    "time_uploading_results": 0.2838256359100342,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
+                "uuid": "0xc3ef3942fd7e449487b1b3e90239660c"
+            },
+            "scores": {
+                "ans_em": 0.3351789331532748,
+                "ans_f1": 0.427057165752362,
+                "joint_em": 0.0,
+                "joint_f1": 0.09462295999004706,
+                "sup_em": 0.0,
+                "sup_f1": 0.16237191799771405
+            },
+            "submission": {
+                "created": 1682401965,
+                "description": "HGN Model-reproduce (Peking University) (single model)",
+                "num_period_submissions": 0,
+                "num_total_submissions": 1,
+                "public": true,
+                "user_name": "zhuziyun"
+            }
+        },
+        {
+            "bundle": {
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xa0bf71262fca407a959883cf2d770282/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x923e48c6d18c2e6596ec3d295e823cb7a4e07660",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -6617,7 +6651,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xcc616072f7ec4543801be8f12b2409ae/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x1d46dfa38bd343d31e04f3f32fad4bc1fdc6d146",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -6709,7 +6742,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xafe80bb712274b2fb8c72f197ed1f62f/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xea0f480ed65fd11f5b444eb3a3afb4a15ac67158",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -6801,7 +6833,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x1eec65a27f75412babe11c8ceb7a64b5/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x00770d5be6472517f97d7e5e12dd43cc6cc72a64",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -6895,7 +6926,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x0bb7ad8ce8864c35bb2769bb653e4b68/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x2f97b7749ceb5bca8b87f99f1c284d9f846d3261",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -6987,7 +7017,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x7eb49785993a4fd9be11c29529b26947/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x985828584bb0b09070a9b0740427da86aeec41a8",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -7079,7 +7108,6 @@
                 "args": "run eval.py:0x190c9bd4a4a749f5bee897be94d08c98 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x0db284c116204cc0a3195463879ac8af/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xedfa8c1c2ead95eb8e7f3141385a68a5b8f05dfb",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -7171,7 +7199,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x6e249b3188794f7aa8c1b609821b853b/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x5e05b69741a6164a36c182255e55f25ab657f43a",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -7263,7 +7290,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xadbb9bfabfaf4f4fa1f17390d3e52972/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0x386f28ecc06650e75d5e34265c43fc436b86953f",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -7355,7 +7381,6 @@
                 "args": "run eval.py:0x190c9bd4a4a749f5bee897be94d08c98 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x531569f7a47244bfa97ab60cd672c8cd/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xd0f521f290a9cf68cba265a1561c6c39d6e35b45",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -7447,7 +7472,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x5459e9012f8a48a49ccd747b883db27e/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": "0xe45df8b1864855d84c0ae3212a4c5ebbdff9e7d3",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -7539,7 +7563,6 @@
                 "args": "run eval.py:0x190c9bd4a4a749f5bee897be94d08c98 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xb113bf442b734821ba652e1d82391e3d/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -7629,7 +7652,6 @@
                 "args": "run eval.py:0x190c9bd4a4a749f5bee897be94d08c98 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x877dd0cbac204f3aa90ec83aa313a6c3/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -7719,7 +7741,6 @@
                 "args": "run eval.py:0x190c9bd4a4a749f5bee897be94d08c98 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x803d528db67848f4b8aa15b46db6019e/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -7809,7 +7830,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x649682adfa964ca4950a841ebaf1135d/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -7899,7 +7919,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xd9f34653b93e4988b9f822544de63a28/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -7989,7 +8008,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xd098f1f8238340a89c47cd3799e00461/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -8081,7 +8099,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xc6474ed9e8e144728bad7da3a1dcb625/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -8173,7 +8190,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xcefb9bdcd3774c1ba51766721b155c53/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -8265,7 +8281,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x570be11bbef84ad197f8115282bdcfb1/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -8357,7 +8372,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x42c962b827404e6188e174a92596b703/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -8449,7 +8463,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x3b1c579b013949cb89c59c8fcca8cdd7/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -8541,7 +8554,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x264a2c7501d045b1ae80b7ba2eec8e2e/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -8633,7 +8645,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xed0770399873400f9bf80710347c232d/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -8725,7 +8736,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xf8ade2257ce447448c9a8bbe77ddfee6/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -8817,7 +8827,6 @@
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xe91e85fe00d447e696b1778227983ea8/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -8909,7 +8918,6 @@
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x44b3cfd364f240949be54753422b5391/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -9001,7 +9009,6 @@
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x25f77007f4644047906d5ab3a0253c91/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -9093,7 +9100,6 @@
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x52796848aa074f1792e34464961c8ebb/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -9189,7 +9195,6 @@
                 "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xb24c533ed5574c80954c4a347e0af0df/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
-                "data_hash": null,
                 "dependencies": [
                     {
                         "child_path": "eval.py",
@@ -9283,7 +9288,111 @@
                 "public": true,
                 "user_name": "kaixinm"
             }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x818f41d8874e4091814db61484e31d10/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xf10c67414c044dfebb76ce9bfb97f924",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xf10c67414c044dfebb76ce9bfb97f924",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xf10c67414c044dfebb76ce9bfb97f924",
+                        "parent_name": "pred",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x818f41d8874e4091814db61484e31d10"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xf10c67414c044dfebb76ce9bfb97f924",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1682353085,
+                    "data_size": 4869,
+                    "description": "{\"submit_id\": \"0x818f41d8874e4091814db61484e31d10\", \"submitter_id\": \"0xa0f010f17d39409b9a69e6fe71edb35c\", \"predict_id\": \"0x818f41d8874e4091814db61484e31d10\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 1,
+                    "failure_message": "Exit code 1",
+                    "last_updated": 1682353186,
+                    "memory_usage": 0.0,
+                    "name": "alex_pku-pred-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-22a4109450be4f9a9493b83175fc19e7",
+                    "remote_history": [
+                        "5dd777af1b1f"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
+                    "started": 1682353088,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.044162,
+                    "time_cleaning_up": 0.04743599891662598,
+                    "time_preparing": 90.90258765220642,
+                    "time_running": 2.067939281463623,
+                    "time_system": 0.0,
+                    "time_uploading_results": 0.2568967342376709,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0xf10c67414c044dfebb76ce9bfb97f924"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1682096119,
+                "description": "",
+                "num_period_submissions": 0,
+                "num_total_submissions": 1,
+                "public": true,
+                "user_name": "alex_pku"
+            }
         }
     ],
-    "updated": 1677562367.5719447
+    "updated": 1682954371.661164
 }
