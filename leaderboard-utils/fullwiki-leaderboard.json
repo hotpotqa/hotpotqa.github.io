@@ -266,7 +266,7 @@
             },
             "submission": {
                 "created": 1675230432,
-                "description": "Chain-of-Skills (Anonymous) (single model) []() ()",
+                "description": "Chain-of-Skills (Carnegie Mellon University, Microsoft Research and UIUC) (single model) [Ma et al. ACL 2023](https://arxiv.org/abs/2305.03130) ()",
                 "num_period_submissions": 0,
                 "num_total_submissions": 2,
                 "public": true,
@@ -6454,13 +6454,13 @@
         },
         {
             "bundle": {
-                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x1ca114ef9448428999d3c09c44dfd269/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xc69992ce3d024ee4aa11489aea176e6c/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
                 "dependencies": [
                     {
                         "child_path": "eval.py",
-                        "child_uuid": "0xc3ef3942fd7e449487b1b3e90239660c",
+                        "child_uuid": "0x1a5f85e7246b430299c23a336bbdfc5f",
                         "parent_name": "eval_v1.2.py",
                         "parent_path": "",
                         "parent_state": "ready",
@@ -6468,7 +6468,7 @@
                     },
                     {
                         "child_path": "gold.json",
-                        "child_uuid": "0xc3ef3942fd7e449487b1b3e90239660c",
+                        "child_uuid": "0x1a5f85e7246b430299c23a336bbdfc5f",
                         "parent_name": "test_fullwiki_gold",
                         "parent_path": "",
                         "parent_state": "ready",
@@ -6476,33 +6476,33 @@
                     },
                     {
                         "child_path": "pred.json",
-                        "child_uuid": "0xc3ef3942fd7e449487b1b3e90239660c",
+                        "child_uuid": "0x1a5f85e7246b430299c23a336bbdfc5f",
                         "parent_name": "test_fullwiki_pred",
                         "parent_path": "pred.json",
                         "parent_state": "ready",
-                        "parent_uuid": "0x1ca114ef9448428999d3c09c44dfd269"
+                        "parent_uuid": "0xc69992ce3d024ee4aa11489aea176e6c"
                     }
                 ],
                 "frozen": null,
-                "id": "0xc3ef3942fd7e449487b1b3e90239660c",
+                "id": "0x1a5f85e7246b430299c23a336bbdfc5f",
                 "is_anonymous": false,
                 "metadata": {
                     "actions": [],
                     "allow_failed_dependencies": false,
                     "cpu_usage": 0.0,
-                    "created": 1682402032,
-                    "data_size": 4437,
-                    "description": "{\"submit_id\": \"0x1ca114ef9448428999d3c09c44dfd269\", \"submitter_id\": \"0xdd7850faec3d47ce8545695a6e6adef2\", \"predict_id\": \"0x1ca114ef9448428999d3c09c44dfd269\"}",
+                    "created": 1685586676,
+                    "data_size": 4642,
+                    "description": "{\"submit_id\": \"0xc69992ce3d024ee4aa11489aea176e6c\", \"submitter_id\": \"0xdd7850faec3d47ce8545695a6e6adef2\", \"predict_id\": \"0xc69992ce3d024ee4aa11489aea176e6c\"}",
                     "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
                     "exclude_patterns": [],
                     "exitcode": 0,
-                    "last_updated": 1682402126,
+                    "last_updated": 1685586762,
                     "memory_usage": 0.0,
                     "name": "zhuziyun-test_fullwiki_pred-results",
                     "on_preemptible_worker": false,
-                    "remote": "host-a668781b68ac4df2bdc56c2e78073f32",
+                    "remote": "host-748de4650b414139bfa7ae5d42963603",
                     "remote_history": [
-                        "791ed7f83af7"
+                        "9d8a4de706c9"
                     ],
                     "request_cpus": 1,
                     "request_disk": "",
@@ -6515,17 +6515,17 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
-                    "started": 1682402035,
+                    "started": 1685586679,
                     "store": "",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
-                    "time": 1.024571,
-                    "time_cleaning_up": 0.05396533012390137,
-                    "time_preparing": 83.84097456932068,
-                    "time_running": 3.0235002040863037,
+                    "time": 0.880111,
+                    "time_cleaning_up": 0.04513216018676758,
+                    "time_preparing": 75.95080971717834,
+                    "time_running": 3.019864320755005,
                     "time_system": 0.0,
-                    "time_uploading_results": 0.2838256359100342,
+                    "time_uploading_results": 0.1873471736907959,
                     "time_user": 0.0
                 },
                 "owner": {
@@ -6536,20 +6536,20 @@
                 "permission_spec": "all",
                 "state": "ready",
                 "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
-                "uuid": "0xc3ef3942fd7e449487b1b3e90239660c"
+                "uuid": "0x1a5f85e7246b430299c23a336bbdfc5f"
             },
             "scores": {
                 "ans_em": 0.3351789331532748,
-                "ans_f1": 0.427057165752362,
-                "joint_em": 0.0,
-                "joint_f1": 0.09462295999004706,
-                "sup_em": 0.0,
-                "sup_f1": 0.16237191799771405
+                "ans_f1": 0.4269978867464253,
+                "joint_em": 0.10952059419311276,
+                "joint_f1": 0.2840056002416806,
+                "sup_em": 0.15597569209993248,
+                "sup_f1": 0.4932337067988672
             },
             "submission": {
-                "created": 1682401965,
+                "created": 1684216408,
                 "description": "HGN Model-reproduce (Peking University) (single model)",
-                "num_period_submissions": 0,
+                "num_period_submissions": 1,
                 "num_total_submissions": 1,
                 "public": true,
                 "user_name": "zhuziyun"
@@ -9282,7 +9282,7 @@
             },
             "submission": {
                 "created": 1674971231,
-                "description": "Chain-of-Skills (Anonymous) (single model) []() ()",
+                "description": "Chain-of-Skills (Carnegie Mellon University, Microsoft Research and UIUC) (single model) [Ma et al. ACL 2023](https://arxiv.org/abs/2305.03130) ()",
                 "num_period_submissions": 0,
                 "num_total_submissions": 2,
                 "public": true,
@@ -9394,5 +9394,5 @@
             }
         }
     ],
-    "updated": 1682954371.661164
+    "updated": 1685586782.787217
 }
