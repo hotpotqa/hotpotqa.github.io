@@ -6549,7 +6549,7 @@
             "submission": {
                 "created": 1684216408,
                 "description": "HGN Model-reproduce (Peking University) (single model)",
-                "num_period_submissions": 1,
+                "num_period_submissions": 0,
                 "num_total_submissions": 1,
                 "public": true,
                 "user_name": "zhuziyun"
@@ -9394,5 +9394,5 @@
             }
         }
     ],
-    "updated": 1685586782.787217
+    "updated": 1687625881.8670158
 }

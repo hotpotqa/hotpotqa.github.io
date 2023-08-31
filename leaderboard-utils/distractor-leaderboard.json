@@ -81,6 +81,109 @@
     "leaderboard": [
         {
             "bundle": {
+                "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0x987afc663e854e559db2d28a545e7681/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x8b7e2cb55828483f8d5ce7168b09dad2",
+                        "parent_name": "eval_v1.1.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x46413f77f0da4334828624ad867f1fb6"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x8b7e2cb55828483f8d5ce7168b09dad2",
+                        "parent_name": "test_distractor_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc04622264b8b4a60ad87c97743b574c5"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x8b7e2cb55828483f8d5ce7168b09dad2",
+                        "parent_name": "canghongjian-predict_cpu-predict",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x987afc663e854e559db2d28a545e7681"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x8b7e2cb55828483f8d5ce7168b09dad2",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1693283725,
+                    "data_size": 4632,
+                    "description": "{\"submit_id\": \"0x97e28a7194544d5b8c40d41a40fce7f2\", \"submitter_id\": \"0x1a271464e7b6444cb4485ce4b6be9130\", \"predict_id\": \"0x987afc663e854e559db2d28a545e7681\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1693335225,
+                    "memory_usage": 0.0,
+                    "name": "canghongjian-predict_cpu-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-8d3b9b0040ed428f8486f0cc5bbd6e33",
+                    "remote_history": [
+                        "7bbe9f81ce44"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
+                    "started": 1693335114,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-distractor-test-eval"
+                    ],
+                    "time": 0.872925,
+                    "time_cleaning_up": 5.264464616775513,
+                    "time_preparing": 85.98106455802917,
+                    "time_running": 3.032278299331665,
+                    "time_system": 0.0,
+                    "time_uploading_results": 10.262426853179932,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
+                "uuid": "0x8b7e2cb55828483f8d5ce7168b09dad2"
+            },
+            "scores": {
+                "ans_em": 0.7269412559081702,
+                "ans_f1": 0.8504583399270591,
+                "joint_em": 0.5053342336259284,
+                "joint_f1": 0.7754406781172912,
+                "sup_em": 0.662525320729237,
+                "sup_f1": 0.9009472364232891
+            },
+            "submission": {
+                "created": 1691455401,
+                "description": "Beam Retrieval (BUPT & Tencent) (single model) [(Zhang, Zhang, Zhang, et al. 2023)] (https://arxiv.org/abs/2308.08973) (https://github.com/canghongjian/beam_retriever)",
+                "num_period_submissions": 0,
+                "num_total_submissions": 2,
+                "public": true,
+                "user_name": "canghongjian"
+            }
+        },
+        {
+            "bundle": {
                 "args": "run eval.py:0x46413f77f0da4334828624ad867f1fb6 gold.json:0xc04622264b8b4a60ad87c97743b574c5 pred.json:0xeb47e2bac0f24ec0884b40fc3b0969e9/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
                 "bundle_type": "run",
                 "command": "python eval.py pred.json gold.json",
@@ -8112,13 +8215,13 @@
             },
             "submission": {
                 "created": 1671254335,
-                "description": "HIRA on  DEBERTA (BUPT) (single model) []()()",
+                "description": "HIRA on  DEBERTA () (single model) []()()",
                 "num_period_submissions": 0,
-                "num_total_submissions": 1,
+                "num_total_submissions": 2,
                 "public": true,
                 "user_name": "canghongjian"
             }
         }
     ],
-    "updated": 1679369731.350684
+    "updated": 1693449926.4314542
 }
