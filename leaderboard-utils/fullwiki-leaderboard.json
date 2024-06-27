@@ -38,12 +38,7 @@
         "predict": {
             "depth": 10,
             "metadata": {},
-            "mimic": [
-                {
-                    "new": "",
-                    "old": ""
-                }
-            ],
+            "mimic": [],
             "tag": "competition-predict"
         },
         "quota_period_seconds": 86400,
@@ -135,7 +130,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1620662937,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -234,7 +229,7 @@
                     "run_status": "Finished",
                     "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
                     "started": 1675230517,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -331,7 +326,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1610726735,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -424,7 +419,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1608610390,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -517,7 +512,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1612249651,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -610,7 +605,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1607011771,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -703,7 +698,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1606801210,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -796,7 +791,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1607011693,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -889,7 +884,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1609826068,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -982,7 +977,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1598611526,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -1075,7 +1070,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1596468820,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -1168,7 +1163,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1596756646,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -1261,7 +1256,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1599558099,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -1354,7 +1349,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1599790691,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -1447,7 +1442,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1604376538,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -1540,7 +1535,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1604379918,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -1635,7 +1630,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1638806010,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -1732,7 +1727,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1596756573,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -1825,7 +1820,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1590126193,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -1920,7 +1915,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1621439273,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -2019,7 +2014,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1621439357,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -2116,7 +2111,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1590126190,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -2209,7 +2204,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1583631868,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -2302,7 +2297,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1598544857,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -2395,7 +2390,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1609825993,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -2490,7 +2485,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1637046651,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -2589,7 +2584,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1638806003,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -2688,7 +2683,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1638806008,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -2785,7 +2780,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1608617622,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -2878,7 +2873,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1606092731,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -2973,7 +2968,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1629434961,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -3070,7 +3065,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1612656980,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -3163,7 +3158,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1601911467,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -3256,7 +3251,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1573055536,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -3349,7 +3344,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1611518331,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -3442,7 +3437,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1611518335,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -3535,7 +3530,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1611213560,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -3628,7 +3623,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1583631798,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -3721,7 +3716,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1596069371,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -3814,7 +3809,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1581459853,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -3913,7 +3908,7 @@
                     "run_status": "Finished",
                     "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
                     "started": 1671035664,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -4010,7 +4005,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1612065302,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -4103,7 +4098,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1611296133,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -4196,7 +4191,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1575219135,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -4289,7 +4284,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1570472912,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -4382,7 +4377,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1569040126,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -4473,7 +4468,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1575862721,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -4566,7 +4561,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1620408343,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -4659,7 +4654,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1569670597,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -4750,7 +4745,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1606093115,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -4843,7 +4838,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1615782288,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -4936,7 +4931,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1569115366,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -5027,7 +5022,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1615782294,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -5120,7 +5115,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1557961700,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -5211,7 +5206,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1606613224,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -5304,7 +5299,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1566188953,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -5395,7 +5390,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1608610394,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -5488,7 +5483,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1564621323,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -5579,7 +5574,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1582327477,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -5672,7 +5667,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1596244354,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -5765,7 +5760,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1606613226,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -5858,7 +5853,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1608610408,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -5951,7 +5946,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1550849878,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -6042,7 +6037,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1558469852,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -6133,7 +6128,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1558332948,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -6224,7 +6219,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1558400345,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -6320,7 +6315,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1662478769,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -6357,6 +6352,109 @@
                 "num_total_submissions": 1,
                 "public": true,
                 "user_name": "rekio"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x468cebcb49494cc4a033804a3558f57c/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x974ac0b8148b4497a6bf2c59033d7a3b",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x974ac0b8148b4497a6bf2c59033d7a3b",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x974ac0b8148b4497a6bf2c59033d7a3b",
+                        "parent_name": "predict",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x468cebcb49494cc4a033804a3558f57c"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x974ac0b8148b4497a6bf2c59033d7a3b",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463434,
+                    "data_size": 4964,
+                    "description": "{\"submit_id\": \"0x468cebcb49494cc4a033804a3558f57c\", \"submitter_id\": \"0x8ec19fc5659a45b683d5623c4a515868\", \"predict_id\": \"0x468cebcb49494cc4a033804a3558f57c\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1719463527,
+                    "memory_usage": 0.0,
+                    "name": "vagrant28-predict-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-5e804aec4d6f48cdaf4b4dc0d8b70aea",
+                    "remote_history": [
+                        "cfc5c9b1f727"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
+                    "started": 1719463439,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.93801,
+                    "time_cleaning_up": 0.8415043354034424,
+                    "time_preparing": 70.44972515106201,
+                    "time_running": 3.3141441345214844,
+                    "time_system": 0.0,
+                    "time_uploading_results": 7.25956392288208,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
+                "uuid": "0x974ac0b8148b4497a6bf2c59033d7a3b"
+            },
+            "scores": {
+                "ans_em": 0.36853477380148547,
+                "ans_f1": 0.45959977555006937,
+                "joint_em": 0.11546252532072923,
+                "joint_f1": 0.2907241518045258,
+                "sup_em": 0.15259959486833222,
+                "sup_f1": 0.4676987878203207
+            },
+            "submission": {
+                "created": 1707806027,
+                "description": "",
+                "num_period_submissions": 1,
+                "num_total_submissions": 1,
+                "public": true,
+                "user_name": "vagrant28"
             }
         },
         {
@@ -6417,7 +6515,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1619498666,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -6516,7 +6614,7 @@
                     "run_status": "Finished",
                     "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
                     "started": 1685586679,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -6613,7 +6711,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1551453941,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -6704,7 +6802,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1551826703,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -6795,7 +6893,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1551693886,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -6886,7 +6984,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1575088332,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -6979,7 +7077,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1554748523,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -7070,7 +7168,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1566058987,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -7161,7 +7259,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1543193630,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -7252,7 +7350,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1558257535,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -7343,7 +7441,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1551719311,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -7434,7 +7532,7 @@
                     "request_time": "",
                     "run_status": "Uploading results: 330 done (archived size)",
                     "started": 1539372012,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -7525,7 +7623,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1554748515,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -7556,6 +7654,212 @@
                 "num_total_submissions": 1,
                 "public": true,
                 "user_name": "chrwang"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x0e0c35be79774ecba2fc295a8d4678f5/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x87d834ea70304d71b133bb80cb621284",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x87d834ea70304d71b133bb80cb621284",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x87d834ea70304d71b133bb80cb621284",
+                        "parent_name": "test_fullwiki_m..al_with_context",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x0e0c35be79774ecba2fc295a8d4678f5"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x87d834ea70304d71b133bb80cb621284",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463760,
+                    "data_size": 4519,
+                    "description": "{\"submit_id\": \"0x0e0c35be79774ecba2fc295a8d4678f5\", \"submitter_id\": \"0xbef7bdd15c884bd2a121ca06cf7dc34a\", \"predict_id\": \"0x0e0c35be79774ecba2fc295a8d4678f5\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1719463802,
+                    "memory_usage": 0.0,
+                    "name": "lemi99-test_fullwiki_m..al_with_context-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-8a5660edfa904a74979d86e89f0f3fe2",
+                    "remote_history": [
+                        "927f5eb62047"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "No worker can meet your bundle's resource requirements. Available resources: [0 CPUs (1 requested)]",
+                    "started": 1719463775,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.938147,
+                    "time_cleaning_up": 1.2418513298034668,
+                    "time_preparing": 7.748122692108154,
+                    "time_running": 3.0568525791168213,
+                    "time_system": 0.0,
+                    "time_uploading_results": 8.483230590820312,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
+                "uuid": "0x87d834ea70304d71b133bb80cb621284"
+            },
+            "scores": {
+                "ans_em": 0.07981093855503038,
+                "ans_f1": 0.22149101185504244,
+                "joint_em": 0.0,
+                "joint_f1": 0.0,
+                "sup_em": 0.0,
+                "sup_f1": 0.0
+            },
+            "submission": {
+                "created": 1719315762,
+                "description": "Mistral multi hop with very large sources (Anonymous) (single model) ",
+                "num_period_submissions": 6,
+                "num_total_submissions": 6,
+                "public": true,
+                "user_name": "lemi99"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xc9840f7896984eaf852032d61338bd04/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x96f2665b90f64b0ebf46799aa06e796b",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x96f2665b90f64b0ebf46799aa06e796b",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x96f2665b90f64b0ebf46799aa06e796b",
+                        "parent_name": "pred",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc9840f7896984eaf852032d61338bd04"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x96f2665b90f64b0ebf46799aa06e796b",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463429,
+                    "data_size": 4941,
+                    "description": "{\"submit_id\": \"0xc9840f7896984eaf852032d61338bd04\", \"submitter_id\": \"0x7dce0285c0a5431b8d95a8b87ceae11a\", \"predict_id\": \"0xc9840f7896984eaf852032d61338bd04\"}",
+                    "docker_image": "qipeng/hotpotqa-eval@sha256:cbdb4e9fef8db6a6d5089a3d7e5c1a2c7946dfdda00ffc3a92bbbb6b4f383211",
+                    "exclude_patterns": [],
+                    "exitcode": 0,
+                    "last_updated": 1719463526,
+                    "memory_usage": 0.0,
+                    "name": "XinbaiL-pred-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-5e804aec4d6f48cdaf4b4dc0d8b70aea",
+                    "remote_history": [
+                        "cfc5c9b1f727"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
+                    "started": 1719463432,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 1.046328,
+                    "time_cleaning_up": 2.8177783489227295,
+                    "time_preparing": 75.55476403236389,
+                    "time_running": 3.0661861896514893,
+                    "time_system": 0.0,
+                    "time_uploading_results": 7.288491249084473,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
+                "uuid": "0x96f2665b90f64b0ebf46799aa06e796b"
+            },
+            "scores": {
+                "ans_em": 0.07359891964888589,
+                "ans_f1": 0.1214364640645201,
+                "joint_em": 0.0,
+                "joint_f1": 0.011100036480004473,
+                "sup_em": 0.0,
+                "sup_f1": 0.07848907257923025
+            },
+            "submission": {
+                "created": 1700991224,
+                "description": "test",
+                "num_period_submissions": 2,
+                "num_total_submissions": 2,
+                "public": true,
+                "user_name": "XinbaiL"
             }
         },
         {
@@ -7614,7 +7918,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1542874824,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -7703,7 +8007,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1543191296,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -7792,7 +8096,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1551423588,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -7881,7 +8185,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1558238993,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -7970,7 +8274,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1568906887,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -8059,7 +8363,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1575076080,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -8150,7 +8454,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1581630377,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -8241,7 +8545,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1589400871,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -8332,7 +8636,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1589400871,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -8423,7 +8727,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1596037653,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -8514,7 +8818,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1596069302,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -8605,7 +8909,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1596466585,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -8696,7 +9000,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1611213560,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -8787,7 +9091,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1612491818,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -8878,7 +9182,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1619496223,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -8969,7 +9273,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1620661377,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -9060,7 +9364,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1620812051,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -9153,7 +9457,7 @@
                     "request_time": "",
                     "run_status": "Finished",
                     "started": 1629298777,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -9252,7 +9556,7 @@
                     "run_status": "Finished",
                     "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
                     "started": 1675229327,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -9354,7 +9658,7 @@
                     "run_status": "Finished",
                     "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
                     "started": 1682353088,
-                    "store": "",
+                    "store": "blob-prod",
                     "tags": [
                         "aqtoptoh-fullwiki-test-eval"
                     ],
@@ -9392,7 +9696,1675 @@
                 "public": true,
                 "user_name": "alex_pku"
             }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x29ba576b8240406081f708474f3b22f5/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xf1499316666d41949635286066b98c13",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xf1499316666d41949635286066b98c13",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xf1499316666d41949635286066b98c13",
+                        "parent_name": "text_fullwiki_pred",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x29ba576b8240406081f708474f3b22f5"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xf1499316666d41949635286066b98c13",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463424,
+                    "data_size": 0,
+                    "description": "{\"submit_id\": \"0x29ba576b8240406081f708474f3b22f5\", \"submitter_id\": \"0x7dce0285c0a5431b8d95a8b87ceae11a\", \"predict_id\": \"0x29ba576b8240406081f708474f3b22f5\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle contents from bundle service: Internal Server Error - Internal Server Error ",
+                    "last_updated": 1719463443,
+                    "memory_usage": 0.0,
+                    "name": "XinbaiL-text_fullwiki_pred-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-5e804aec4d6f48cdaf4b4dc0d8b70aea",
+                    "remote_history": [
+                        "cfc5c9b1f727"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
+                    "started": 1719463429,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_cleaning_up": 0.03918313980102539,
+                    "time_preparing": 8.724088668823242,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0xf1499316666d41949635286066b98c13"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1700988232,
+                "description": "test",
+                "num_period_submissions": 2,
+                "num_total_submissions": 2,
+                "public": true,
+                "user_name": "XinbaiL"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xfb383aaf9d824018bff6caba84016eee/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xa4090a53c9c943efafefd4b5376a5ad9",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xa4090a53c9c943efafefd4b5376a5ad9",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xa4090a53c9c943efafefd4b5376a5ad9",
+                        "parent_name": "test_fullwiki_pred",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xfb383aaf9d824018bff6caba84016eee"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xa4090a53c9c943efafefd4b5376a5ad9",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463438,
+                    "data_size": 0,
+                    "description": "{\"submit_id\": \"0xfb383aaf9d824018bff6caba84016eee\", \"submitter_id\": \"0x83acc6c200a045a5942fd4286d0e6d7a\", \"predict_id\": \"0xfb383aaf9d824018bff6caba84016eee\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle contents from bundle service: Internal Server Error - Internal Server Error ",
+                    "last_updated": 1719463463,
+                    "memory_usage": 0.0,
+                    "name": "Barianc-test_fullwiki_pred-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-5e804aec4d6f48cdaf4b4dc0d8b70aea",
+                    "remote_history": [
+                        "cfc5c9b1f727"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
+                    "started": 1719463444,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_cleaning_up": 0.05484795570373535,
+                    "time_preparing": 11.096297264099121,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0xa4090a53c9c943efafefd4b5376a5ad9"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1711963438,
+                "description": "Anonymous (Anonymous) (ensemble)",
+                "num_period_submissions": 1,
+                "num_total_submissions": 1,
+                "public": true,
+                "user_name": "Barianc"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xcd37a6cf70d644faa9a4806977fc02a0/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x265a48496c4b48b499ef1a019ab4ad85",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x265a48496c4b48b499ef1a019ab4ad85",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x265a48496c4b48b499ef1a019ab4ad85",
+                        "parent_name": "test_fullwiki_mistral_with_context",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xcd37a6cf70d644faa9a4806977fc02a0"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x265a48496c4b48b499ef1a019ab4ad85",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463443,
+                    "data_size": 0,
+                    "description": "{\"submit_id\": \"0xcd37a6cf70d644faa9a4806977fc02a0\", \"submitter_id\": \"0xbef7bdd15c884bd2a121ca06cf7dc34a\", \"predict_id\": \"0xcd37a6cf70d644faa9a4806977fc02a0\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle info from bundle service: Not Found - Path 'pred.json' in bundle 0xcd37a6cf70d644faa9a4806977fc02a0 not found ",
+                    "last_updated": 1719463476,
+                    "memory_usage": 0.0,
+                    "name": "lemi99-test_fullwiki_mistral_with_context-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-5e804aec4d6f48cdaf4b4dc0d8b70aea",
+                    "remote_history": [
+                        "cfc5c9b1f727"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "No worker can meet your bundle's resource requirements. ",
+                    "started": 1719463463,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_cleaning_up": 0.05685997009277344,
+                    "time_preparing": 5.778852939605713,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0x265a48496c4b48b499ef1a019ab4ad85"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1712497037,
+                "description": "Mistral multi hop with universal sources (Anonymous) (single model) ",
+                "num_period_submissions": 6,
+                "num_total_submissions": 6,
+                "public": true,
+                "user_name": "lemi99"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xa4c2bb60da9e4a949d80af8f0fab5b7d/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xdcf9d78c8cc347398f8eca26fa60722f",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xdcf9d78c8cc347398f8eca26fa60722f",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xdcf9d78c8cc347398f8eca26fa60722f",
+                        "parent_name": "test_fullwiki_mistral_no_context",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xa4c2bb60da9e4a949d80af8f0fab5b7d"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xdcf9d78c8cc347398f8eca26fa60722f",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463447,
+                    "data_size": 0,
+                    "description": "{\"submit_id\": \"0xa4c2bb60da9e4a949d80af8f0fab5b7d\", \"submitter_id\": \"0xbef7bdd15c884bd2a121ca06cf7dc34a\", \"predict_id\": \"0xa4c2bb60da9e4a949d80af8f0fab5b7d\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle info from bundle service: Not Found - Path 'pred.json' in bundle 0xa4c2bb60da9e4a949d80af8f0fab5b7d not found ",
+                    "last_updated": 1719463488,
+                    "memory_usage": 0.0,
+                    "name": "lemi99-test_fullwiki_mistral_no_context-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-5e804aec4d6f48cdaf4b4dc0d8b70aea",
+                    "remote_history": [
+                        "cfc5c9b1f727"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "No worker can meet your bundle's resource requirements. ",
+                    "started": 1719463476,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_cleaning_up": 0.07257604598999023,
+                    "time_preparing": 5.628275632858276,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0xdcf9d78c8cc347398f8eca26fa60722f"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1712499108,
+                "description": "Mistral multi hop with no sources (Anonymous) (single model) ",
+                "num_period_submissions": 6,
+                "num_total_submissions": 6,
+                "public": true,
+                "user_name": "lemi99"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xf8cbde910ebb4b858cd9225aa1e52356/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x50e3844e708042deb2becce2411174fc",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x50e3844e708042deb2becce2411174fc",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x50e3844e708042deb2becce2411174fc",
+                        "parent_name": "test_fullwiki_mixtral_no_context",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xf8cbde910ebb4b858cd9225aa1e52356"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x50e3844e708042deb2becce2411174fc",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463452,
+                    "data_size": 0,
+                    "description": "{\"submit_id\": \"0xf8cbde910ebb4b858cd9225aa1e52356\", \"submitter_id\": \"0xbef7bdd15c884bd2a121ca06cf7dc34a\", \"predict_id\": \"0xf8cbde910ebb4b858cd9225aa1e52356\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle info from bundle service: Not Found - Path 'pred.json' in bundle 0xf8cbde910ebb4b858cd9225aa1e52356 not found ",
+                    "last_updated": 1719463501,
+                    "memory_usage": 0.0,
+                    "name": "lemi99-test_fullwiki_mixtral_no_context-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-5e804aec4d6f48cdaf4b4dc0d8b70aea",
+                    "remote_history": [
+                        "cfc5c9b1f727"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "No worker can meet your bundle's resource requirements. ",
+                    "started": 1719463489,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_cleaning_up": 0.05939078330993652,
+                    "time_preparing": 5.621378660202026,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0x50e3844e708042deb2becce2411174fc"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1712499108,
+                "description": "Mixtral multi hop with no sources (Anonymous) (single model) ",
+                "num_period_submissions": 6,
+                "num_total_submissions": 6,
+                "public": true,
+                "user_name": "lemi99"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x314831b348794257ab573c23d311e62a/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x3ea6139382de46f89028e4aab6017306",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x3ea6139382de46f89028e4aab6017306",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x3ea6139382de46f89028e4aab6017306",
+                        "parent_name": "test_fullwiki_mixtral_direct",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x314831b348794257ab573c23d311e62a"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x3ea6139382de46f89028e4aab6017306",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463456,
+                    "data_size": 0,
+                    "description": "{\"submit_id\": \"0x314831b348794257ab573c23d311e62a\", \"submitter_id\": \"0xbef7bdd15c884bd2a121ca06cf7dc34a\", \"predict_id\": \"0x314831b348794257ab573c23d311e62a\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle info from bundle service: Not Found - Path 'pred.json' in bundle 0x314831b348794257ab573c23d311e62a not found ",
+                    "last_updated": 1719463514,
+                    "memory_usage": 0.0,
+                    "name": "lemi99-test_fullwiki_mixtral_direct-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-5e804aec4d6f48cdaf4b4dc0d8b70aea",
+                    "remote_history": [
+                        "cfc5c9b1f727"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "No worker can meet your bundle's resource requirements. ",
+                    "started": 1719463502,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_cleaning_up": 1.7328569889068604,
+                    "time_preparing": 6.166421413421631,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "ready",
+                "state_details": "Bundle command has finished executing successfully, and results have been uploaded to the server.",
+                "uuid": "0x3ea6139382de46f89028e4aab6017306"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1712499137,
+                "description": "Mixtral direct answers (Anonymous) (single model) ",
+                "num_period_submissions": 6,
+                "num_total_submissions": 6,
+                "public": true,
+                "user_name": "lemi99"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xe7dc33fa60424a34ad52ed8c5837f383/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x81cef4cff660491c919ac0e46ab2cd5c",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x81cef4cff660491c919ac0e46ab2cd5c",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x81cef4cff660491c919ac0e46ab2cd5c",
+                        "parent_name": "test_fullwiki_mixtral_with_context",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xe7dc33fa60424a34ad52ed8c5837f383"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x81cef4cff660491c919ac0e46ab2cd5c",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463461,
+                    "data_size": 0,
+                    "description": "{\"submit_id\": \"0xe7dc33fa60424a34ad52ed8c5837f383\", \"submitter_id\": \"0xbef7bdd15c884bd2a121ca06cf7dc34a\", \"predict_id\": \"0xe7dc33fa60424a34ad52ed8c5837f383\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle info from bundle service: Not Found - Path 'pred.json' in bundle 0xe7dc33fa60424a34ad52ed8c5837f383 not found ",
+                    "last_updated": 1719463527,
+                    "memory_usage": 0.0,
+                    "name": "lemi99-test_fullwiki_mixtral_with_context-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-5e804aec4d6f48cdaf4b4dc0d8b70aea",
+                    "remote_history": [
+                        "cfc5c9b1f727"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "No worker can meet your bundle's resource requirements. ",
+                    "started": 1719463514,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_cleaning_up": 0.0358736515045166,
+                    "time_preparing": 5.854072093963623,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0x81cef4cff660491c919ac0e46ab2cd5c"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1712677239,
+                "description": "Mixtral multi hop with universal sources (Anonymous) (single model) ",
+                "num_period_submissions": 6,
+                "num_total_submissions": 6,
+                "public": true,
+                "user_name": "lemi99"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xa0226318806443bd8c48a8f551dd5bc4/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x9b95ed335bfe4269aa83a806caa68e83",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x9b95ed335bfe4269aa83a806caa68e83",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x9b95ed335bfe4269aa83a806caa68e83",
+                        "parent_name": "mappings",
+                        "parent_path": "pred.json",
+                        "parent_state": "failed",
+                        "parent_uuid": "0xa0226318806443bd8c48a8f551dd5bc4"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x9b95ed335bfe4269aa83a806caa68e83",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "created": 1719463465,
+                    "description": "{\"submit_id\": \"0xa0226318806443bd8c48a8f551dd5bc4\", \"submitter_id\": \"0x3afafacd4ec846859036472d870e0b1c\", \"predict_id\": \"0xa0226318806443bd8c48a8f551dd5bc4\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Parent bundles failed: 0xa0226318806443bd8c48a8f551dd5bc4 (Please use the --allow-failed-dependencies flag to depend on results of failed or killed bundles) ",
+                    "name": "ag2435-mappings-results",
+                    "remote_history": [],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ]
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0x9b95ed335bfe4269aa83a806caa68e83"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1716387605,
+                "description": "",
+                "num_period_submissions": 3,
+                "num_total_submissions": 3,
+                "public": true,
+                "user_name": "ag2435"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x2b60ee98a3be4dc798ef54d175719c1c/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x0d617ed7394c4f618d8ca3bbe81f4b54",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x0d617ed7394c4f618d8ca3bbe81f4b54",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x0d617ed7394c4f618d8ca3bbe81f4b54",
+                        "parent_name": "test_fullwiki_pred",
+                        "parent_path": "pred.json",
+                        "parent_state": "failed",
+                        "parent_uuid": "0x2b60ee98a3be4dc798ef54d175719c1c"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x0d617ed7394c4f618d8ca3bbe81f4b54",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "created": 1719463724,
+                    "description": "{\"submit_id\": \"0x2b60ee98a3be4dc798ef54d175719c1c\", \"submitter_id\": \"0x3afafacd4ec846859036472d870e0b1c\", \"predict_id\": \"0x2b60ee98a3be4dc798ef54d175719c1c\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Parent bundles failed: 0x2b60ee98a3be4dc798ef54d175719c1c (Please use the --allow-failed-dependencies flag to depend on results of failed or killed bundles) ",
+                    "name": "ag2435-test_fullwiki_pred-results",
+                    "remote_history": [],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ]
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0x0d617ed7394c4f618d8ca3bbe81f4b54"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1716387994,
+                "description": "",
+                "num_period_submissions": 3,
+                "num_total_submissions": 3,
+                "public": true,
+                "user_name": "ag2435"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xfa9349533fb74392b49fff28b1a2c33d/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x2db6634bebb74aadb6ccecedfd977533",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x2db6634bebb74aadb6ccecedfd977533",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x2db6634bebb74aadb6ccecedfd977533",
+                        "parent_name": "pred.json",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xfa9349533fb74392b49fff28b1a2c33d"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x2db6634bebb74aadb6ccecedfd977533",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463728,
+                    "data_size": 0,
+                    "description": "{\"submit_id\": \"0xfa9349533fb74392b49fff28b1a2c33d\", \"submitter_id\": \"0x3afafacd4ec846859036472d870e0b1c\", \"predict_id\": \"0xfa9349533fb74392b49fff28b1a2c33d\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle contents from bundle service: Internal Server Error - Internal Server Error ",
+                    "last_updated": 1719463752,
+                    "memory_usage": 0.0,
+                    "name": "ag2435-pred.json-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-8a5660edfa904a74979d86e89f0f3fe2",
+                    "remote_history": [
+                        "927f5eb62047"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
+                    "started": 1719463734,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_cleaning_up": 0.0673985481262207,
+                    "time_preparing": 11.979671478271484,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0x2db6634bebb74aadb6ccecedfd977533"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1716388252,
+                "description": "",
+                "num_period_submissions": 3,
+                "num_total_submissions": 3,
+                "public": true,
+                "user_name": "ag2435"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x5284afc1237a47918c0dd0b25b7191fc/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x38c8a0ada4684c3cb4e4758717349bb8",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x38c8a0ada4684c3cb4e4758717349bb8",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x38c8a0ada4684c3cb4e4758717349bb8",
+                        "parent_name": "pred_gemma.json",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x5284afc1237a47918c0dd0b25b7191fc"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x38c8a0ada4684c3cb4e4758717349bb8",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463732,
+                    "data_size": 0,
+                    "description": "{\"submit_id\": \"0x5284afc1237a47918c0dd0b25b7191fc\", \"submitter_id\": \"0xc4c96bd44c72415fa5cf6fb3a6708ca6\", \"predict_id\": \"0x5284afc1237a47918c0dd0b25b7191fc\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle contents from bundle service: Internal Server Error - Internal Server Error ",
+                    "last_updated": 1719463753,
+                    "memory_usage": 0.0,
+                    "name": "Mathilda-pred_gemma.json-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-8a5660edfa904a74979d86e89f0f3fe2",
+                    "remote_history": [
+                        "927f5eb62047"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
+                    "started": 1719463737,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_cleaning_up": 0.06692194938659668,
+                    "time_preparing": 8.862322568893433,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0x38c8a0ada4684c3cb4e4758717349bb8"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1718788840,
+                "description": "gemma-finetuned Model (Anonymous) (single model) ",
+                "num_period_submissions": 7,
+                "num_total_submissions": 7,
+                "public": true,
+                "user_name": "Mathilda"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x930008c388f94f0fa6d5239aee3c003a/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xeb084386e9444c29851399d26be9faee",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xeb084386e9444c29851399d26be9faee",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xeb084386e9444c29851399d26be9faee",
+                        "parent_name": "pred_llama.json",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x930008c388f94f0fa6d5239aee3c003a"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xeb084386e9444c29851399d26be9faee",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463736,
+                    "data_size": 0,
+                    "description": "{\"submit_id\": \"0x930008c388f94f0fa6d5239aee3c003a\", \"submitter_id\": \"0xc4c96bd44c72415fa5cf6fb3a6708ca6\", \"predict_id\": \"0x930008c388f94f0fa6d5239aee3c003a\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle contents from bundle service: Internal Server Error - Internal Server Error ",
+                    "last_updated": 1719463754,
+                    "memory_usage": 0.0,
+                    "name": "Mathilda-pred_llama.json-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-8a5660edfa904a74979d86e89f0f3fe2",
+                    "remote_history": [
+                        "927f5eb62047"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "Bundle's dependencies are all ready. Waiting for the bundle to be assigned to a worker to be run.",
+                    "started": 1719463740,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_cleaning_up": 0.03589296340942383,
+                    "time_preparing": 7.39948034286499,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0xeb084386e9444c29851399d26be9faee"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1717772121,
+                "description": "llama-finetuned Model (Anonymous) (single model) ",
+                "num_period_submissions": 7,
+                "num_total_submissions": 7,
+                "public": true,
+                "user_name": "Mathilda"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xe9eed075bbf743b8aeccf9076c6cb233/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x4c711b21f11742bc998ac75e649f457a",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x4c711b21f11742bc998ac75e649f457a",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x4c711b21f11742bc998ac75e649f457a",
+                        "parent_name": "pred_llama-no-context.json",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xe9eed075bbf743b8aeccf9076c6cb233"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x4c711b21f11742bc998ac75e649f457a",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463740,
+                    "data_size": 0,
+                    "description": "{\"submit_id\": \"0xe9eed075bbf743b8aeccf9076c6cb233\", \"submitter_id\": \"0xc4c96bd44c72415fa5cf6fb3a6708ca6\", \"predict_id\": \"0xe9eed075bbf743b8aeccf9076c6cb233\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle contents from bundle service: Internal Server Error - Internal Server Error ",
+                    "last_updated": 1719463770,
+                    "memory_usage": 0.0,
+                    "name": "Mathilda-pred_llama-no-context.json-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-8a5660edfa904a74979d86e89f0f3fe2",
+                    "remote_history": [
+                        "927f5eb62047"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "No worker can meet your bundle's resource requirements. ",
+                    "started": 1719463754,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_cleaning_up": 0.08998632431030273,
+                    "time_preparing": 9.515082836151123,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0x4c711b21f11742bc998ac75e649f457a"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1718788859,
+                "description": "llama-finetuned Model no-context (Anonymous) (single model) ",
+                "num_period_submissions": 7,
+                "num_total_submissions": 7,
+                "public": true,
+                "user_name": "Mathilda"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x0bbbe59ee8ff40ed9f2bcdcf13bf3c93/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x07845d68b530421d82e1d982fae088da",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x07845d68b530421d82e1d982fae088da",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x07845d68b530421d82e1d982fae088da",
+                        "parent_name": "pred_gamma-no-context.json",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x0bbbe59ee8ff40ed9f2bcdcf13bf3c93"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x07845d68b530421d82e1d982fae088da",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463744,
+                    "data_size": 0,
+                    "description": "{\"submit_id\": \"0x0bbbe59ee8ff40ed9f2bcdcf13bf3c93\", \"submitter_id\": \"0xc4c96bd44c72415fa5cf6fb3a6708ca6\", \"predict_id\": \"0x0bbbe59ee8ff40ed9f2bcdcf13bf3c93\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle contents from bundle service: Internal Server Error - Internal Server Error ",
+                    "last_updated": 1719463771,
+                    "memory_usage": 0.0,
+                    "name": "Mathilda-pred_gamma-no-context.json-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-8a5660edfa904a74979d86e89f0f3fe2",
+                    "remote_history": [
+                        "927f5eb62047"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "No worker can meet your bundle's resource requirements. Available resources: [0 CPUs (1 requested)]",
+                    "started": 1719463757,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_cleaning_up": 0.05628228187561035,
+                    "time_preparing": 7.892803192138672,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0x07845d68b530421d82e1d982fae088da"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1718627487,
+                "description": "gamma-finetuned Model no context (Anonymous) (single model)",
+                "num_period_submissions": 7,
+                "num_total_submissions": 7,
+                "public": true,
+                "user_name": "Mathilda"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x20e695a557e746aab67962c68dff6621/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xd2ae503a49a44007a5d21b873af5d4e9",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xd2ae503a49a44007a5d21b873af5d4e9",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xd2ae503a49a44007a5d21b873af5d4e9",
+                        "parent_name": "pred_gemma-no-context.json",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x20e695a557e746aab67962c68dff6621"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xd2ae503a49a44007a5d21b873af5d4e9",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463748,
+                    "data_size": 0,
+                    "description": "{\"submit_id\": \"0x20e695a557e746aab67962c68dff6621\", \"submitter_id\": \"0xc4c96bd44c72415fa5cf6fb3a6708ca6\", \"predict_id\": \"0x20e695a557e746aab67962c68dff6621\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle contents from bundle service: Internal Server Error - Internal Server Error ",
+                    "last_updated": 1719463771,
+                    "memory_usage": 0.0,
+                    "name": "Mathilda-pred_gemma-no-context.json-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-8a5660edfa904a74979d86e89f0f3fe2",
+                    "remote_history": [
+                        "927f5eb62047"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "No worker can meet your bundle's resource requirements. Available resources: [0 CPUs (1 requested)]",
+                    "started": 1719463758,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_cleaning_up": 0.049826622009277344,
+                    "time_preparing": 7.278126239776611,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0xd2ae503a49a44007a5d21b873af5d4e9"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1718788840,
+                "description": "gemma-finetuned Model no-context (Anonymous) (single model) ",
+                "num_period_submissions": 7,
+                "num_total_submissions": 7,
+                "public": true,
+                "user_name": "Mathilda"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0x4ac1366d148f4b71a8889017c3a882fa/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0xff72e4c3bbfa45e3af0a4ec1cfc32ea2",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0xff72e4c3bbfa45e3af0a4ec1cfc32ea2",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0xff72e4c3bbfa45e3af0a4ec1cfc32ea2",
+                        "parent_name": "llama3-hotpot-f..-nocontext.json",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x4ac1366d148f4b71a8889017c3a882fa"
+                    }
+                ],
+                "frozen": null,
+                "id": "0xff72e4c3bbfa45e3af0a4ec1cfc32ea2",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463752,
+                    "data_size": 0,
+                    "description": "{\"submit_id\": \"0x4ac1366d148f4b71a8889017c3a882fa\", \"submitter_id\": \"0xc4c96bd44c72415fa5cf6fb3a6708ca6\", \"predict_id\": \"0x4ac1366d148f4b71a8889017c3a882fa\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle contents from bundle service: Internal Server Error - Internal Server Error ",
+                    "last_updated": 1719463787,
+                    "memory_usage": 0.0,
+                    "name": "Mathilda-llama3-hotpot-f..-nocontext.json-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-8a5660edfa904a74979d86e89f0f3fe2",
+                    "remote_history": [
+                        "927f5eb62047"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "No worker can meet your bundle's resource requirements. ",
+                    "started": 1719463771,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_cleaning_up": 0.0874483585357666,
+                    "time_preparing": 9.50691819190979,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0xff72e4c3bbfa45e3af0a4ec1cfc32ea2"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1718788900,
+                "description": "llama-hotpot-finetuned Model no-contextb (Anonymous) (single model) ",
+                "num_period_submissions": 7,
+                "num_total_submissions": 7,
+                "public": true,
+                "user_name": "Mathilda"
+            }
+        },
+        {
+            "bundle": {
+                "args": "run eval.py:0x80e8c90967af4207beded96a198c75fb gold.json:0xc0d0713203e446a6921f270618a4a49e pred.json:0xb044852f513d4eaaa59f94a2107c3545/pred.json \"python eval.py pred.json gold.json\" --request-cpus 1 --request-docker-image qipeng/hotpotqa-eval --request-memory 2g",
+                "bundle_type": "run",
+                "command": "python eval.py pred.json gold.json",
+                "dependencies": [
+                    {
+                        "child_path": "eval.py",
+                        "child_uuid": "0x62b225352c0f46ebb1ec58e57e5a5db9",
+                        "parent_name": "eval_v1.2.py",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0x80e8c90967af4207beded96a198c75fb"
+                    },
+                    {
+                        "child_path": "gold.json",
+                        "child_uuid": "0x62b225352c0f46ebb1ec58e57e5a5db9",
+                        "parent_name": "test_fullwiki_gold",
+                        "parent_path": "",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xc0d0713203e446a6921f270618a4a49e"
+                    },
+                    {
+                        "child_path": "pred.json",
+                        "child_uuid": "0x62b225352c0f46ebb1ec58e57e5a5db9",
+                        "parent_name": "llama3-hotpot-fullwiki.json",
+                        "parent_path": "pred.json",
+                        "parent_state": "ready",
+                        "parent_uuid": "0xb044852f513d4eaaa59f94a2107c3545"
+                    }
+                ],
+                "frozen": null,
+                "id": "0x62b225352c0f46ebb1ec58e57e5a5db9",
+                "is_anonymous": false,
+                "metadata": {
+                    "actions": [],
+                    "allow_failed_dependencies": false,
+                    "cpu_usage": 0.0,
+                    "created": 1719463756,
+                    "data_size": 0,
+                    "description": "{\"submit_id\": \"0xb044852f513d4eaaa59f94a2107c3545\", \"submitter_id\": \"0xc4c96bd44c72415fa5cf6fb3a6708ca6\", \"predict_id\": \"0xb044852f513d4eaaa59f94a2107c3545\"}",
+                    "exclude_patterns": [],
+                    "failure_message": "Failed to download dependency pred.json: Dependency download failed: Unable to get bundle contents from bundle service: Internal Server Error - Internal Server Error ",
+                    "last_updated": 1719463790,
+                    "memory_usage": 0.0,
+                    "name": "Mathilda-llama3-hotpot-fullwiki.json-results",
+                    "on_preemptible_worker": false,
+                    "remote": "host-8a5660edfa904a74979d86e89f0f3fe2",
+                    "remote_history": [
+                        "927f5eb62047"
+                    ],
+                    "request_cpus": 1,
+                    "request_disk": "",
+                    "request_docker_image": "qipeng/hotpotqa-eval",
+                    "request_gpus": 0,
+                    "request_memory": "2g",
+                    "request_network": false,
+                    "request_priority": 0,
+                    "request_queue": "",
+                    "request_time": "",
+                    "run_status": "Finished",
+                    "staged_status": "No worker can meet your bundle's resource requirements. Available resources: [0 CPUs (1 requested)]",
+                    "started": 1719463774,
+                    "store": "",
+                    "tags": [
+                        "aqtoptoh-fullwiki-test-eval"
+                    ],
+                    "time": 0.0,
+                    "time_cleaning_up": 3.0776424407958984,
+                    "time_preparing": 9.62803030014038,
+                    "time_system": 0.0,
+                    "time_user": 0.0
+                },
+                "owner": {
+                    "id": "0xbeb9fd6dbe04410cb815b75ff69f99a0",
+                    "type": "users"
+                },
+                "permission": 2,
+                "permission_spec": "all",
+                "state": "failed",
+                "state_details": "Bundle has failed.",
+                "uuid": "0x62b225352c0f46ebb1ec58e57e5a5db9"
+            },
+            "scores": {
+                "ans_em": null,
+                "ans_f1": null,
+                "joint_em": null,
+                "joint_f1": null,
+                "sup_em": null,
+                "sup_f1": null
+            },
+            "submission": {
+                "created": 1718788929,
+                "description": "llama-hotpot-finetuned Model (Anonymous) (single model) ",
+                "num_period_submissions": 7,
+                "num_total_submissions": 7,
+                "public": true,
+                "user_name": "Mathilda"
+            }
         }
     ],
-    "updated": 1687625881.8670158
+    "updated": 1719464060.5897532
 }
